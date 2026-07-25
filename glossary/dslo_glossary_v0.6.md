@@ -1,3 +1,8 @@
+# DSLO Glossary v0.6
+This glossary extends the DSLO v0.5 glossary (machine‑dense substrate layer).  
+The v0.6 glossary contains only the new public‑layer substrate terms introduced in the DSLO v0.6 specification.
+
+
 # DSLO Glossary Additions (v0.6)
 
 ## Abstraction Gradient
