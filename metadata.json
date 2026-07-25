@@ -1,0 +1,25 @@
+{
+  "title": "DSLO v0.6 — Semantic Substrate Specification",
+  "version": "0.6",
+  "description": "Canonical public-layer release of the DSLO Semantic Substrate Specification, defining meaning invariants, operator legality, drift geometry, synthetic-pressure fields, institutional deformation, dominant synthetic species, restorative-deficit dynamics, and the human runtime manifold (HRM).",
+  "license": "other",
+  "tags": [
+    "dslo",
+    "semantic-substrate",
+    "geometry-of-meaning",
+    "operator-legality",
+    "drift-dynamics",
+    "synthetic-pressure",
+    "institutional-deformation",
+    "human-runtime-manifold"
+  ],
+  "authors": [
+    {
+      "name": "Donald Slowicki",
+      "affiliation": "Inda Moment Incorporated"
+    }
+  ],
+  "doi": "<[10.5281/zenodo.21563099](https://doi.org/10.5281/zenodo.21563099)>",
+  "source": "<https://github.com/Signal-Ecology/DSLO-v0.6-Semantic-Substrate-Specification>",
+  "homepage": "https://www.tnopsi.com"
+}
