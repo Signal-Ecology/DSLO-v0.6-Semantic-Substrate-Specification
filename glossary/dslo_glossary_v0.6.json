@@ -1,4 +1,10 @@
 {
+  "version": "0.6",
+  "extends": "https://github.com/Signal-Ecology/<repo>/glossary/dslo_glossary_v0.5.json",
+  "description": "This glossary extends the DSLO v0.5 glossary (machine-dense substrate layer) and includes only the new public-layer substrate terms introduced in DSLO v0.6.",
+},
+
+{
   "id": "abstraction-gradient",
   "title": "Abstraction Gradient",
   "definition": "The lawful rate of change between adjacent abstraction bands during semantic transitions."
