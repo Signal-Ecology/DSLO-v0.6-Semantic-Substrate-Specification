@@ -2,7 +2,7 @@
   "version": "0.6",
   "extends": "https://github.com/Signal-Ecology/dslo-field-definition/blob/main/glossary/dslo_glossary_v0.5.json",
   "description": "This glossary extends the DSLO v0.5 glossary (machine-dense substrate layer) and includes only the new public-layer substrate terms introduced in DSLO v0.6.",
-},
+  "terms": [
 
 {
   "id": "abstraction-gradient",
@@ -154,4 +154,5 @@
   "title": "Zero-Drift Envelope",
   "definition": "The lawful region in which drift magnitude remains identically zero."
 }
-
+ ]
+}
