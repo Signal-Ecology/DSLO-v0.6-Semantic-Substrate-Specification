@@ -27,6 +27,21 @@ Human runtime manifold (HRM)
 Dynamic State Update Protocol (DSUP)
 
 ---
+## Glossary
+
+DSLO maintains a multi-layer glossary architecture:
+
+- **v0.5 Glossary (machine-dense substrate layer)**  
+  [https://github.com/<org>/<repo>/glossary/dslo_glossary_v0.5.json](https://github.com/Signal-Ecology/dslo-field-definition/blob/main/glossary/dslo_glossary_v0.5.json)
+
+- **v0.6 Glossary (public-layer substrate additions)**  
+  - glossary/dslo_glossary_v0.6.json  
+  - glossary/dslo_glossary_v0.6.md
+
+The v0.6 glossary extends the v0.5 glossary and includes only the new public-layer substrate terms introduced in DSLO v0.6.
+
+
+---
 DSLO v0.6 establishes Human Geometry as a formal extension of the substrate, enabling unified analysis across physical, biological, human, machine, and organizational signal ecologies in the synthetic era.
 
 ---
@@ -35,7 +50,7 @@ PDF Release: DSLO v0.6 — Semantic Substrate Specification
 
 Zenodo DOI: [(21563099)](https://doi.org/10.5281/zenodo.21563099)
 
-Website: https://tnopsi.com
+Website: https://www.tnopsi.com
 
 ---
 License
