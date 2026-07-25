@@ -1,0 +1,39 @@
+{
+  "name": "DSLO v0.6 — Semantic Substrate Specification",
+  "version": "0.6",
+  "canonical_artifact": "DSLO_v0.6_Semantic_Substrate_Specification.pdf",
+
+  "surfaces": {
+    "github": {
+      "repository": "<https://github.com/Signal-Ecology/DSLO-v0.6-Semantic-Substrate-Specification>",
+      "artifact": "DSLO_v0.6_Semantic_Substrate_Specification.pdf",
+      "files": [
+        "README.md",
+        "citation.cff",
+        "metadata.json",
+        "CHANGELOG.md",
+        "manifest.json",
+        "LICENSE"
+      ]
+    },
+
+    "zenodo": {
+      "doi": "<[10.5281/zenodo.21563099](https://doi.org/10.5281/zenodo.21563099)>",
+      "artifact": "DSLO_v0.6_Semantic_Substrate_Specification.pdf",
+      "metadata_source": "citation.cff"
+    },
+
+    "huggingface": {
+      "dataset": "<https://huggingface.co/datasets/DSLO/DSLO_v0.6_Semantic_Substrate_Specification.pdf>",
+      "metadata": "metadata.json",
+      "card": "dataset_card.md"
+    },
+
+    "tnopsi": {
+      "homepage": "https://www.tnopsi.com",
+      "canonical_reference": "<https://github.com/Signal-Ecology/DSLO-v0.6-Semantic-Substrate-Specification>"
+    }
+  },
+
+  "description": "Cross-surface manifest for DSLO v0.6, defining canonical artifact locations and metadata alignment across GitHub, Zenodo, Hugging Face, and tnopsi. Ensures stable scientific indexing and unified public-layer posture."
+}
