@@ -1,6 +1,6 @@
 {
   "version": "0.6",
-  "extends": "https://github.com/Signal-Ecology/dslo-human-container/tree/main/glossary,
+  "extends": "https://github.com/Signal-Ecology/dslo-human-container/tree/main/glossary",
   "description": "This glossary extends the DSLO v0.5 glossary (machine-dense substrate layer) and includes only the new public-layer substrate terms introduced in DSLO v0.6.",
 },
 
