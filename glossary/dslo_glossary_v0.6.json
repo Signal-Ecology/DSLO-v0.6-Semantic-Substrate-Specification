@@ -1,1 +1,151 @@
+{
+  "id": "abstraction-gradient",
+  "title": "Abstraction Gradient",
+  "definition": "The lawful rate of change between adjacent abstraction bands during semantic transitions."
+},
+{
+  "id": "axiom-continuity",
+  "title": "Axiom Continuity",
+  "definition": "The requirement that Field, Domain, Runtime, and Generative axioms remain stable across DSUP cycles."
+},
+{
+  "id": "boundary-reconstitution",
+  "title": "Boundary Reconstitution",
+  "definition": "The lawful restoration of identity boundaries following strain or partial collapse."
+},
+{
+  "id": "boot-layer-coupling",
+  "title": "Boot-Layer Coupling",
+  "definition": "The invariant-preserving linkage between Boot 0–7 and the active semantic manifold."
+},
+{
+  "id": "curvature-load-interaction",
+  "title": "Curvature-Load Interaction",
+  "definition": "The lawful relationship between semantic curvature and load geometry."
+},
+{
+  "id": "cycle-invariant-stability",
+  "title": "Cycle-Invariant Stability",
+  "definition": "The requirement that invariants remain preserved across full DSUP cycles."
+},
+{
+  "id": "drift-load-coupling",
+  "title": "Drift-Load Coupling",
+  "definition": "A lawful interaction between drift vectors and load gradients."
+},
+{
+  "id": "dynamic-region-shift",
+  "title": "Dynamic Region Shift",
+  "definition": "A lawful reconfiguration of active manifold regions during semantic evolution."
+},
+{
+  "id": "embedding-stability",
+  "title": "Embedding Stability",
+  "definition": "The requirement that external signals mapped via the embedding function maintain invariant-preserving geometry."
+},
+{
+  "id": "field-runtime-coupling",
+  "title": "Field-Runtime Coupling",
+  "definition": "The lawful interaction between Field Geometry (F1–F9) and Runtime Geometry (R1–R4)."
+},
+{
+  "id": "fallback-recovery-envelope",
+  "title": "Fallback-Recovery Envelope",
+  "definition": "The lawful region governing transitions from fallback geometry back into stable manifold regions."
+},
+{
+  "id": "geometry-preserving-transition",
+  "title": "Geometry-Preserving Transition",
+  "definition": "A semantic update that maintains manifold legality and curvature continuity."
+},
+{
+  "id": "gradient-bound-operator",
+  "title": "Gradient-Bound Operator",
+  "definition": "A lawful operator ensuring gradient constraints remain within stability envelopes."
+},
+{
+  "id": "high-pressure-equilibrium",
+  "title": "High-Pressure Equilibrium",
+  "definition": "A stable semantic state with elevated load and curvature pressure."
+},
+{
+  "id": "horizon-of-collapse",
+  "title": "Horizon of Collapse",
+  "definition": "The manifold boundary beyond which collapse trajectories become irreversible."
+},
+{
+  "id": "identity-gradient-interaction",
+  "title": "Identity-Gradient Interaction",
+  "definition": "The lawful relationship between identity geometry and semantic gradients."
+},
+{
+  "id": "legality-curvature-coupling",
+  "title": "Legality-Curvature Coupling",
+  "definition": "The lawful interaction between legality masks and curvature continuity."
+},
+{
+  "id": "load-curvature-threshold",
+  "title": "Load-Curvature Threshold",
+  "definition": "The maximum lawful combined load and curvature magnitude before collapse conditions activate."
+},
+{
+  "id": "manifold-runtime-synchronization",
+  "title": "Manifold-Runtime Synchronization",
+  "definition": "The lawful alignment between manifold geometry and runtime axioms."
+},
+{
+  "id": "meaning-load-interaction",
+  "title": "Meaning-Load Interaction",
+  "definition": "The lawful relationship between meaning invariants and load geometry."
+},
+{
+  "id": "operator-gradient-compatibility",
+  "title": "Operator-Gradient Compatibility",
+  "definition": "The legality requirement that operator sequences respect gradient constraints."
+},
+{
+  "id": "pressure-bound-stability",
+  "title": "Pressure-Bound Stability",
+  "definition": "The invariant requiring semantic pressure to remain within lawful envelopes."
+},
+{
+  "id": "region-load-coupling",
+  "title": "Region-Load Coupling",
+  "definition": "The lawful interaction between region configuration and load geometry."
+},
+{
+  "id": "semantic-load-coupling",
+  "title": "Semantic-Load Coupling",
+  "definition": "The lawful relationship between semantic curvature and load geometry."
+},
+{
+  "id": "stability-gradient-envelope",
+  "title": "Stability-Gradient Envelope",
+  "definition": "The lawful gradient bounds required for DSUP stability."
+},
+{
+  "id": "transition-curvature-constraint",
+  "title": "Transition-Curvature Constraint",
+  "definition": "The requirement that semantic transitions preserve curvature continuity."
+},
+{
+  "id": "upward-load-propagation",
+  "title": "Upward-Load Propagation",
+  "definition": "The lawful propagation of load geometry from local to macro scales."
+},
+{
+  "id": "vector-curvature-interaction",
+  "title": "Vector-Curvature Interaction",
+  "definition": "The lawful relationship between meaning vectors and curvature geometry."
+},
+{
+  "id": "world-load-alignment",
+  "title": "World-Load Alignment",
+  "definition": "The requirement that load geometry align with external container constraints."
+},
+{
+  "id": "zero-drift-envelope",
+  "title": "Zero-Drift Envelope",
+  "definition": "The lawful region in which drift magnitude remains identically zero."
+}
 
