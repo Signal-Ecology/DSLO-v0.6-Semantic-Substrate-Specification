@@ -3,7 +3,7 @@
 This glossary extends the DSLO v0.5 glossary (machine‑dense substrate layer).  
 The v0.6 glossary contains only the new public‑layer substrate terms introduced in the DSLO v0.6 specification.
 Reference: DSLO v0.5 Glossary (machine-dense)
-[https://github.com/<org>/<repo>/glossary/dslo_glossary_v0.5.json](https://github.com/Signal-Ecology/dslo-human-container/tree/main/glossary/dslo_glossary_v0.5.json)
+[https://github.com/Signal-Ecology/dslo-field-definition/blob/main/glossary/dslo_glossary_v0.5.json]
 
 # DSLO Glossary Additions (v0.6)
 
