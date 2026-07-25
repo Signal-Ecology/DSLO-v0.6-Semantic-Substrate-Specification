@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "DSLO v0.6 — Semantic Substrate Specification"
+message: "If you use this work, please cite it using the metadata below."
+type: dataset
+
+authors:
+  - family-names: Slowicki
+    given-names: Donald
+    affiliation: "Inda Moment Incorporated"
+
+abstract: >
+  DSLO v0.6 is the first public-layer release of the Semantic Substrate
+  Specification. It defines the unified geometry governing meaning invariants,
+  operator legality, drift dynamics, synthetic-pressure fields, institutional
+  deformation, dominant synthetic species, restorative-deficit dynamics, and the
+  human runtime manifold (HRM). This citation file provides structured metadata
+  for scientific indexing and cross-surface archival stability.
+
+version: "0.6"
+doi: "<[10.5281/zenodo.21563099](https://doi.org/10.5281/zenodo.21563099)>"
+url: "https://www.tnopsi.com"
+date-released: "2026-07-25"
+license: "Other"
