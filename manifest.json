@@ -5,7 +5,7 @@
 
   "surfaces": {
     "github": {
-      "repository": "<https://github.com/Signal-Ecology/DSLO-v0.6-Semantic-Substrate-Specification>",
+      "repository": "https://github.com/Signal-Ecology/DSLO-v0.6-Semantic-Substrate-Specification",
       "artifact": "DSLO_v0.6_Semantic_Substrate_Specification.pdf",
       "files": [
         "README.md",
@@ -13,26 +13,36 @@
         "metadata.json",
         "CHANGELOG.md",
         "manifest.json",
-        "LICENSE"
+        "LICENSE",
+        "glossary/dslo_glossary_v0.6.json",
+        "glossary/dslo_glossary_v0.6.md"
       ]
     },
 
     "zenodo": {
-      "doi": "<[10.5281/zenodo.21563099](https://doi.org/10.5281/zenodo.21563099)>",
+      "doi": "https://doi.org/10.5281/zenodo.21563099",
       "artifact": "DSLO_v0.6_Semantic_Substrate_Specification.pdf",
       "metadata_source": "citation.cff"
     },
 
     "huggingface": {
-      "dataset": "<https://huggingface.co/datasets/DSLO/DSLO_v0.6_Semantic_Substrate_Specification.pdf>",
+      "dataset": "https://huggingface.co/datasets/DSLO/DSLO_v0.6_Semantic_Substrate_Specification.pdf",
       "metadata": "metadata.json",
-      "card": "dataset_card.md"
+      "card": "dataset_card.md",
+      "glossary": "glossary/dslo_glossary_v0.6.json"
     },
 
     "tnopsi": {
       "homepage": "https://www.tnopsi.com",
       "tile": "https://www.tnopsi.com#dslo-v0-6",
-      "canonical_reference": "<https://github.com/Signal-Ecology/DSLO-v0.6-Semantic-Substrate-Specification>"
+      "canonical_reference": "https://github.com/Signal-Ecology/DSLO-v0.6-Semantic-Substrate-Specification"
+    },
+
+    "glossary": {
+      "path": "glossary/dslo_glossary_v0.6.json",
+      "version": "0.6",
+      "type": "machine-readable",
+      "extends": "https://github.com/Signal-Ecology/dslo-field-definition/blob/main/glossary/dslo_glossary_v0.5.json"
     }
   },
 
