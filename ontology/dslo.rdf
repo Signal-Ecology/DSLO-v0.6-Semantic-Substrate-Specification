@@ -1,1 +1,18 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.tnopsi.com/dslo-glossary#"
+     xml:base="https://www.tnopsi.com/dslo-glossary"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+  <!-- Ontology Header -->
+  <owl:Ontology rdf:about="https://www.tnopsi.com/dslo-glossary">
+      <owl:versionIRI rdf:resource="https://www.tnopsi.com/dslo-glossary/v0.6"/>
+      <rdfs:comment>
+        DSLO Ontology — unified glossary surface (v0.5 + v0.6).
+        Canonical glossary: https://www.tnopsi.com/dslo-glossary
+      </rdfs:comment>
+      <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  </owl:Ontology>
 
