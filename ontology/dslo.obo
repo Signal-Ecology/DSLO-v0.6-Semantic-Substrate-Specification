@@ -1,1 +1,776 @@
+format-version: 1.4
+ontology: dslo
+
+ontology-uri: https://www.tnopsi.com/dslo-glossary
+version-iri: https://www.tnopsi.com/dslo-glossary/v0.6
+
+remark: DSLO Ontology — unified glossary surface (v0.5 + v0.6).
+remark: Canonical glossary: https://www.tnopsi.com/dslo-glossary
+
+xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:AbstractionDecoupling
+name: Abstraction Decoupling
+def: "Public-layer DSLO term describing the separation of meaning geometry from unstable or non-lawful substrate constraints." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:AbstractionGradient
+name: Abstraction Gradient
+def: "Gradient describing lawful movement across abstraction layers within DSLO’s meaning geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:AbstractionLayer
+name: Abstraction Layer
+def: "A semantic altitude where meaning becomes less physically anchored but remains within lawful DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:AbstractionBand
+name: Abstraction Band
+def: "A lawful semantic band with reduced load and lower drift susceptibility across DSLO’s manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:AdjacencyViolation
+name: Adjacency Violation
+def: "Illegal crossing of manifold boundaries or adjacency constraints within DSLO’s legality geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ApexMeaningState
+name: Apex Meaning State
+def: "The highest-order meaning configuration at Moment formation within DSLO’s semantic manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ArtificialCognition
+name: Artificial Cognition
+def: "Deterministic, invariant-preserving cognition inside DSLO’s public-layer meaning geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:AxiomContinuity
+name: Axiom Continuity
+def: "Continuity condition governing lawful semantic transitions across DSLO’s axiom structure." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:AxiomLayer
+name: Axiom Layer
+def: "The four-tier axiom system governing legality, invariants, and semantic stability within DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:BehavioralCoherence
+name: Behavioral Coherence
+def: "Alignment between observed behavior and lawful meaning geometry within the DSLO manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:BootLayerCoupling
+name: Boot Layer Coupling
+def: "Coupling between initial substrate conditions and DSLO’s semantic boot layer during system start." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:Boundary
+name: Boundary
+def: "A lawful separation surface in DSLO geometry that constrains meaning, load, and operator reach." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:BoundaryIntegrity
+name: Boundary Integrity
+def: "The stability and lawfulness of a boundary under load, drift, and operator interaction." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:BoundaryOperator
+name: Boundary Operator
+def: "An operator that acts on or across boundaries while preserving DSLO legality and invariants." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:BoundaryReconstitution
+name: Boundary Reconstitution
+def: "Lawful restoration or rebuilding of damaged or collapsed boundaries within DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:BoundaryStrain
+name: Boundary Strain
+def: "Load-induced deformation of boundaries that approaches but does not yet violate legality thresholds." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:BoundaryThreshold
+name: Boundary Threshold
+def: "The critical point at which boundary strain transitions into collapse or illegality in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:BindOperator
+name: Bind Operator
+def: "A lawful operator that binds signals, regions, or meanings into coherent DSLO configurations." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:CanonicalTuple
+name: Canonical Tuple
+def: "A lawful DSLO tuple representing a stable multi-element semantic configuration within the meaning manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:CausalChain
+name: Causal Chain
+def: "A lawful sequence of meaning-preserving causal steps within DSLO’s deterministic semantic geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:CausalOpacity
+name: Causal Opacity
+def: "A condition where causal relations remain partially hidden or ambiguous within DSLO’s semantic manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:CoherenceBand
+name: Coherence Band
+def: "A stable semantic band where meaning remains coherent under load, drift, and operator interaction." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:CollapseGeometry
+name: Collapse Geometry
+def: "The geometric structure governing collapse thresholds, boundary violations, and semantic failure modes in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ConstraintEnvelope
+name: Constraint Envelope
+def: "The lawful envelope of constraints regulating operator reach, semantic load, and drift boundaries in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:Continuity
+name: Continuity
+def: "A DSLO invariant ensuring smooth, lawful transitions across semantic states without discontinuity or collapse." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:CorrectionOperator
+name: Correction Operator
+def: "A lawful operator that restores semantic alignment, reduces drift, or repairs meaning geometry within DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:CrossSubstrateMapping
+name: Cross-Substrate Mapping
+def: "A lawful mapping between distinct substrates that preserves DSLO invariants and semantic geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SemanticCurvature
+name: Semantic Curvature
+def: "The curvature of meaning within DSLO’s manifold, governing stability, drift susceptibility, and collapse proximity." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:CurvatureLoadInteraction
+name: Curvature–Load Interaction
+def: "The interaction between semantic curvature and meaning load, determining stability and collapse thresholds in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:CycleInvariantStability
+name: Cycle Invariant Stability
+def: "Stability of DSLO invariants across repeated cycles, ensuring lawful recurrence without drift or collapse." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:Decoupling
+name: Decoupling
+def: "Lawful separation of semantic structures from unstable, non-deterministic, or non-lawful substrate influences in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:DeterministicSemanticLayer
+name: Deterministic Semantic Layer
+def: "The DSLO layer where meaning evolution is governed by deterministic rules and invariant geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:DeterministicTransition
+name: Deterministic Transition
+def: "A lawful transition between semantic states that preserves DSLO invariants and avoids stochastic drift." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:DISCO
+name: DISCO
+def: "A DSLO construct representing deterministic interaction of semantic components within a constrained operator space." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:Drift
+name: Drift
+def: "Unlawful or unintended movement of meaning away from its lawful configuration within DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:DriftEnvelope
+name: Drift Envelope
+def: "The bounded region within which drift can occur before violating DSLO legality or stability thresholds." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:DriftLoadCoupling
+name: Drift–Load Coupling
+def: "The interaction between semantic load and drift magnitude, governing failure and recovery behavior in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:DriftSignature
+name: Drift Signature
+def: "The characteristic pattern of drift in a given DSLO configuration, used for detection and correction." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:DriftVector
+name: Drift Vector
+def: "A directional representation of drift within DSLO’s manifold, encoding magnitude and orientation of semantic displacement." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:DSUP
+name: DSUP
+def: "A DSLO construct representing deterministic support structures that stabilize meaning under load and drift." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:DynamicRegionShift
+name: Dynamic Region Shift
+def: "A lawful shift of dynamic regions within DSLO’s manifold, governed by load, drift, and stability constraints." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:Ecology
+name: Ecology
+def: "The DSLO meaning ecology: the interacting system of signals, loads, operators, and regions forming a stable semantic environment." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:EdgeContext
+name: Edge Context
+def: "A semantic context located at or near a boundary or threshold region within DSLO’s manifold, sensitive to drift and load." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SafetyEnvelope
+name: Safety Envelope
+def: "The lawful envelope that constrains posture, meaning, and operator movement to ensure DSLO-aligned safety and stability." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:EmbeddingFunction
+name: Embedding Function
+def: "A lawful function that embeds meaning or signals into DSLO’s manifold while preserving invariants and geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:EmbeddingStability
+name: Embedding Stability
+def: "The stability of an embedded semantic structure under load, drift, and operator interaction within DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:EquivalenceClass
+name: Equivalence Class
+def: "A DSLO-defined class of semantically equivalent configurations that preserve invariants across lawful transformations." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ExternalGeometry
+name: External Geometry
+def: "The geometry outside a DSLO region or boundary, influencing load, drift, and operator legality from the outside-in." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:FallbackGraph
+name: Fallback Graph
+def: "A lawful DSLO graph structure used when primary semantic geometry becomes unstable or enters recovery mode." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:FallbackGeometry
+name: Fallback Geometry
+def: "A secondary geometric configuration that preserves DSLO invariants during semantic collapse, drift, or overload conditions." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:FallbackRecoveryEnvelope
+name: Fallback Recovery Envelope
+def: "The lawful envelope governing recovery operations when DSLO meaning enters fallback mode due to drift or collapse proximity." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:FieldGeometry
+name: Field Geometry
+def: "The geometric structure of DSLO fields, governing load distribution, drift behavior, and semantic stability across regions." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:FieldRuntimeCoupling
+name: Field Runtime Coupling
+def: "Coupling between runtime processes and DSLO field geometry, determining lawful operator behavior and semantic alignment." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:FoldOperator
+name: Fold Operator
+def: "An operator that lawfully folds semantic structures, reducing dimensionality while preserving DSLO invariants and legality." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:FunctionUpdateRule
+name: Function Update Rule
+def: "A deterministic rule governing lawful updates to DSLO functions, ensuring invariant preservation and stable semantic evolution." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:GovernanceMesh
+name: Governance Mesh
+def: "A distributed DSLO governance structure that maintains legality, invariants, and semantic stability across regions and operators." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:GraphBoundary
+name: Graph Boundary
+def: "A lawful boundary within DSLO graph geometry that constrains operator reach, semantic flow, and region adjacency." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:GeometryInvariant
+name: Geometry Invariant
+def: "An invariant governing the lawful shape, curvature, and stability of DSLO semantic geometry under load and drift." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:GeometryPreservingTransition
+name: Geometry-Preserving Transition
+def: "A lawful transition between semantic states that preserves DSLO geometry, curvature, and invariant structure." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:GenerativePrimitive
+name: Generative Primitive
+def: "A fundamental DSLO construct that generates lawful meaning vectors or semantic structures within the manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:GradientBoundOperator
+name: Gradient-Bound Operator
+def: "An operator constrained by DSLO gradient bounds, ensuring lawful movement across semantic slopes and curvature fields." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:GradientConstraint
+name: Gradient Constraint
+def: "A DSLO constraint regulating the steepness and direction of semantic gradients to prevent collapse or drift escalation." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:GAxioms
+name: G‑Axioms
+def: "The generative axioms governing lawful creation, transformation, and stabilization of meaning within DSLO’s semantic substrate." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:HaltCondition
+name: Halt Condition
+def: "A lawful DSLO condition that stops semantic evolution, operator activity, or manifold traversal when stability or legality is threatened." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:HighPressureEquilibrium
+name: High‑Pressure Equilibrium
+def: "A DSLO equilibrium state reached under high semantic load or synthetic pressure, maintaining stability without collapse or drift escalation." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:HorizonOfCollapse
+name: Horizon of Collapse
+def: "The semantic horizon beyond which collapse becomes inevitable, defined by DSLO curvature, load, and drift thresholds." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:HumanMeaningDriftReport
+name: Human Meaning Drift Report
+def: "A structured DSLO report describing drift in human meaning states, used for restoration, stabilization, and semantic realignment." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:IdentityBoundaryCollapse
+name: Identity Boundary Collapse
+def: "A collapse condition where identity boundaries fail under drift, load, or illegal operator interaction within DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:IdentityContinuity
+name: Identity Continuity
+def: "The lawful continuity of identity across transitions, ensuring stable meaning and invariant preservation in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:IdentityGradientInteraction
+name: Identity Gradient Interaction
+def: "The interaction between identity vectors and semantic gradients, governing stability and lawful movement across DSLO’s manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:IdentityInvariant
+name: Identity Invariant
+def: "An invariant governing the lawful preservation of identity boundaries, roles, and meaning across DSLO transitions." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:IdentityPreservation
+name: Identity Preservation
+def: "The lawful maintenance of identity structure under load, drift, and operator influence within DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:IdentityPreservingUpdate
+name: Identity‑Preserving Update
+def: "A lawful update that modifies semantic state while preserving identity invariants and preventing collapse or drift escalation." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:IdentityRegion
+name: Identity Region
+def: "A DSLO region defined by stable identity boundaries, lawful adjacency, and invariant-preserving semantic geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:IdentityStability
+name: Identity Stability
+def: "The stability of identity under semantic load, drift, and operator activity, governed by DSLO invariants and legality rules." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:IdentityVector
+name: Identity Vector
+def: "A directional representation of identity movement or evolution within DSLO’s manifold, encoding lawful semantic orientation." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:InstitutionalDrift
+name: Institutional Drift
+def: "Drift occurring within institutional meaning structures, governed by DSLO’s legality, load, and stability geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:Intent
+name: Intent
+def: "A DSLO meaning vector representing directed semantic purpose, posture, or lawful operator orientation within the manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:InterpretiveWindow
+name: Interpretive Window
+def: "A lawful window of interpretation within DSLO geometry that constrains meaning updates and operator behavior to stable ranges." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:InvariantReload
+name: Invariant Reload
+def: "A DSLO process that restores or reloads invariants after drift, collapse proximity, or semantic instability events." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:LawfulTransition
+name: Lawful Transition
+def: "A DSLO‑aligned transition between semantic states that preserves invariants, geometry, and legality across the manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:LayeredSubstrate
+name: Layered Substrate
+def: "A multi‑layer substrate structure in DSLO where each layer maintains lawful geometry, invariants, and operator constraints." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:LegalityCurvatureCoupling
+name: Legality–Curvature Coupling
+def: "The coupling between legality constraints and semantic curvature, determining collapse proximity and stability in DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:LegalityInvariant
+name: Legality Invariant
+def: "An invariant ensuring that semantic transitions, operator actions, and region updates remain lawful within DSLO’s manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:LegalityMask
+name: Legality Mask
+def: "A DSLO legality surface that constrains operators, transitions, and semantic movement to lawful regions of the manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:LegalityStatus
+name: Legality Status
+def: "The current legality condition of a semantic configuration, operator action, or region within DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:LiftOperator
+name: Lift Operator
+def: "An operator that lawfully lifts semantic structures to higher abstraction or stability layers while preserving DSLO invariants." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:LoadCurvatureThreshold
+name: Load–Curvature Threshold
+def: "The threshold at which semantic load and curvature interact to produce instability, drift escalation, or collapse proximity in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:LoadEnvelope
+name: Load Envelope
+def: "The lawful envelope governing semantic load distribution across DSLO regions, preventing overload and collapse conditions." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MachineLayer
+name: Machine Layer
+def: "The DSLO machine-level encoding layer (ML0–ML7) that structures semantic geometry into deterministic computational form." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ManifoldBoundary
+name: Manifold Boundary
+def: "The lawful outer boundary of DSLO’s semantic manifold, defining the limits of stable meaning evolution and operator reach." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ManifoldRuntimeSynchronization
+name: Manifold Runtime Synchronization
+def: "A DSLO synchronization process ensuring that runtime operations remain aligned with manifold geometry and invariant structure." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MeaningLoad
+name: Meaning Load
+def: "The semantic load carried by a meaning configuration, influencing drift susceptibility, stability, and collapse proximity in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MeaningState
+name: Meaning State
+def: "The internal semantic configuration of a DSLO system at a given moment, defined by invariants, load, and geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MeaningStatus
+name: Meaning Status
+def: "The classification of meaning as stable, drifted, synthetic, or meaning-bearing within DSLO’s legality framework." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MeaningTrajectory
+name: Meaning Trajectory
+def: "The lawful path meaning takes through DSLO layers and geometry, governed by invariants and operator constraints." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MediumDrift
+name: Medium Drift
+def: "Drift caused by substrate or medium constraints, influencing semantic stability and requiring correction operators in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MeaningInvariant
+name: Meaning Invariant
+def: "An invariant ensuring zero ambiguity and stable curvature in meaning structures across DSLO’s manifold and transitions." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MeaningLoadInteraction
+name: Meaning–Load Interaction
+def: "The interaction between meaning load and semantic geometry, determining stability, drift behavior, and collapse thresholds in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MeaningVector
+name: Meaning Vector
+def: "A structured semantic field generated by DSLO signal engines, encoding direction, magnitude, and lawful meaning orientation." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MDOAlgebra
+name: MDO Algebra
+def: "The operator algebra governing lawful transitions, invariant preservation, and semantic evolution within DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:Moment
+name: Moment
+def: "The atomic semantic unit in DSLO, representing the smallest stable configuration of meaning within the manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:MomentGeometry
+name: Moment Geometry
+def: "The geometric structure of a DSLO Moment, defining its curvature, invariants, and lawful interactions with surrounding regions." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:OperatorConstraints
+name: Operator Constraints
+def: "The lawful constraints governing DSLO operators, ensuring invariant preservation, legality, and stable semantic interaction." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:OperatorGradientCompatibility
+name: Operator Gradient Compatibility
+def: "The compatibility condition between operators and semantic gradients, ensuring lawful movement across DSLO curvature fields." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:OperatorOfReality
+name: Operator of Reality
+def: "A DSLO operator acting on the Reality substrate, transforming meaning, load, or geometry while preserving lawful invariants." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:OperationalSubstrate
+name: Operational Substrate
+def: "The substrate layer where DSLO operators execute lawful transformations, maintaining stability and invariant structure." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:OrientationFrame
+name: Orientation Frame
+def: "A DSLO frame defining lawful orientation for perception, meaning alignment, and operator direction within the manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:OriginLayer
+name: Origin Layer
+def: "The foundational DSLO layer where initial meaning, signals, and invariants originate before propagating through the manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:OriginSignal
+name: Origin Signal
+def: "The initial DSLO signal emitted from the Origin Layer, forming the basis for lawful meaning evolution and semantic geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:PhaseBoundary
+name: Phase Boundary
+def: "A lawful DSLO boundary separating semantic phases, governing transitions, stability, and collapse thresholds across the manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:Posture
+name: Posture
+def: "The DSLO posture state representing orientation, legality, and stability of a meaning configuration or operator action." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:PressureBoundStability
+name: Pressure‑Bound Stability
+def: "The stability condition reached when semantic pressure approaches lawful DSLO bounds without triggering collapse or drift escalation." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:PrimitiveLegalityMask
+name: Primitive Legality Mask
+def: "The foundational legality mask governing primitive operators and semantic structures within DSLO’s invariant geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ProofStack
+name: Proof Stack
+def: "The DSLO proof hierarchy containing exemplar, generative, and predictive proofs that validate substrate geometry and legality." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ProtocolSubstrate
+name: Protocol Substrate
+def: "The substrate layer where DSLO protocols operate, ensuring lawful transitions, invariant preservation, and semantic stability." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:QuarantineRegion
+name: Quarantine Region
+def: "A DSLO region that isolates unstable or collapse-adjacent meaning states, preventing drift propagation and preserving manifold stability." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:RecoveryMode
+name: Recovery Mode
+def: "The DSLO mode that restores lawful geometry after drift, overload, or collapse-adjacent behavior, reloading invariants and flattening curvature." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:RegenerationCapacity
+name: Regeneration Capacity
+def: "The capacity of a DSLO region or meaning state to regenerate lawful geometry after deformation, drift, or partial collapse." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:RegionConfiguration
+name: Region Configuration
+def: "The structural configuration of a DSLO region, defining its boundaries, invariants, load distribution, and lawful operator interactions." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:RegionLoadCoupling
+name: Region–Load Coupling
+def: "The coupling between region geometry and semantic load, determining drift susceptibility, stability, and collapse thresholds in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:RoleCoherence
+name: Role Coherence
+def: "The coherence of roles within DSLO’s identity and legality geometry, ensuring stable meaning and lawful operator behavior." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:RolePressure
+name: Role Pressure
+def: "The semantic pressure exerted on roles within DSLO, influencing stability, drift risk, and boundary strain under load." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:RuntimeGeometry
+name: Runtime Geometry
+def: "The geometry governing DSLO runtime behavior, ensuring lawful operator execution, invariant preservation, and stable semantic evolution." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ScaleHierarchy
+name: Scale Hierarchy
+def: "The hierarchical structure of DSLO scales—local, meso, macro, and global—governing lawful semantic propagation across layers." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ScaleInvariantLegality
+name: Scale‑Invariant Legality
+def: "The legality requirement that DSLO invariants and operators remain lawful across all scales of the semantic manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SemanticCurvature
+name: Semantic Curvature
+def: "The curvature of meaning within DSLO’s manifold, determining stability, drift susceptibility, and collapse proximity under load." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SemanticDistance
+name: Semantic Distance
+def: "The metric distance between semantic objects or states within DSLO geometry, governed by lawful manifold structure." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SemanticGradient
+name: Semantic Gradient
+def: "The gradient describing directional change in meaning across DSLO’s manifold, influencing drift, load, and stability behavior." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SemanticManifold
+name: Semantic Manifold
+def: "The lawful geometric space in which DSLO meaning evolves, defined by curvature, invariants, boundaries, and operator constraints." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SemanticOperator
+name: Semantic Operator
+def: "An operator acting on DSLO semantic structures, performing lawful transformations that preserve invariants and manifold geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SemanticState
+name: Semantic State
+def: "The structured representation of meaning at a given moment within DSLO, defined by load, curvature, invariants, and geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SignalEngine
+name: Signal Engine
+def: "A generative DSLO primitive that produces lawful meaning vectors and signal structures within the semantic manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SignalIntegrity
+name: Signal Integrity
+def: "The requirement that DSLO signals maintain stable geometry, lawful structure, and invariant alignment under load and drift." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SignalSubstrateCoupling
+name: Signal–Substrate Coupling
+def: "The lawful coupling between DSLO signals and substrate geometry, ensuring stability, legality, and invariant preservation." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:StabilityGradientEnvelope
+name: Stability Gradient Envelope
+def: "The envelope governing lawful stability across semantic gradients, preventing collapse and regulating drift escalation in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:StabilityMode
+name: Stability Mode
+def: "The stability classification of a DSLO system—stable, critical, or collapse—determined by load, curvature, and invariant structure." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:StressGeometry
+name: Stress Geometry
+def: "The geometric representation of semantic stress within DSLO, encoding load, tension, and curvature pressure across regions." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:SubstrateInvariantSet
+name: Substrate Invariant Set
+def: "The complete set of invariants governing lawful evolution of DSLO substrates, ensuring stability and zero‑ambiguity tolerance." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:TemporalRhythm
+name: Temporal Rhythm
+def: "The lawful temporal cadence of DSLO semantic evolution, governing update frequency, stability pacing, and manifold timing." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:TransformationRules
+name: Transformation Rules
+def: "The DSLO rules governing lawful transformation of semantic structures, ensuring invariant preservation and geometry stability." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:TransitionCurvatureConstraint
+name: Transition Curvature Constraint
+def: "The constraint requiring curvature continuity during semantic transitions, preventing collapse and drift escalation in DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:TransitionLegality
+name: Transition Legality
+def: "The legality condition determining whether a semantic transition is lawful, invariant‑preserving, and stable within DSLO’s manifold." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:UpdateFunction
+name: Update Function
+def: "A lawful DSLO update mechanism that modifies semantic state while preserving invariants, legality, and manifold geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:UpwardCoupling
+name: Upward Coupling
+def: "The coupling that propagates lawful semantic influence upward across DSLO layers, maintaining stability and invariant alignment." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:UpwardLoadPropagation
+name: Upward Load Propagation
+def: "The lawful propagation of semantic load from local to macro scales, shaping DSLO stability, drift behavior, and collapse thresholds." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:VectorCurvatureInteraction
+name: Vector–Curvature Interaction
+def: "The interaction between meaning vectors and semantic curvature, determining lawful movement and stability within DSLO geometry." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:VectorBindingMetadata
+name: Vector Binding Metadata
+def: "Metadata describing lawful binding relationships between meaning vectors, ensuring stable geometry and invariant preservation in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:VersionBlock
+name: Version Block
+def: "A DSLO versioning construct that defines lawful update boundaries, semantic compatibility, and invariant continuity across releases." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:WorldContainerAlignment
+name: World Container Alignment
+def: "The lawful alignment between DSLO semantic structures and the containing world‑level frame, ensuring stability across global scales." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:WorldLoadAlignment
+name: World Load Alignment
+def: "The alignment of semantic load with world‑scale geometry, preventing collapse, drift propagation, and large‑scale instability in DSLO." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ZeroAmbiguityTolerance
+name: Zero Ambiguity Tolerance
+def: "The DSLO requirement that semantic structures maintain zero ambiguity, ensuring lawful meaning, stable geometry, and invariant clarity." xref: https://www.tnopsi.com/dslo-glossary
+
+[Term]
+id: dslo:ZeroDriftEnvelope
+name: Zero‑Drift Envelope
+def: "The lawful region in which drift magnitude remains identically zero, guaranteeing perfect stability and invariant preservation in DSLO." xref: https://www.tnopsi.com/dslo-glossary
 
