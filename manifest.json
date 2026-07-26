@@ -15,7 +15,9 @@
         "manifest.json",
         "LICENSE",
         "glossary/dslo_glossary_v0.6.json",
-        "glossary/dslo_glossary_v0.6.md"
+        "glossary/dslo_glossary_v0.6.md",
+        "glossary/dslo_glossary_v0.5.json",
+        "glossary/dslo_glossary_v0.5.md"
       ]
     },
 
@@ -43,7 +45,25 @@
       "version": "0.6",
       "type": "machine-readable",
       "extends": "https://github.com/Signal-Ecology/dslo-field-definition/blob/main/glossary/dslo_glossary_v0.5.json"
-    }
+    },
+    "ontology": {
+  "canonical_namespace": "https://www.tnopsi.com/dslo-glossary#",
+  "canonical_iri": "https://www.tnopsi.com/dslo-glossary",
+  "github_path": "ontology/dslo.owl",
+  "formats": [
+    "dslo.owl",
+    "dslo.ttl",
+    "dslo.jsonld",
+    "dslo.rdf",
+    "dslo.skos",
+    "dslo.obo",
+    "dslo.umls"
+  ],
+  "version": "0.6",
+  "type": "semantic-web-ontology",
+  "glossary_reference": "glossary/dslo_glossary_v0.6.json"
+}
+
   },
 
   "description": "Cross-surface manifest for DSLO v0.6, defining canonical artifact locations and metadata alignment across GitHub, Zenodo, Hugging Face, and tnopsi. Ensures stable scientific indexing and unified public-layer posture."
