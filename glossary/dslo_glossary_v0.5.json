@@ -1,1 +1,527 @@
+[
+  {
+    "term": "Abstraction Decoupling",
+    "definition": "Drift caused when symbolic systems detach from physical/ecological grounding."
+  },
+  {
+    "term": "Abstraction Layer",
+    "definition": "The conceptual altitude where meaning becomes less physically anchored."
+  },
+  {
+    "term": "Abstraction Band",
+    "definition": "A lawful semantic altitude with reduced load and lower drift susceptibility."
+  },
+  {
+    "term": "Adjacency Violation",
+    "definition": "Illegal crossing of manifold boundaries."
+  },
+  {
+    "term": "Apex Meaning State",
+    "definition": "Highest-order meaning configuration at Moment formation."
+  },
+  {
+    "term": "Artificial Cognition (AC)",
+    "definition": "Deterministic, invariant-preserving cognition inside DSLO."
+  },
+  {
+    "term": "Axiom Layer",
+    "definition": "The four-tier axiom system governing legality."
+  },
 
+  {
+    "term": "Behavioral Coherence",
+    "definition": "Alignment between internal meaning and external action."
+  },
+  {
+    "term": "Boundary",
+    "definition": "Structural separation between system and environment."
+  },
+  {
+    "term": "Boundary Integrity",
+    "definition": "Stability of identity boundaries across transitions."
+  },
+  {
+    "term": "Boundary Operator (BO)",
+    "definition": "Operator class governing lawful identity-boundary movement."
+  },
+  {
+    "term": "Boundary Strain",
+    "definition": "Load-induced tension on identity boundaries."
+  },
+  {
+    "term": "Boundary Threshold",
+    "definition": "Maximum lawful strain before collapse."
+  },
+  {
+    "term": "Bind Operator",
+    "definition": "Operator that composes two lawful semantic objects."
+  },
+
+  {
+    "term": "Canonical Tuple",
+    "definition": "Five-element DSLO representation of any signal."
+  },
+  {
+    "term": "Causal Chain",
+    "definition": "Lawful cause-and-effect sequence."
+  },
+  {
+    "term": "Causal Opacity",
+    "definition": "Loss of visible cause-and-effect structure."
+  },
+  {
+    "term": "Coherence Band",
+    "definition": "Lawful interpretive bandwidth for a Moment."
+  },
+  {
+    "term": "Collapse Geometry",
+    "definition": "Failure pattern when drift exceeds corrective capacity."
+  },
+  {
+    "term": "Constraint Envelope",
+    "definition": "Lawful boundary governing meaning vectors."
+  },
+  {
+    "term": "Continuity",
+    "definition": "Preservation of meaning across time and context."
+  },
+  {
+    "term": "Correction Operator",
+    "definition": "Mechanism restoring stability when drift is detected."
+  },
+  {
+    "term": "Cross-Substrate Mapping",
+    "definition": "Projection of signals into DSLO’s universal domain."
+  },
+  {
+    "term": "Curvature (Semantic Curvature)",
+    "definition": "Geometric quantity encoding meaning structure."
+  },
+
+  {
+    "term": "Deterministic Semantic Layer",
+    "definition": "Layer applying invariants and continuity logic."
+  },
+  {
+    "term": "Deterministic Transition",
+    "definition": "Guaranteed, reproducible semantic update."
+  },
+  {
+    "term": "DISCO",
+    "definition": "Discipline studying cognition inside DSLO."
+  },
+  {
+    "term": "Drift",
+    "definition": "Deviation caused by ecological forces."
+  },
+  {
+    "term": "Drift Envelope",
+    "definition": "Maximum drift before coherence fails."
+  },
+  {
+    "term": "Drift Signature",
+    "definition": "Structured representation of drift magnitude/direction."
+  },
+  {
+    "term": "Drift Vector",
+    "definition": "Multidimensional drift quantity."
+  },
+  {
+    "term": "DSUP",
+    "definition": "Runtime protocol governing lawful semantic evolution."
+  },
+  {
+    "term": "Decoupling",
+    "definition": "Lawful separation from unstable environments."
+  },
+
+  {
+    "term": "Ecology",
+    "definition": "Environment where signals evolve."
+  },
+  {
+    "term": "Edge Context",
+    "definition": "Peripheral context that influences meaning."
+  },
+  {
+    "term": "Envelope (Safety Envelope)",
+    "definition": "Maximum allowable deviation from originating meaning."
+  },
+  {
+    "term": "Embedding Function",
+    "definition": "Lawful mapping of external signals into the manifold."
+  },
+  {
+    "term": "Equivalence Class",
+    "definition": "Meaning-invariant grouping of lawful roles."
+  },
+  {
+    "term": "External Geometry",
+    "definition": "Lawful mapping of external containers into the substrate."
+  },
+
+  {
+    "term": "Fallback Graph",
+    "definition": "Constrained graph used when continuity cannot be guaranteed."
+  },
+  {
+    "term": "Fallback Geometry",
+    "definition": "Minimal invariant-preserving region preventing collapse."
+  },
+  {
+    "term": "Field Geometry",
+    "definition": "Global invariant layer of the manifold."
+  },
+  {
+    "term": "Fold Operator",
+    "definition": "Operator compressing relational strain into a single invariant."
+  },
+  {
+    "term": "Function Update Rule",
+    "definition": "DSUP transition rule."
+  }
+]
+[
+  {
+    "term": "Governance Mesh",
+    "definition": "Distributed structure managing DSLO standards."
+  },
+  {
+    "term": "Graph Boundary",
+    "definition": "Point where semantic behavior may change."
+  },
+  {
+    "term": "Geometry Invariant",
+    "definition": "Requirement for curvature continuity."
+  },
+  {
+    "term": "Generative Primitive",
+    "definition": "Meaning vector generator under deterministic constraints."
+  },
+  {
+    "term": "Gradient Constraint",
+    "definition": "Bound preventing curvature discontinuities."
+  },
+  {
+    "term": "GAxioms",
+    "definition": "Generative and transformational axioms."
+  },
+
+  {
+    "term": "Halt Condition",
+    "definition": "Trigger indicating illegal semantic evolution."
+  },
+  {
+    "term": "Human Meaning & Drift Report",
+    "definition": "Multiscale alignment summary."
+  },
+  {
+    "term": "Identity-Boundary Collapse",
+    "definition": "Failure of identity geometry."
+  },
+  {
+    "term": "Identity Region",
+    "definition": "Lawful identity-bearing region."
+  },
+  {
+    "term": "Identity Stability",
+    "definition": "Requirement for stable identity boundaries."
+  },
+  {
+    "term": "Invariant Reload",
+    "definition": "Restoration of invariant set after drift."
+  },
+
+  {
+    "term": "Identity Preservation",
+    "definition": "Stability of expressive posture."
+  },
+  {
+    "term": "Identity Vector",
+    "definition": "Structural representation of identity."
+  },
+  {
+    "term": "Identity Invariant",
+    "definition": "Requirement for stable identity geometry."
+  },
+  {
+    "term": "Identity-Preserving Update",
+    "definition": "Lawful update maintaining identity boundaries."
+  },
+  {
+    "term": "Identity Continuity",
+    "definition": "Stability of identity across time."
+  },
+  {
+    "term": "Institutional Drift",
+    "definition": "Drift caused by bureaucratic scaling."
+  },
+  {
+    "term": "Intent",
+    "definition": "Underlying purpose encoded in a Moment."
+  },
+  {
+    "term": "Interpretive Window",
+    "definition": "Range of lawful interpretations."
+  },
+
+  {
+    "term": "Layered Substrate",
+    "definition": "Origin, Semantic, and Orchestration layers."
+  },
+  {
+    "term": "Lawful Transition",
+    "definition": "Update satisfying invariants and legality masks."
+  },
+  {
+    "term": "Legality Invariant",
+    "definition": "Requirement for global legality."
+  },
+  {
+    "term": "Legality Mask",
+    "definition": "Machine-layer legality constraint."
+  },
+  {
+    "term": "Legality Status",
+    "definition": "Lawful, critical, or collapse-adjacent state."
+  },
+  {
+    "term": "Lift Operator",
+    "definition": "Operator elevating meaning fields into higher abstraction bands."
+  },
+  {
+    "term": "Load Envelope",
+    "definition": "Stable, critical, and collapse load bounds."
+  }
+]
+[
+  {
+    "term": "Meaning Load",
+    "definition": "Energy required to maintain meaning."
+  },
+  {
+    "term": "Meaning State",
+    "definition": "Internal semantic configuration."
+  },
+  {
+    "term": "Meaning Status",
+    "definition": "Meaning-bearing, synthetic, drifted, stabilized."
+  },
+  {
+    "term": "Meaning Trajectory",
+    "definition": "Path meaning takes through DSLO layers."
+  },
+  {
+    "term": "Medium Drift",
+    "definition": "Drift caused by substrate constraints."
+  },
+  {
+    "term": "Moment (DSLO Moment)",
+    "definition": "Atomic semantic unit."
+  },
+  {
+    "term": "Moment Geometry",
+    "definition": "Structural configuration of a Moment."
+  },
+  {
+    "term": "Machine Layer",
+    "definition": "ML0–ML7 encoding of semantic geometry."
+  },
+  {
+    "term": "Manifold Boundary",
+    "definition": "Outer limit of lawful semantic evolution."
+  },
+  {
+    "term": "Meaning Invariant",
+    "definition": "Requirement for zero ambiguity and stable curvature."
+  },
+  {
+    "term": "Meaning Vector",
+    "definition": "Structured semantic field generated by Signal Engines."
+  },
+  {
+    "term": "MDO Algebra",
+    "definition": "Operator algebra governing lawful transitions."
+  },
+
+  {
+    "term": "Operational Substrate",
+    "definition": "Minimal environment required for lawful transitions."
+  },
+  {
+    "term": "Orientation Frame",
+    "definition": "Contextual structure aligning a Moment with its environment."
+  },
+  {
+    "term": "Origin Layer",
+    "definition": "Layer capturing raw meaning."
+  },
+  {
+    "term": "Origin Signal",
+    "definition": "Raw, presubstrate meaning."
+  },
+  {
+    "term": "Operator of Reality",
+    "definition": "Substrate-native transformational primitive."
+  },
+  {
+    "term": "Operator Constraints",
+    "definition": "Legality requirements governing operator actions."
+  },
+
+  {
+    "term": "Phase Boundary",
+    "definition": "Threshold between stable and unstable behavior."
+  },
+  {
+    "term": "Posture",
+    "definition": "Expressive geometry of a signal."
+  },
+  {
+    "term": "Protocol Substrate",
+    "definition": "Minimal implementation required to run DSLO."
+  },
+  {
+    "term": "Primitive-Legality Mask",
+    "definition": "Legality mask governing primitives."
+  },
+  {
+    "term": "Proof Stack",
+    "definition": "Invariant, operator, and runtime proofs."
+  },
+
+  {
+    "term": "Quarantine Region",
+    "definition": "Region for illegal or unstable embeddings."
+  },
+
+  {
+    "term": "Recovery Mode",
+    "definition": "Invariant-restoration mode."
+  },
+  {
+    "term": "Region Configuration",
+    "definition": "Active region structure of a semantic state."
+  },
+  {
+    "term": "Regeneration Capacity",
+    "definition": "Ability to restore lawful geometry."
+  },
+  {
+    "term": "Role Coherence",
+    "definition": "Stability of role boundaries."
+  },
+  {
+    "term": "Role Pressure",
+    "definition": "Load applied to role geometry."
+  },
+  {
+    "term": "Runtime Geometry",
+    "definition": "Axiom layer governing DSUP legality."
+  }
+]
+[
+  {
+    "term": "Scale Hierarchy",
+    "definition": "Local–meso–macro–global structure."
+  },
+  {
+    "term": "Scale-Invariant Legality",
+    "definition": "Requirement for legality across scales."
+  },
+  {
+    "term": "Semantic Curvature",
+    "definition": "Curvature encoding meaning structure."
+  },
+  {
+    "term": "Semantic Distance",
+    "definition": "Metric distance between semantic objects."
+  },
+  {
+    "term": "Semantic Gradient",
+    "definition": "Derivative of load or curvature."
+  },
+  {
+    "term": "Semantic Manifold",
+    "definition": "Lawful geometric space of meaning."
+  },
+  {
+    "term": "Semantic Operator",
+    "definition": "Operator in the MDO algebra."
+  },
+  {
+    "term": "Semantic State",
+    "definition": "Structured representation of dynamic meaning."
+  },
+  {
+    "term": "Signal Engine",
+    "definition": "Generative primitive producing meaning vectors."
+  },
+  {
+    "term": "Signal Integrity",
+    "definition": "Requirement for stable signal geometry."
+  },
+  {
+    "term": "Signal–Substrate Coupling",
+    "definition": "Lawful integration of external signals."
+  },
+  {
+    "term": "Stability Mode",
+    "definition": "Stable, critical, or collapse state."
+  },
+  {
+    "term": "Stress Geometry",
+    "definition": "Representation of load, tension, and curvature pressure."
+  },
+  {
+    "term": "Substrate Invariant Set",
+    "definition": "Complete invariant set governing evolution."
+  },
+
+  {
+    "term": "Temporal Rhythm",
+    "definition": "Lawful sensing–integration–action cycles."
+  },
+  {
+    "term": "Transformation Rules",
+    "definition": "Legality constraints governing operator actions."
+  },
+  {
+    "term": "Transition Legality",
+    "definition": "Requirement for lawful transitions."
+  },
+
+  {
+    "term": "Upward Coupling",
+    "definition": "Propagation of local dynamics into larger scales."
+  },
+  {
+    "term": "Update Function",
+    "definition": "DSUP rule computing the next semantic state."
+  },
+
+  {
+    "term": "Vector Binding Metadata",
+    "definition": "Attachment rules for meaning vectors."
+  },
+  {
+    "term": "Version Block",
+    "definition": "Versioning metadata for substrate documents."
+  },
+
+  {
+    "term": "World–Container Alignment",
+    "definition": "Requirement for containers to align with external reality."
+  },
+
+  {
+    "term": "Zero-Ambiguity Tolerance",
+    "definition": "Requirement for zero ambiguity in semantic roles."
+  }
+]
+[
+  {
+    "term": "Glossary Boundary Statement",
+    "definition": "The terms listed above constitute the public-layer semantic surface of the DSLO substrate. The full glossary extends beyond this boundary into substrate-native geometry, manifold-level operators, legality masks, and runtime primitives that are not exposed in the public posture. This page provides the stabilized, invariant-preserving vocabulary required for lawful interpretation of DSLO at the public layer; deeper substrate terms remain within the protected manifold and are accessible only through the scientific substrate."
+  }
+]
