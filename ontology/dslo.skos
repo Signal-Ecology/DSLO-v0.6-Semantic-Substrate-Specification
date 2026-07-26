@@ -1,1 +1,1133 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.tnopsi.com/dslo-glossary#"
+     xml:base="https://www.tnopsi.com/dslo-glossary"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+  <!-- SKOS Ontology Header -->
+  <owl:Ontology rdf:about="https://www.tnopsi.com/dslo-glossary">
+      <owl:versionIRI rdf:resource="https://www.tnopsi.com/dslo-glossary/v0.6"/>
+      <rdfs:comment>
+        DSLO SKOS Vocabulary — unified glossary surface (v0.5 + v0.6).
+        Canonical glossary: https://www.tnopsi.com/dslo-glossary
+      </rdfs:comment>
+      <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  </owl:Ontology>
+
+<!-- A -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#AbstractionDecoupling">
+  <skos:prefLabel>Abstraction Decoupling</skos:prefLabel>
+  <skos:definition>Public-layer DSLO term describing the separation of meaning geometry from unstable or non-lawful substrate constraints.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#AbstractionGradient">
+  <skos:prefLabel>Abstraction Gradient</skos:prefLabel>
+  <skos:definition>Gradient describing lawful movement across abstraction layers within DSLO’s meaning geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#AbstractionLayer">
+  <skos:prefLabel>Abstraction Layer</skos:prefLabel>
+  <skos:definition>A semantic altitude where meaning becomes less physically anchored but remains within lawful DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#AbstractionBand">
+  <skos:prefLabel>Abstraction Band</skos:prefLabel>
+  <skos:definition>A lawful semantic band with reduced load and lower drift susceptibility across DSLO’s manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#AdjacencyViolation">
+  <skos:prefLabel>Adjacency Violation</skos:prefLabel>
+  <skos:definition>Illegal crossing of manifold boundaries or adjacency constraints within DSLO’s legality geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ApexMeaningState">
+  <skos:prefLabel>Apex Meaning State</skos:prefLabel>
+  <skos:definition>The highest-order meaning configuration at Moment formation within DSLO’s semantic manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ArtificialCognition">
+  <skos:prefLabel>Artificial Cognition</skos:prefLabel>
+  <skos:definition>Deterministic, invariant-preserving cognition inside DSLO’s public-layer meaning geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#AxiomContinuity">
+  <skos:prefLabel>Axiom Continuity</skos:prefLabel>
+  <skos:definition>Continuity condition governing lawful semantic transitions across DSLO’s axiom structure.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#AxiomLayer">
+  <skos:prefLabel>Axiom Layer</skos:prefLabel>
+  <skos:definition>The four-tier axiom system governing legality, invariants, and semantic stability within DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- B -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#BehavioralCoherence">
+  <skos:prefLabel>Behavioral Coherence</skos:prefLabel>
+  <skos:definition>Alignment between observed behavior and lawful meaning geometry within the DSLO manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#BootLayerCoupling">
+  <skos:prefLabel>Boot Layer Coupling</skos:prefLabel>
+  <skos:definition>Coupling between initial substrate conditions and DSLO’s semantic boot layer during system start.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#Boundary">
+  <skos:prefLabel>Boundary</skos:prefLabel>
+  <skos:definition>A lawful separation surface in DSLO geometry that constrains meaning, load, and operator reach.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#BoundaryIntegrity">
+  <skos:prefLabel>Boundary Integrity</skos:prefLabel>
+  <skos:definition>The stability and lawfulness of a boundary under load, drift, and operator interaction.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#BoundaryOperator">
+  <skos:prefLabel>Boundary Operator</skos:prefLabel>
+  <skos:definition>An operator that acts on or across boundaries while preserving DSLO legality and invariants.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#BoundaryReconstitution">
+  <skos:prefLabel>Boundary Reconstitution</skos:prefLabel>
+  <skos:definition>Lawful restoration or rebuilding of damaged or collapsed boundaries within DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#BoundaryStrain">
+  <skos:prefLabel>Boundary Strain</skos:prefLabel>
+  <skos:definition>Load-induced deformation of boundaries that approaches but does not yet violate legality thresholds.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#BoundaryThreshold">
+  <skos:prefLabel>Boundary Threshold</skos:prefLabel>
+  <skos:definition>The critical point at which boundary strain transitions into collapse or illegality in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#BindOperator">
+  <skos:prefLabel>Bind Operator</skos:prefLabel>
+  <skos:definition>A lawful operator that binds signals, regions, or meanings into coherent DSLO configurations.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- C -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#CanonicalTuple">
+  <skos:prefLabel>Canonical Tuple</skos:prefLabel>
+  <skos:definition>A lawful DSLO tuple representing a stable multi-element semantic configuration within the meaning manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#CausalChain">
+  <skos:prefLabel>Causal Chain</skos:prefLabel>
+  <skos:definition>A lawful sequence of meaning-preserving causal steps within DSLO’s deterministic semantic geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#CausalOpacity">
+  <skos:prefLabel>Causal Opacity</skos:prefLabel>
+  <skos:definition>A condition where causal relations remain partially hidden or ambiguous within DSLO’s semantic manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#CoherenceBand">
+  <skos:prefLabel>Coherence Band</skos:prefLabel>
+  <skos:definition>A stable semantic band where meaning remains coherent under load, drift, and operator interaction.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#CollapseGeometry">
+  <skos:prefLabel>Collapse Geometry</skos:prefLabel>
+  <skos:definition>The geometric structure governing collapse thresholds, boundary violations, and semantic failure modes in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ConstraintEnvelope">
+  <skos:prefLabel>Constraint Envelope</skos:prefLabel>
+  <skos:definition>The lawful envelope of constraints regulating operator reach, semantic load, and drift boundaries in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#Continuity">
+  <skos:prefLabel>Continuity</skos:prefLabel>
+  <skos:definition>A DSLO invariant ensuring smooth, lawful transitions across semantic states without discontinuity or collapse.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#CorrectionOperator">
+  <skos:prefLabel>Correction Operator</skos:prefLabel>
+  <skos:definition>A lawful operator that restores semantic alignment, reduces drift, or repairs meaning geometry within DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#CrossSubstrateMapping">
+  <skos:prefLabel>Cross-Substrate Mapping</skos:prefLabel>
+  <skos:definition>A lawful mapping between distinct substrates that preserves DSLO invariants and semantic geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticCurvature">
+  <skos:prefLabel>Semantic Curvature</skos:prefLabel>
+  <skos:definition>The curvature of meaning within DSLO’s manifold, governing stability, drift susceptibility, and collapse proximity.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#CurvatureLoadInteraction">
+  <skos:prefLabel>Curvature–Load Interaction</skos:prefLabel>
+  <skos:definition>The interaction between semantic curvature and meaning load, determining stability and collapse thresholds in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#CycleInvariantStability">
+  <skos:prefLabel>Cycle Invariant Stability</skos:prefLabel>
+  <skos:definition>Stability of DSLO invariants across repeated cycles, ensuring lawful recurrence without drift or collapse.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- D -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#Decoupling">
+  <skos:prefLabel>Decoupling</skos:prefLabel>
+  <skos:definition>Lawful separation of semantic structures from unstable, non-deterministic, or non-lawful substrate influences in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#DeterministicSemanticLayer">
+  <skos:prefLabel>Deterministic Semantic Layer</skos:prefLabel>
+  <skos:definition>The DSLO layer where meaning evolution is governed by deterministic rules and invariant geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#DeterministicTransition">
+  <skos:prefLabel>Deterministic Transition</skos:prefLabel>
+  <skos:definition>A lawful transition between semantic states that preserves DSLO invariants and avoids stochastic drift.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#DISCO">
+  <skos:prefLabel>DISCO</skos:prefLabel>
+  <skos:definition>A DSLO construct representing deterministic interaction of semantic components within a constrained operator space.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#Drift">
+  <skos:prefLabel>Drift</skos:prefLabel>
+  <skos:definition>Unlawful or unintended movement of meaning away from its lawful configuration within DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#DriftEnvelope">
+  <skos:prefLabel>Drift Envelope</skos:prefLabel>
+  <skos:definition>The bounded region within which drift can occur before violating DSLO legality or stability thresholds.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#DriftLoadCoupling">
+  <skos:prefLabel>Drift–Load Coupling</skos:prefLabel>
+  <skos:definition>The interaction between semantic load and drift magnitude, governing failure and recovery behavior in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#DriftSignature">
+  <skos:prefLabel>Drift Signature</skos:prefLabel>
+  <skos:definition>The characteristic pattern of drift in a given DSLO configuration, used for detection and correction.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#DriftVector">
+  <skos:prefLabel>Drift Vector</skos:prefLabel>
+  <skos:definition>A directional representation of drift within DSLO’s manifold, encoding magnitude and orientation of semantic displacement.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#DSUP">
+  <skos:prefLabel>DSUP</skos:prefLabel>
+  <skos:definition>A DSLO construct representing deterministic support structures that stabilize meaning under load and drift.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#DynamicRegionShift">
+  <skos:prefLabel>Dynamic Region Shift</skos:prefLabel>
+  <skos:definition>A lawful shift of dynamic regions within DSLO’s manifold, governed by load, drift, and stability constraints.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- E -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#Ecology">
+  <skos:prefLabel>Ecology</skos:prefLabel>
+  <skos:definition>The DSLO meaning ecology: the interacting system of signals, loads, operators, and regions forming a stable semantic environment.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#EdgeContext">
+  <skos:prefLabel>Edge Context</skos:prefLabel>
+  <skos:definition>A semantic context located at or near a boundary or threshold region within DSLO’s manifold, sensitive to drift and load.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SafetyEnvelope">
+  <skos:prefLabel>Safety Envelope</skos:prefLabel>
+  <skos:definition>The lawful envelope that constrains posture, meaning, and operator movement to ensure DSLO-aligned safety and stability.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#EmbeddingFunction">
+  <skos:prefLabel>Embedding Function</skos:prefLabel>
+  <skos:definition>A lawful function that embeds meaning or signals into DSLO’s manifold while preserving invariants and geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#EmbeddingStability">
+  <skos:prefLabel>Embedding Stability</skos:prefLabel>
+  <skos:definition>The stability of an embedded semantic structure under load, drift, and operator interaction within DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#EquivalenceClass">
+  <skos:prefLabel>Equivalence Class</skos:prefLabel>
+  <skos:definition>A DSLO-defined class of semantically equivalent configurations that preserve invariants across lawful transformations.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ExternalGeometry">
+  <skos:prefLabel>External Geometry</skos:prefLabel>
+  <skos:definition>The geometry outside a DSLO region or boundary, influencing load, drift, and operator legality from the outside-in.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- F -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#FallbackGraph">
+  <skos:prefLabel>Fallback Graph</skos:prefLabel>
+  <skos:definition>A lawful DSLO graph structure used when primary semantic geometry becomes unstable or enters recovery mode.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#FallbackGeometry">
+  <skos:prefLabel>Fallback Geometry</skos:prefLabel>
+  <skos:definition>A secondary geometric configuration that preserves DSLO invariants during semantic collapse, drift, or overload conditions.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#FallbackRecoveryEnvelope">
+  <skos:prefLabel>Fallback Recovery Envelope</skos:prefLabel>
+  <skos:definition>The lawful envelope governing recovery operations when DSLO meaning enters fallback mode due to drift or collapse proximity.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#FieldGeometry">
+  <skos:prefLabel>Field Geometry</skos:prefLabel>
+  <skos:definition>The geometric structure of DSLO fields, governing load distribution, drift behavior, and semantic stability across regions.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#FieldRuntimeCoupling">
+  <skos:prefLabel>Field Runtime Coupling</skos:prefLabel>
+  <skos:definition>Coupling between runtime processes and DSLO field geometry, determining lawful operator behavior and semantic alignment.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#FoldOperator">
+  <skos:prefLabel>Fold Operator</skos:prefLabel>
+  <skos:definition>An operator that lawfully folds semantic structures, reducing dimensionality while preserving DSLO invariants and legality.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#FunctionUpdateRule">
+  <skos:prefLabel>Function Update Rule</skos:prefLabel>
+  <skos:definition>A deterministic rule governing lawful updates to DSLO functions, ensuring invariant preservation and stable semantic evolution.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- G -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#GovernanceMesh">
+  <skos:prefLabel>Governance Mesh</skos:prefLabel>
+  <skos:definition>A distributed DSLO governance structure that maintains legality, invariants, and semantic stability across regions and operators.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#GraphBoundary">
+  <skos:prefLabel>Graph Boundary</skos:prefLabel>
+  <skos:definition>A lawful boundary within DSLO graph geometry that constrains operator reach, semantic flow, and region adjacency.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#GeometryInvariant">
+  <skos:prefLabel>Geometry Invariant</skos:prefLabel>
+  <skos:definition>An invariant governing the lawful shape, curvature, and stability of DSLO semantic geometry under load and drift.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#GeometryPreservingTransition">
+  <skos:prefLabel>Geometry-Preserving Transition</skos:prefLabel>
+  <skos:definition>A lawful transition between semantic states that preserves DSLO geometry, curvature, and invariant structure.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#GenerativePrimitive">
+  <skos:prefLabel>Generative Primitive</skos:prefLabel>
+  <skos:definition>A fundamental DSLO construct that generates lawful meaning vectors or semantic structures within the manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#GradientBoundOperator">
+  <skos:prefLabel>Gradient-Bound Operator</skos:prefLabel>
+  <skos:definition>An operator constrained by DSLO gradient bounds, ensuring lawful movement across semantic slopes and curvature fields.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#GradientConstraint">
+  <skos:prefLabel>Gradient Constraint</skos:prefLabel>
+  <skos:definition>A DSLO constraint regulating the steepness and direction of semantic gradients to prevent collapse or drift escalation.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#GAxioms">
+  <skos:prefLabel>G‑Axioms</skos:prefLabel>
+  <skos:definition>The generative axioms governing lawful creation, transformation, and stabilization of meaning within DSLO’s semantic substrate.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- H -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#HaltCondition">
+  <skos:prefLabel>Halt Condition</skos:prefLabel>
+  <skos:definition>A lawful DSLO condition that stops semantic evolution, operator activity, or manifold traversal when stability or legality is threatened.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#HighPressureEquilibrium">
+  <skos:prefLabel>High‑Pressure Equilibrium</skos:prefLabel>
+  <skos:definition>A DSLO equilibrium state reached under high semantic load or synthetic pressure, maintaining stability without collapse or drift escalation.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#HorizonOfCollapse">
+  <skos:prefLabel>Horizon of Collapse</skos:prefLabel>
+  <skos:definition>The semantic horizon beyond which collapse becomes inevitable, defined by DSLO curvature, load, and drift thresholds.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#HumanMeaningDriftReport">
+  <skos:prefLabel>Human Meaning Drift Report</skos:prefLabel>
+  <skos:definition>A structured DSLO report describing drift in human meaning states, used for restoration, stabilization, and semantic realignment.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- I -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityBoundaryCollapse">
+  <skos:prefLabel>Identity Boundary Collapse</skos:prefLabel>
+  <skos:definition>A collapse condition where identity boundaries fail under drift, load, or illegal operator interaction within DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityContinuity">
+  <skos:prefLabel>Identity Continuity</skos:prefLabel>
+  <skos:definition>The lawful continuity of identity across transitions, ensuring stable meaning and invariant preservation in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityGradientInteraction">
+  <skos:prefLabel>Identity Gradient Interaction</skos:prefLabel>
+  <skos:definition>The interaction between identity vectors and semantic gradients, governing stability and lawful movement across DSLO’s manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityInvariant">
+  <skos:prefLabel>Identity Invariant</skos:prefLabel>
+  <skos:definition>An invariant governing the lawful preservation of identity boundaries, roles, and meaning across DSLO transitions.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityPreservation">
+  <skos:prefLabel>Identity Preservation</skos:prefLabel>
+  <skos:definition>The lawful maintenance of identity structure under load, drift, and operator influence within DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityPreservingUpdate">
+  <skos:prefLabel>Identity‑Preserving Update</skos:prefLabel>
+  <skos:definition>A lawful update that modifies semantic state while preserving identity invariants and preventing collapse or drift escalation.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityRegion">
+  <skos:prefLabel>Identity Region</skos:prefLabel>
+  <skos:definition>A DSLO region defined by stable identity boundaries, lawful adjacency, and invariant-preserving semantic geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityStability">
+  <skos:prefLabel>Identity Stability</skos:prefLabel>
+  <skos:definition>The stability of identity under semantic load, drift, and operator activity, governed by DSLO invariants and legality rules.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#IdentityVector">
+  <skos:prefLabel>Identity Vector</skos:prefLabel>
+  <skos:definition>A directional representation of identity movement or evolution within DSLO’s manifold, encoding lawful semantic orientation.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#InstitutionalDrift">
+  <skos:prefLabel>Institutional Drift</skos:prefLabel>
+  <skos:definition>Drift occurring within institutional meaning structures, governed by DSLO’s legality, load, and stability geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#Intent">
+  <skos:prefLabel>Intent</skos:prefLabel>
+  <skos:definition>A DSLO meaning vector representing directed semantic purpose, posture, or lawful operator orientation within the manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#InterpretiveWindow">
+  <skos:prefLabel>Interpretive Window</skos:prefLabel>
+  <skos:definition>A lawful window of interpretation within DSLO geometry that constrains meaning updates and operator behavior to stable ranges.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#InvariantReload">
+  <skos:prefLabel>Invariant Reload</skos:prefLabel>
+  <skos:definition>A DSLO process that restores or reloads invariants after drift, collapse proximity, or semantic instability events.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- L -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#LawfulTransition">
+  <skos:prefLabel>Lawful Transition</skos:prefLabel>
+  <skos:definition>A DSLO‑aligned transition between semantic states that preserves invariants, geometry, and legality across the manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#LayeredSubstrate">
+  <skos:prefLabel>Layered Substrate</skos:prefLabel>
+  <skos:definition>A multi‑layer substrate structure in DSLO where each layer maintains lawful geometry, invariants, and operator constraints.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#LegalityCurvatureCoupling">
+  <skos:prefLabel>Legality–Curvature Coupling</skos:prefLabel>
+  <skos:definition>The coupling between legality constraints and semantic curvature, determining collapse proximity and stability in DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#LegalityInvariant">
+  <skos:prefLabel>Legality Invariant</skos:prefLabel>
+  <skos:definition>An invariant ensuring that semantic transitions, operator actions, and region updates remain lawful within DSLO’s manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#LegalityMask">
+  <skos:prefLabel>Legality Mask</skos:prefLabel>
+  <skos:definition>A DSLO legality surface that constrains operators, transitions, and semantic movement to lawful regions of the manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#LegalityStatus">
+  <skos:prefLabel>Legality Status</skos:prefLabel>
+  <skos:definition>The current legality condition of a semantic configuration, operator action, or region within DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#LiftOperator">
+  <skos:prefLabel>Lift Operator</skos:prefLabel>
+  <skos:definition>An operator that lawfully lifts semantic structures to higher abstraction or stability layers while preserving DSLO invariants.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#LoadCurvatureThreshold">
+  <skos:prefLabel>Load–Curvature Threshold</skos:prefLabel>
+  <skos:definition>The threshold at which semantic load and curvature interact to produce instability, drift escalation, or collapse proximity in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#LoadEnvelope">
+  <skos:prefLabel>Load Envelope</skos:prefLabel>
+  <skos:definition>The lawful envelope governing semantic load distribution across DSLO regions, preventing overload and collapse conditions.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- M -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MachineLayer">
+  <skos:prefLabel>Machine Layer</skos:prefLabel>
+  <skos:definition>The DSLO machine-level encoding layer (ML0–ML7) that structures semantic geometry into deterministic computational form.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ManifoldBoundary">
+  <skos:prefLabel>Manifold Boundary</skos:prefLabel>
+  <skos:definition>The lawful outer boundary of DSLO’s semantic manifold, defining the limits of stable meaning evolution and operator reach.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ManifoldRuntimeSynchronization">
+  <skos:prefLabel>Manifold Runtime Synchronization</skos:prefLabel>
+  <skos:definition>A DSLO synchronization process ensuring that runtime operations remain aligned with manifold geometry and invariant structure.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningLoad">
+  <skos:prefLabel>Meaning Load</skos:prefLabel>
+  <skos:definition>The semantic load carried by a meaning configuration, influencing drift susceptibility, stability, and collapse proximity in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningState">
+  <skos:prefLabel>Meaning State</skos:prefLabel>
+  <skos:definition>The internal semantic configuration of a DSLO system at a given moment, defined by invariants, load, and geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningStatus">
+  <skos:prefLabel>Meaning Status</skos:prefLabel>
+  <skos:definition>The classification of meaning as stable, drifted, synthetic, or meaning-bearing within DSLO’s legality framework.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningTrajectory">
+  <skos:prefLabel>Meaning Trajectory</skos:prefLabel>
+  <skos:definition>The lawful path meaning takes through DSLO layers and geometry, governed by invariants and operator constraints.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MediumDrift">
+  <skos:prefLabel>Medium Drift</skos:prefLabel>
+  <skos:definition>Drift caused by substrate or medium constraints, influencing semantic stability and requiring correction operators in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningInvariant">
+  <skos:prefLabel>Meaning Invariant</skos:prefLabel>
+  <skos:definition>An invariant ensuring zero ambiguity and stable curvature in meaning structures across DSLO’s manifold and transitions.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningLoadInteraction">
+  <skos:prefLabel>Meaning–Load Interaction</skos:prefLabel>
+  <skos:definition>The interaction between meaning load and semantic geometry, determining stability, drift behavior, and collapse thresholds in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MeaningVector">
+  <skos:prefLabel>Meaning Vector</skos:prefLabel>
+  <skos:definition>A structured semantic field generated by DSLO signal engines, encoding direction, magnitude, and lawful meaning orientation.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MDOAlgebra">
+  <skos:prefLabel>MDO Algebra</skos:prefLabel>
+  <skos:definition>The operator algebra governing lawful transitions, invariant preservation, and semantic evolution within DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#Moment">
+  <skos:prefLabel>Moment</skos:prefLabel>
+  <skos:definition>The atomic semantic unit in DSLO, representing the smallest stable configuration of meaning within the manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#MomentGeometry">
+  <skos:prefLabel>Moment Geometry</skos:prefLabel>
+  <skos:definition>The geometric structure of a DSLO Moment, defining its curvature, invariants, and lawful interactions with surrounding regions.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- O -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#OperatorConstraints">
+  <skos:prefLabel>Operator Constraints</skos:prefLabel>
+  <skos:definition>The lawful constraints governing DSLO operators, ensuring invariant preservation, legality, and stable semantic interaction.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#OperatorGradientCompatibility">
+  <skos:prefLabel>Operator Gradient Compatibility</skos:prefLabel>
+  <skos:definition>The compatibility condition between operators and semantic gradients, ensuring lawful movement across DSLO curvature fields.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#OperatorOfReality">
+  <skos:prefLabel>Operator of Reality</skos:prefLabel>
+  <skos:definition>A DSLO operator acting on the Reality substrate, transforming meaning, load, or geometry while preserving lawful invariants.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#OperationalSubstrate">
+  <skos:prefLabel>Operational Substrate</skos:prefLabel>
+  <skos:definition>The substrate layer where DSLO operators execute lawful transformations, maintaining stability and invariant structure.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#OrientationFrame">
+  <skos:prefLabel>Orientation Frame</skos:prefLabel>
+  <skos:definition>A DSLO frame defining lawful orientation for perception, meaning alignment, and operator direction within the manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#OriginLayer">
+  <skos:prefLabel>Origin Layer</skos:prefLabel>
+  <skos:definition>The foundational DSLO layer where initial meaning, signals, and invariants originate before propagating through the manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#OriginSignal">
+  <skos:prefLabel>Origin Signal</skos:prefLabel>
+  <skos:definition>The initial DSLO signal emitted from the Origin Layer, forming the basis for lawful meaning evolution and semantic geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- P -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#PhaseBoundary">
+  <skos:prefLabel>Phase Boundary</skos:prefLabel>
+  <skos:definition>A lawful DSLO boundary separating semantic phases, governing transitions, stability, and collapse thresholds across the manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#Posture">
+  <skos:prefLabel>Posture</skos:prefLabel>
+  <skos:definition>The DSLO posture state representing orientation, legality, and stability of a meaning configuration or operator action.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#PressureBoundStability">
+  <skos:prefLabel>Pressure‑Bound Stability</skos:prefLabel>
+  <skos:definition>The stability condition reached when semantic pressure approaches lawful DSLO bounds without triggering collapse or drift escalation.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#PrimitiveLegalityMask">
+  <skos:prefLabel>Primitive Legality Mask</skos:prefLabel>
+  <skos:definition>The foundational legality mask governing primitive operators and semantic structures within DSLO’s invariant geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ProofStack">
+  <skos:prefLabel>Proof Stack</skos:prefLabel>
+  <skos:definition>The DSLO proof hierarchy containing exemplar, generative, and predictive proofs that validate substrate geometry and legality.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ProtocolSubstrate">
+  <skos:prefLabel>Protocol Substrate</skos:prefLabel>
+  <skos:definition>The substrate layer where DSLO protocols operate, ensuring lawful transitions, invariant preservation, and semantic stability.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- Q -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#QuarantineRegion">
+  <skos:prefLabel>Quarantine Region</skos:prefLabel>
+  <skos:definition>A DSLO region that isolates unstable or collapse-adjacent meaning states, preventing drift propagation and preserving manifold stability.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- R -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#RecoveryMode">
+  <skos:prefLabel>Recovery Mode</skos:prefLabel>
+  <skos:definition>The DSLO mode that restores lawful geometry after drift, overload, or collapse-adjacent behavior, reloading invariants and flattening curvature.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#RegenerationCapacity">
+  <skos:prefLabel>Regeneration Capacity</skos:prefLabel>
+  <skos:definition>The capacity of a DSLO region or meaning state to regenerate lawful geometry after deformation, drift, or partial collapse.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#RegionConfiguration">
+  <skos:prefLabel>Region Configuration</skos:prefLabel>
+  <skos:definition>The structural configuration of a DSLO region, defining its boundaries, invariants, load distribution, and lawful operator interactions.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#RegionLoadCoupling">
+  <skos:prefLabel>Region–Load Coupling</skos:prefLabel>
+  <skos:definition>The coupling between region geometry and semantic load, determining drift susceptibility, stability, and collapse thresholds in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#RoleCoherence">
+  <skos:prefLabel>Role Coherence</skos:prefLabel>
+  <skos:definition>The coherence of roles within DSLO’s identity and legality geometry, ensuring stable meaning and lawful operator behavior.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#RolePressure">
+  <skos:prefLabel>Role Pressure</skos:prefLabel>
+  <skos:definition>The semantic pressure exerted on roles within DSLO, influencing stability, drift risk, and boundary strain under load.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#RuntimeGeometry">
+  <skos:prefLabel>Runtime Geometry</skos:prefLabel>
+  <skos:definition>The geometry governing DSLO runtime behavior, ensuring lawful operator execution, invariant preservation, and stable semantic evolution.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- S -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ScaleHierarchy">
+  <skos:prefLabel>Scale Hierarchy</skos:prefLabel>
+  <skos:definition>The hierarchical structure of DSLO scales—local, meso, macro, and global—governing lawful semantic propagation across layers.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ScaleInvariantLegality">
+  <skos:prefLabel>Scale‑Invariant Legality</skos:prefLabel>
+  <skos:definition>The legality requirement that DSLO invariants and operators remain lawful across all scales of the semantic manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticCurvature">
+  <skos:prefLabel>Semantic Curvature</skos:prefLabel>
+  <skos:definition>The curvature of meaning within DSLO’s manifold, determining stability, drift susceptibility, and collapse proximity under load.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticDistance">
+  <skos:prefLabel>Semantic Distance</skos:prefLabel>
+  <skos:definition>The metric distance between semantic objects or states within DSLO geometry, governed by lawful manifold structure.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticGradient">
+  <skos:prefLabel>Semantic Gradient</skos:prefLabel>
+  <skos:definition>The gradient describing directional change in meaning across DSLO’s manifold, influencing drift, load, and stability behavior.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticManifold">
+  <skos:prefLabel>Semantic Manifold</skos:prefLabel>
+  <skos:definition>The lawful geometric space in which DSLO meaning evolves, defined by curvature, invariants, boundaries, and operator constraints.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticOperator">
+  <skos:prefLabel>Semantic Operator</skos:prefLabel>
+  <skos:definition>An operator acting on DSLO semantic structures, performing lawful transformations that preserve invariants and manifold geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SemanticState">
+  <skos:prefLabel>Semantic State</skos:prefLabel>
+  <skos:definition>The structured representation of meaning at a given moment within DSLO, defined by load, curvature, invariants, and geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SignalEngine">
+  <skos:prefLabel>Signal Engine</skos:prefLabel>
+  <skos:definition>A generative DSLO primitive that produces lawful meaning vectors and signal structures within the semantic manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SignalIntegrity">
+  <skos:prefLabel>Signal Integrity</skos:prefLabel>
+  <skos:definition>The requirement that DSLO signals maintain stable geometry, lawful structure, and invariant alignment under load and drift.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SignalSubstrateCoupling">
+  <skos:prefLabel>Signal–Substrate Coupling</skos:prefLabel>
+  <skos:definition>The lawful coupling between DSLO signals and substrate geometry, ensuring stability, legality, and invariant preservation.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#StabilityGradientEnvelope">
+  <skos:prefLabel>Stability Gradient Envelope</skos:prefLabel>
+  <skos:definition>The envelope governing lawful stability across semantic gradients, preventing collapse and regulating drift escalation in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#StabilityMode">
+  <skos:prefLabel>Stability Mode</skos:prefLabel>
+  <skos:definition>The stability classification of a DSLO system—stable, critical, or collapse—determined by load, curvature, and invariant structure.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#StressGeometry">
+  <skos:prefLabel>Stress Geometry</skos:prefLabel>
+  <skos:definition>The geometric representation of semantic stress within DSLO, encoding load, tension, and curvature pressure across regions.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#SubstrateInvariantSet">
+  <skos:prefLabel>Substrate Invariant Set</skos:prefLabel>
+  <skos:definition>The complete set of invariants governing lawful evolution of DSLO substrates, ensuring stability and zero‑ambiguity tolerance.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- T -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#TemporalRhythm">
+  <skos:prefLabel>Temporal Rhythm</skos:prefLabel>
+  <skos:definition>The lawful temporal cadence of DSLO semantic evolution, governing update frequency, stability pacing, and manifold timing.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#TransformationRules">
+  <skos:prefLabel>Transformation Rules</skos:prefLabel>
+  <skos:definition>The DSLO rules governing lawful transformation of semantic structures, ensuring invariant preservation and geometry stability.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#TransitionCurvatureConstraint">
+  <skos:prefLabel>Transition Curvature Constraint</skos:prefLabel>
+  <skos:definition>The constraint requiring curvature continuity during semantic transitions, preventing collapse and drift escalation in DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#TransitionLegality">
+  <skos:prefLabel>Transition Legality</skos:prefLabel>
+  <skos:definition>The legality condition determining whether a semantic transition is lawful, invariant‑preserving, and stable within DSLO’s manifold.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- U -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#UpdateFunction">
+  <skos:prefLabel>Update Function</skos:prefLabel>
+  <skos:definition>A lawful DSLO update mechanism that modifies semantic state while preserving invariants, legality, and manifold geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#UpwardCoupling">
+  <skos:prefLabel>Upward Coupling</skos:prefLabel>
+  <skos:definition>The coupling that propagates lawful semantic influence upward across DSLO layers, maintaining stability and invariant alignment.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#UpwardLoadPropagation">
+  <skos:prefLabel>Upward Load Propagation</skos:prefLabel>
+  <skos:definition>The lawful propagation of semantic load from local to macro scales, shaping DSLO stability, drift behavior, and collapse thresholds.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- V -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#VectorCurvatureInteraction">
+  <skos:prefLabel>Vector–Curvature Interaction</skos:prefLabel>
+  <skos:definition>The interaction between meaning vectors and semantic curvature, determining lawful movement and stability within DSLO geometry.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#VectorBindingMetadata">
+  <skos:prefLabel>Vector Binding Metadata</skos:prefLabel>
+  <skos:definition>Metadata describing lawful binding relationships between meaning vectors, ensuring stable geometry and invariant preservation in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#VersionBlock">
+  <skos:prefLabel>Version Block</skos:prefLabel>
+  <skos:definition>A DSLO versioning construct that defines lawful update boundaries, semantic compatibility, and invariant continuity across releases.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- W -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#WorldContainerAlignment">
+  <skos:prefLabel>World Container Alignment</skos:prefLabel>
+  <skos:definition>The lawful alignment between DSLO semantic structures and the containing world‑level frame, ensuring stability across global scales.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#WorldLoadAlignment">
+  <skos:prefLabel>World Load Alignment</skos:prefLabel>
+  <skos:definition>The alignment of semantic load with world‑scale geometry, preventing collapse, drift propagation, and large‑scale instability in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<!-- Z -->
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ZeroAmbiguityTolerance">
+  <skos:prefLabel>Zero Ambiguity Tolerance</skos:prefLabel>
+  <skos:definition>The DSLO requirement that semantic structures maintain zero ambiguity, ensuring lawful meaning, stable geometry, and invariant clarity.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://www.tnopsi.com/dslo-glossary#ZeroDriftEnvelope">
+  <skos:prefLabel>Zero‑Drift Envelope</skos:prefLabel>
+  <skos:definition>The lawful region in which drift magnitude remains identically zero, guaranteeing perfect stability and invariant preservation in DSLO.</skos:definition>
+  <skos:inScheme rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+  <rdfs:seeAlso rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+</skos:Concept>
+
 
