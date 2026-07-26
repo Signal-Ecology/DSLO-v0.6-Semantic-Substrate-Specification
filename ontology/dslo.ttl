@@ -1,1 +1,974 @@
+@prefix dslo:   <https://www.tnopsi.com/dslo-glossary#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 
+<https://www.tnopsi.com/dslo-glossary>
+    a owl:Ontology ;
+    owl:versionIRI <https://www.tnopsi.com/dslo-glossary/v0.6> ;
+    rdfs:comment """
+        DSLO Ontology — unified glossary surface (v0.5 + v0.6).
+        Canonical glossary: https://www.tnopsi.com/dslo-glossary
+    """ ;
+    rdfs:seeAlso <https://www.tnopsi.com/dslo-glossary> .
+
+### A – Block
+
+dslo:AbstractionDecoupling
+    a owl:Class ;
+    rdfs:label "Abstraction Decoupling" ;
+    rdfs:comment "Public-layer DSLO term describing the separation of meaning geometry from unstable or non-lawful substrate constraints." ;
+    rdfs:seeAlso dslo: .
+
+dslo:AbstractionGradient
+    a owl:Class ;
+    rdfs:label "Abstraction Gradient" ;
+    rdfs:comment "Gradient describing lawful movement across abstraction layers within DSLO’s meaning geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:AbstractionLayer
+    a owl:Class ;
+    rdfs:label "Abstraction Layer" ;
+    rdfs:comment "A semantic altitude where meaning becomes less physically anchored but remains within lawful DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:AbstractionBand
+    a owl:Class ;
+    rdfs:label "Abstraction Band" ;
+    rdfs:comment "A lawful semantic band with reduced load and lower drift susceptibility across DSLO’s manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:AdjacencyViolation
+    a owl:Class ;
+    rdfs:label "Adjacency Violation" ;
+    rdfs:comment "Illegal crossing of manifold boundaries or adjacency constraints within DSLO’s legality geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:ApexMeaningState
+    a owl:Class ;
+    rdfs:label "Apex Meaning State" ;
+    rdfs:comment "The highest-order meaning configuration at Moment formation within DSLO’s semantic manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:ArtificialCognition
+    a owl:Class ;
+    rdfs:label "Artificial Cognition" ;
+    rdfs:comment "Deterministic, invariant-preserving cognition inside DSLO’s public-layer meaning geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:AxiomContinuity
+    a owl:Class ;
+    rdfs:label "Axiom Continuity" ;
+    rdfs:comment "Continuity condition governing lawful semantic transitions across DSLO’s axiom structure." ;
+    rdfs:seeAlso dslo: .
+
+dslo:AxiomLayer
+    a owl:Class ;
+    rdfs:label "Axiom Layer" ;
+    rdfs:comment "The four-tier axiom system governing legality, invariants, and semantic stability within DSLO." ;
+    rdfs:seeAlso dslo: .
+
+### B – Block
+
+dslo:BehavioralCoherence
+    a owl:Class ;
+    rdfs:label "Behavioral Coherence" ;
+    rdfs:comment "Alignment between observed behavior and lawful meaning geometry within the DSLO manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:BootLayerCoupling
+    a owl:Class ;
+    rdfs:label "Boot Layer Coupling" ;
+    rdfs:comment "Coupling between initial substrate conditions and DSLO’s semantic boot layer during system start." ;
+    rdfs:seeAlso dslo: .
+
+dslo:Boundary
+    a owl:Class ;
+    rdfs:label "Boundary" ;
+    rdfs:comment "A lawful separation surface in DSLO geometry that constrains meaning, load, and operator reach." ;
+    rdfs:seeAlso dslo: .
+
+dslo:BoundaryIntegrity
+    a owl:Class ;
+    rdfs:label "Boundary Integrity" ;
+    rdfs:comment "The stability and lawfulness of a boundary under load, drift, and operator interaction." ;
+    rdfs:seeAlso dslo: .
+
+dslo:BoundaryOperator
+    a owl:Class ;
+    rdfs:label "Boundary Operator" ;
+    rdfs:comment "An operator that acts on or across boundaries while preserving DSLO legality and invariants." ;
+    rdfs:seeAlso dslo: .
+
+dslo:BoundaryReconstitution
+    a owl:Class ;
+    rdfs:label "Boundary Reconstitution" ;
+    rdfs:comment "Lawful restoration or rebuilding of damaged or collapsed boundaries within DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:BoundaryStrain
+    a owl:Class ;
+    rdfs:label "Boundary Strain" ;
+    rdfs:comment "Load-induced deformation of boundaries that approaches but does not yet violate legality thresholds." ;
+    rdfs:seeAlso dslo: .
+
+dslo:BoundaryThreshold
+    a owl:Class ;
+    rdfs:label "Boundary Threshold" ;
+    rdfs:comment "The critical point at which boundary strain transitions into collapse or illegality in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:BindOperator
+    a owl:Class ;
+    rdfs:label "Bind Operator" ;
+    rdfs:comment "A lawful operator that binds signals, regions, or meanings into coherent DSLO configurations." ;
+    rdfs:seeAlso dslo: .
+
+### C – Block
+
+dslo:CanonicalTuple
+    a owl:Class ;
+    rdfs:label "Canonical Tuple" ;
+    rdfs:comment "A lawful DSLO tuple representing a stable multi-element semantic configuration within the meaning manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:CausalChain
+    a owl:Class ;
+    rdfs:label "Causal Chain" ;
+    rdfs:comment "A lawful sequence of meaning-preserving causal steps within DSLO’s deterministic semantic geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:CausalOpacity
+    a owl:Class ;
+    rdfs:label "Causal Opacity" ;
+    rdfs:comment "A condition where causal relations remain partially hidden or ambiguous within DSLO’s semantic manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:CoherenceBand
+    a owl:Class ;
+    rdfs:label "Coherence Band" ;
+    rdfs:comment "A stable semantic band where meaning remains coherent under load, drift, and operator interaction." ;
+    rdfs:seeAlso dslo: .
+
+dslo:CollapseGeometry
+    a owl:Class ;
+    rdfs:label "Collapse Geometry" ;
+    rdfs:comment "The geometric structure governing collapse thresholds, boundary violations, and semantic failure modes in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:ConstraintEnvelope
+    a owl:Class ;
+    rdfs:label "Constraint Envelope" ;
+    rdfs:comment "The lawful envelope of constraints regulating operator reach, semantic load, and drift boundaries in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:Continuity
+    a owl:Class ;
+    rdfs:label "Continuity" ;
+    rdfs:comment "A DSLO invariant ensuring smooth, lawful transitions across semantic states without discontinuity or collapse." ;
+    rdfs:seeAlso dslo: .
+
+dslo:CorrectionOperator
+    a owl:Class ;
+    rdfs:label "Correction Operator" ;
+    rdfs:comment "A lawful operator that restores semantic alignment, reduces drift, or repairs meaning geometry within DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:CrossSubstrateMapping
+    a owl:Class ;
+    rdfs:label "Cross-Substrate Mapping" ;
+    rdfs:comment "A lawful mapping between distinct substrates that preserves DSLO invariants and semantic geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SemanticCurvature
+    a owl:Class ;
+    rdfs:label "Semantic Curvature" ;
+    rdfs:comment "The curvature of meaning within DSLO’s manifold, governing stability, drift susceptibility, and collapse proximity." ;
+    rdfs:seeAlso dslo: .
+
+dslo:CurvatureLoadInteraction
+    a owl:Class ;
+    rdfs:label "Curvature–Load Interaction" ;
+    rdfs:comment "The interaction between semantic curvature and meaning load, determining stability and collapse thresholds in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:CycleInvariantStability
+    a owl:Class ;
+    rdfs:label "Cycle Invariant Stability" ;
+    rdfs:comment "Stability of DSLO invariants across repeated cycles, ensuring lawful recurrence without drift or collapse." ;
+    rdfs:seeAlso dslo: .
+
+### D – Block
+
+dslo:Decoupling
+    a owl:Class ;
+    rdfs:label "Decoupling" ;
+    rdfs:comment "Lawful separation of semantic structures from unstable, non-deterministic, or non-lawful substrate influences in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:DeterministicSemanticLayer
+    a owl:Class ;
+    rdfs:label "Deterministic Semantic Layer" ;
+    rdfs:comment "The DSLO layer where meaning evolution is governed by deterministic rules and invariant geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:DeterministicTransition
+    a owl:Class ;
+    rdfs:label "Deterministic Transition" ;
+    rdfs:comment "A lawful transition between semantic states that preserves DSLO invariants and avoids stochastic drift." ;
+    rdfs:seeAlso dslo: .
+
+dslo:DISCO
+    a owl:Class ;
+    rdfs:label "DISCO" ;
+    rdfs:comment "A DSLO construct representing deterministic interaction of semantic components within a constrained operator space." ;
+    rdfs:seeAlso dslo: .
+
+dslo:Drift
+    a owl:Class ;
+    rdfs:label "Drift" ;
+    rdfs:comment "Unlawful or unintended movement of meaning away from its lawful configuration within DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:DriftEnvelope
+    a owl:Class ;
+    rdfs:label "Drift Envelope" ;
+    rdfs:comment "The bounded region within which drift can occur before violating DSLO legality or stability thresholds." ;
+    rdfs:seeAlso dslo: .
+
+dslo:DriftLoadCoupling
+    a owl:Class ;
+    rdfs:label "Drift–Load Coupling" ;
+    rdfs:comment "The interaction between semantic load and drift magnitude, governing failure and recovery behavior in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:DriftSignature
+    a owl:Class ;
+    rdfs:label "Drift Signature" ;
+    rdfs:comment "The characteristic pattern of drift in a given DSLO configuration, used for detection and correction." ;
+    rdfs:seeAlso dslo: .
+
+dslo:DriftVector
+    a owl:Class ;
+    rdfs:label "Drift Vector" ;
+    rdfs:comment "A directional representation of drift within DSLO’s manifold, encoding magnitude and orientation of semantic displacement." ;
+    rdfs:seeAlso dslo: .
+
+dslo:DSUP
+    a owl:Class ;
+    rdfs:label "DSUP" ;
+    rdfs:comment "A DSLO construct representing deterministic support structures that stabilize meaning under load and drift." ;
+    rdfs:seeAlso dslo: .
+
+dslo:DynamicRegionShift
+    a owl:Class ;
+    rdfs:label "Dynamic Region Shift" ;
+    rdfs:comment "A lawful shift of dynamic regions within DSLO’s manifold, governed by load, drift, and stability constraints." ;
+    rdfs:seeAlso dslo: .
+
+### E – Block
+
+dslo:Ecology
+    a owl:Class ;
+    rdfs:label "Ecology" ;
+    rdfs:comment "The DSLO meaning ecology: the interacting system of signals, loads, operators, and regions forming a stable semantic environment." ;
+    rdfs:seeAlso dslo: .
+
+dslo:EdgeContext
+    a owl:Class ;
+    rdfs:label "Edge Context" ;
+    rdfs:comment "A semantic context located at or near a boundary or threshold region within DSLO’s manifold, sensitive to drift and load." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SafetyEnvelope
+    a owl:Class ;
+    rdfs:label "Safety Envelope" ;
+    rdfs:comment "The lawful envelope that constrains posture, meaning, and operator movement to ensure DSLO-aligned safety and stability." ;
+    rdfs:seeAlso dslo: .
+
+dslo:EmbeddingFunction
+    a owl:Class ;
+    rdfs:label "Embedding Function" ;
+    rdfs:comment "A lawful function that embeds meaning or signals into DSLO’s manifold while preserving invariants and geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:EmbeddingStability
+    a owl:Class ;
+    rdfs:label "Embedding Stability" ;
+    rdfs:comment "The stability of an embedded semantic structure under load, drift, and operator interaction within DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:EquivalenceClass
+    a owl:Class ;
+    rdfs:label "Equivalence Class" ;
+    rdfs:comment "A DSLO-defined class of semantically equivalent configurations that preserve invariants across lawful transformations." ;
+    rdfs:seeAlso dslo: .
+
+dslo:ExternalGeometry
+    a owl:Class ;
+    rdfs:label "External Geometry" ;
+    rdfs:comment "The geometry outside a DSLO region or boundary, influencing load, drift, and operator legality from the outside-in." ;
+    rdfs:seeAlso dslo: .
+
+### F – Block
+
+dslo:FallbackGraph
+    a owl:Class ;
+    rdfs:label "Fallback Graph" ;
+    rdfs:comment "A lawful DSLO graph structure used when primary semantic geometry becomes unstable or enters recovery mode." ;
+    rdfs:seeAlso dslo: .
+
+dslo:FallbackGeometry
+    a owl:Class ;
+    rdfs:label "Fallback Geometry" ;
+    rdfs:comment "A secondary geometric configuration that preserves DSLO invariants during semantic collapse, drift, or overload conditions." ;
+    rdfs:seeAlso dslo: .
+
+dslo:FallbackRecoveryEnvelope
+    a owl:Class ;
+    rdfs:label "Fallback Recovery Envelope" ;
+    rdfs:comment "The lawful envelope governing recovery operations when DSLO meaning enters fallback mode due to drift or collapse proximity." ;
+    rdfs:seeAlso dslo: .
+
+dslo:FieldGeometry
+    a owl:Class ;
+    rdfs:label "Field Geometry" ;
+    rdfs:comment "The geometric structure of DSLO fields, governing load distribution, drift behavior, and semantic stability across regions." ;
+    rdfs:seeAlso dslo: .
+
+dslo:FieldRuntimeCoupling
+    a owl:Class ;
+    rdfs:label "Field Runtime Coupling" ;
+    rdfs:comment "Coupling between runtime processes and DSLO field geometry, determining lawful operator behavior and semantic alignment." ;
+    rdfs:seeAlso dslo: .
+
+dslo:FoldOperator
+    a owl:Class ;
+    rdfs:label "Fold Operator" ;
+    rdfs:comment "An operator that lawfully folds semantic structures, reducing dimensionality while preserving DSLO invariants and legality." ;
+    rdfs:seeAlso dslo: .
+
+dslo:FunctionUpdateRule
+    a owl:Class ;
+    rdfs:label "Function Update Rule" ;
+    rdfs:comment "A deterministic rule governing lawful updates to DSLO functions, ensuring invariant preservation and stable semantic evolution." ;
+    rdfs:seeAlso dslo: .
+
+### G – Block
+
+dslo:GovernanceMesh
+    a owl:Class ;
+    rdfs:label "Governance Mesh" ;
+    rdfs:comment "A distributed DSLO governance structure that maintains legality, invariants, and semantic stability across regions and operators." ;
+    rdfs:seeAlso dslo: .
+
+dslo:GraphBoundary
+    a owl:Class ;
+    rdfs:label "Graph Boundary" ;
+    rdfs:comment "A lawful boundary within DSLO graph geometry that constrains operator reach, semantic flow, and region adjacency." ;
+    rdfs:seeAlso dslo: .
+
+dslo:GeometryInvariant
+    a owl:Class ;
+    rdfs:label "Geometry Invariant" ;
+    rdfs:comment "An invariant governing the lawful shape, curvature, and stability of DSLO semantic geometry under load and drift." ;
+    rdfs:seeAlso dslo: .
+
+dslo:GeometryPreservingTransition
+    a owl:Class ;
+    rdfs:label "Geometry-Preserving Transition" ;
+    rdfs:comment "A lawful transition between semantic states that preserves DSLO geometry, curvature, and invariant structure." ;
+    rdfs:seeAlso dslo: .
+
+dslo:GenerativePrimitive
+    a owl:Class ;
+    rdfs:label "Generative Primitive" ;
+    rdfs:comment "A fundamental DSLO construct that generates lawful meaning vectors or semantic structures within the manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:GradientBoundOperator
+    a owl:Class ;
+    rdfs:label "Gradient-Bound Operator" ;
+    rdfs:comment "An operator constrained by DSLO gradient bounds, ensuring lawful movement across semantic slopes and curvature fields." ;
+    rdfs:seeAlso dslo: .
+
+dslo:GradientConstraint
+    a owl:Class ;
+    rdfs:label "Gradient Constraint" ;
+    rdfs:comment "A DSLO constraint regulating the steepness and direction of semantic gradients to prevent collapse or drift escalation." ;
+    rdfs:seeAlso dslo: .
+
+dslo:GAxioms
+    a owl:Class ;
+    rdfs:label "G‑Axioms" ;
+    rdfs:comment "The generative axioms governing lawful creation, transformation, and stabilization of meaning within DSLO’s semantic substrate." ;
+    rdfs:seeAlso dslo: .
+
+### H – Block
+
+dslo:HaltCondition
+    a owl:Class ;
+    rdfs:label "Halt Condition" ;
+    rdfs:comment "A lawful DSLO condition that stops semantic evolution, operator activity, or manifold traversal when stability or legality is threatened." ;
+    rdfs:seeAlso dslo: .
+
+dslo:HighPressureEquilibrium
+    a owl:Class ;
+    rdfs:label "High‑Pressure Equilibrium" ;
+    rdfs:comment "A DSLO equilibrium state reached under high semantic load or synthetic pressure, maintaining stability without collapse or drift escalation." ;
+    rdfs:seeAlso dslo: .
+
+dslo:HorizonOfCollapse
+    a owl:Class ;
+    rdfs:label "Horizon of Collapse" ;
+    rdfs:comment "The semantic horizon beyond which collapse becomes inevitable, defined by DSLO curvature, load, and drift thresholds." ;
+    rdfs:seeAlso dslo: .
+
+dslo:HumanMeaningDriftReport
+    a owl:Class ;
+    rdfs:label "Human Meaning Drift Report" ;
+    rdfs:comment "A structured DSLO report describing drift in human meaning states, used for restoration, stabilization, and semantic realignment." ;
+    rdfs:seeAlso dslo: .
+
+### I – Block
+
+dslo:IdentityBoundaryCollapse
+    a owl:Class ;
+    rdfs:label "Identity Boundary Collapse" ;
+    rdfs:comment "A collapse condition where identity boundaries fail under drift, load, or illegal operator interaction within DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:IdentityContinuity
+    a owl:Class ;
+    rdfs:label "Identity Continuity" ;
+    rdfs:comment "The lawful continuity of identity across transitions, ensuring stable meaning and invariant preservation in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:IdentityGradientInteraction
+    a owl:Class ;
+    rdfs:label "Identity Gradient Interaction" ;
+    rdfs:comment "The interaction between identity vectors and semantic gradients, governing stability and lawful movement across DSLO’s manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:IdentityInvariant
+    a owl:Class ;
+    rdfs:label "Identity Invariant" ;
+    rdfs:comment "An invariant governing the lawful preservation of identity boundaries, roles, and meaning across DSLO transitions." ;
+    rdfs:seeAlso dslo: .
+
+dslo:IdentityPreservation
+    a owl:Class ;
+    rdfs:label "Identity Preservation" ;
+    rdfs:comment "The lawful maintenance of identity structure under load, drift, and operator influence within DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:IdentityPreservingUpdate
+    a owl:Class ;
+    rdfs:label "Identity‑Preserving Update" ;
+    rdfs:comment "A lawful update that modifies semantic state while preserving identity invariants and preventing collapse or drift escalation." ;
+    rdfs:seeAlso dslo: .
+
+dslo:IdentityRegion
+    a owl:Class ;
+    rdfs:label "Identity Region" ;
+    rdfs:comment "A DSLO region defined by stable identity boundaries, lawful adjacency, and invariant-preserving semantic geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:IdentityStability
+    a owl:Class ;
+    rdfs:label "Identity Stability" ;
+    rdfs:comment "The stability of identity under semantic load, drift, and operator activity, governed by DSLO invariants and legality rules." ;
+    rdfs:seeAlso dslo: .
+
+dslo:IdentityVector
+    a owl:Class ;
+    rdfs:label "Identity Vector" ;
+    rdfs:comment "A directional representation of identity movement or evolution within DSLO’s manifold, encoding lawful semantic orientation." ;
+    rdfs:seeAlso dslo: .
+
+dslo:InstitutionalDrift
+    a owl:Class ;
+    rdfs:label "Institutional Drift" ;
+    rdfs:comment "Drift occurring within institutional meaning structures, governed by DSLO’s legality, load, and stability geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:Intent
+    a owl:Class ;
+    rdfs:label "Intent" ;
+    rdfs:comment "A DSLO meaning vector representing directed semantic purpose, posture, or lawful operator orientation within the manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:InterpretiveWindow
+    a owl:Class ;
+    rdfs:label "Interpretive Window" ;
+    rdfs:comment "A lawful window of interpretation within DSLO geometry that constrains meaning updates and operator behavior to stable ranges." ;
+    rdfs:seeAlso dslo: .
+
+dslo:InvariantReload
+    a owl:Class ;
+    rdfs:label "Invariant Reload" ;
+    rdfs:comment "A DSLO process that restores or reloads invariants after drift, collapse proximity, or semantic instability events." ;
+    rdfs:seeAlso dslo: .
+
+### L – Block
+
+dslo:LawfulTransition
+    a owl:Class ;
+    rdfs:label "Lawful Transition" ;
+    rdfs:comment "A DSLO‑aligned transition between semantic states that preserves invariants, geometry, and legality across the manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:LayeredSubstrate
+    a owl:Class ;
+    rdfs:label "Layered Substrate" ;
+    rdfs:comment "A multi‑layer substrate structure in DSLO where each layer maintains lawful geometry, invariants, and operator constraints." ;
+    rdfs:seeAlso dslo: .
+
+dslo:LegalityCurvatureCoupling
+    a owl:Class ;
+    rdfs:label "Legality–Curvature Coupling" ;
+    rdfs:comment "The coupling between legality constraints and semantic curvature, determining collapse proximity and stability in DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:LegalityInvariant
+    a owl:Class ;
+    rdfs:label "Legality Invariant" ;
+    rdfs:comment "An invariant ensuring that semantic transitions, operator actions, and region updates remain lawful within DSLO’s manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:LegalityMask
+    a owl:Class ;
+    rdfs:label "Legality Mask" ;
+    rdfs:comment "A DSLO legality surface that constrains operators, transitions, and semantic movement to lawful regions of the manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:LegalityStatus
+    a owl:Class ;
+    rdfs:label "Legality Status" ;
+    rdfs:comment "The current legality condition of a semantic configuration, operator action, or region within DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:LiftOperator
+    a owl:Class ;
+    rdfs:label "Lift Operator" ;
+    rdfs:comment "An operator that lawfully lifts semantic structures to higher abstraction or stability layers while preserving DSLO invariants." ;
+    rdfs:seeAlso dslo: .
+
+dslo:LoadCurvatureThreshold
+    a owl:Class ;
+    rdfs:label "Load–Curvature Threshold" ;
+    rdfs:comment "The threshold at which semantic load and curvature interact to produce instability, drift escalation, or collapse proximity in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:LoadEnvelope
+    a owl:Class ;
+    rdfs:label "Load Envelope" ;
+    rdfs:comment "The lawful envelope governing semantic load distribution across DSLO regions, preventing overload and collapse conditions." ;
+    rdfs:seeAlso dslo: .
+
+### M – Block
+
+dslo:MachineLayer
+    a owl:Class ;
+    rdfs:label "Machine Layer" ;
+    rdfs:comment "The DSLO machine-level encoding layer (ML0–ML7) that structures semantic geometry into deterministic computational form." ;
+    rdfs:seeAlso dslo: .
+
+dslo:ManifoldBoundary
+    a owl:Class ;
+    rdfs:label "Manifold Boundary" ;
+    rdfs:comment "The lawful outer boundary of DSLO’s semantic manifold, defining the limits of stable meaning evolution and operator reach." ;
+    rdfs:seeAlso dslo: .
+
+dslo:ManifoldRuntimeSynchronization
+    a owl:Class ;
+    rdfs:label "Manifold Runtime Synchronization" ;
+    rdfs:comment "A DSLO synchronization process ensuring that runtime operations remain aligned with manifold geometry and invariant structure." ;
+    rdfs:seeAlso dslo: .
+
+dslo:MeaningLoad
+    a owl:Class ;
+    rdfs:label "Meaning Load" ;
+    rdfs:comment "The semantic load carried by a meaning configuration, influencing drift susceptibility, stability, and collapse proximity in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:MeaningState
+    a owl:Class ;
+    rdfs:label "Meaning State" ;
+    rdfs:comment "The internal semantic configuration of a DSLO system at a given moment, defined by invariants, load, and geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:MeaningStatus
+    a owl:Class ;
+    rdfs:label "Meaning Status" ;
+    rdfs:comment "The classification of meaning as stable, drifted, synthetic, or meaning-bearing within DSLO’s legality framework." ;
+    rdfs:seeAlso dslo: .
+
+dslo:MeaningTrajectory
+    a owl:Class ;
+    rdfs:label "Meaning Trajectory" ;
+    rdfs:comment "The lawful path meaning takes through DSLO layers and geometry, governed by invariants and operator constraints." ;
+    rdfs:seeAlso dslo: .
+
+dslo:MediumDrift
+    a owl:Class ;
+    rdfs:label "Medium Drift" ;
+    rdfs:comment "Drift caused by substrate or medium constraints, influencing semantic stability and requiring correction operators in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:MeaningInvariant
+    a owl:Class ;
+    rdfs:label "Meaning Invariant" ;
+    rdfs:comment "An invariant ensuring zero ambiguity and stable curvature in meaning structures across DSLO’s manifold and transitions." ;
+    rdfs:seeAlso dslo: .
+
+dslo:MeaningLoadInteraction
+    a owl:Class ;
+    rdfs:label "Meaning–Load Interaction" ;
+    rdfs:comment "The interaction between meaning load and semantic geometry, determining stability, drift behavior, and collapse thresholds in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:MeaningVector
+    a owl:Class ;
+    rdfs:label "Meaning Vector" ;
+    rdfs:comment "A structured semantic field generated by DSLO signal engines, encoding direction, magnitude, and lawful meaning orientation." ;
+    rdfs:seeAlso dslo: .
+
+dslo:MDOAlgebra
+    a owl:Class ;
+    rdfs:label "MDO Algebra" ;
+    rdfs:comment "The operator algebra governing lawful transitions, invariant preservation, and semantic evolution within DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:Moment
+    a owl:Class ;
+    rdfs:label "Moment" ;
+    rdfs:comment "The atomic semantic unit in DSLO, representing the smallest stable configuration of meaning within the manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:MomentGeometry
+    a owl:Class ;
+    rdfs:label "Moment Geometry" ;
+    rdfs:comment "The geometric structure of a DSLO Moment, defining its curvature, invariants, and lawful interactions with surrounding regions." ;
+    rdfs:seeAlso dslo: .
+
+### O – Block
+
+dslo:OperatorConstraints
+    a owl:Class ;
+    rdfs:label "Operator Constraints" ;
+    rdfs:comment "The lawful constraints governing DSLO operators, ensuring invariant preservation, legality, and stable semantic interaction." ;
+    rdfs:seeAlso dslo: .
+
+dslo:OperatorGradientCompatibility
+    a owl:Class ;
+    rdfs:label "Operator Gradient Compatibility" ;
+    rdfs:comment "The compatibility condition between operators and semantic gradients, ensuring lawful movement across DSLO curvature fields." ;
+    rdfs:seeAlso dslo: .
+
+dslo:OperatorOfReality
+    a owl:Class ;
+    rdfs:label "Operator of Reality" ;
+    rdfs:comment "A DSLO operator acting on the Reality substrate, transforming meaning, load, or geometry while preserving lawful invariants." ;
+    rdfs:seeAlso dslo: .
+
+dslo:OperationalSubstrate
+    a owl:Class ;
+    rdfs:label "Operational Substrate" ;
+    rdfs:comment "The substrate layer where DSLO operators execute lawful transformations, maintaining stability and invariant structure." ;
+    rdfs:seeAlso dslo: .
+
+dslo:OrientationFrame
+    a owl:Class ;
+    rdfs:label "Orientation Frame" ;
+    rdfs:comment "A DSLO frame defining lawful orientation for perception, meaning alignment, and operator direction within the manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:OriginLayer
+    a owl:Class ;
+    rdfs:label "Origin Layer" ;
+    rdfs:comment "The foundational DSLO layer where initial meaning, signals, and invariants originate before propagating through the manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:OriginSignal
+    a owl:Class ;
+    rdfs:label "Origin Signal" ;
+    rdfs:comment "The initial DSLO signal emitted from the Origin Layer, forming the basis for lawful meaning evolution and semantic geometry." ;
+    rdfs:seeAlso dslo: .
+
+### P – Block
+
+dslo:PhaseBoundary
+    a owl:Class ;
+    rdfs:label "Phase Boundary" ;
+    rdfs:comment "A lawful DSLO boundary separating semantic phases, governing transitions, stability, and collapse thresholds across the manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:Posture
+    a owl:Class ;
+    rdfs:label "Posture" ;
+    rdfs:comment "The DSLO posture state representing orientation, legality, and stability of a meaning configuration or operator action." ;
+    rdfs:seeAlso dslo: .
+
+dslo:PressureBoundStability
+    a owl:Class ;
+    rdfs:label "Pressure‑Bound Stability" ;
+    rdfs:comment "The stability condition reached when semantic pressure approaches lawful DSLO bounds without triggering collapse or drift escalation." ;
+    rdfs:seeAlso dslo: .
+
+dslo:PrimitiveLegalityMask
+    a owl:Class ;
+    rdfs:label "Primitive Legality Mask" ;
+    rdfs:comment "The foundational legality mask governing primitive operators and semantic structures within DSLO’s invariant geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:ProofStack
+    a owl:Class ;
+    rdfs:label "Proof Stack" ;
+    rdfs:comment "The DSLO proof hierarchy containing exemplar, generative, and predictive proofs that validate substrate geometry and legality." ;
+    rdfs:seeAlso dslo: .
+
+dslo:ProtocolSubstrate
+    a owl:Class ;
+    rdfs:label "Protocol Substrate" ;
+    rdfs:comment "The substrate layer where DSLO protocols operate, ensuring lawful transitions, invariant preservation, and semantic stability." ;
+    rdfs:seeAlso dslo: .
+
+### Q – Block
+
+dslo:QuarantineRegion
+    a owl:Class ;
+    rdfs:label "Quarantine Region" ;
+    rdfs:comment "A DSLO region that isolates unstable or collapse-adjacent meaning states, preventing drift propagation and preserving manifold stability." ;
+    rdfs:seeAlso dslo: .
+
+### R – Block
+
+dslo:RecoveryMode
+    a owl:Class ;
+    rdfs:label "Recovery Mode" ;
+    rdfs:comment "The DSLO mode that restores lawful geometry after drift, overload, or collapse-adjacent behavior, reloading invariants and flattening curvature." ;
+    rdfs:seeAlso dslo: .
+
+dslo:RegenerationCapacity
+    a owl:Class ;
+    rdfs:label "Regeneration Capacity" ;
+    rdfs:comment "The capacity of a DSLO region or meaning state to regenerate lawful geometry after deformation, drift, or partial collapse." ;
+    rdfs:seeAlso dslo: .
+
+dslo:RegionConfiguration
+    a owl:Class ;
+    rdfs:label "Region Configuration" ;
+    rdfs:comment "The structural configuration of a DSLO region, defining its boundaries, invariants, load distribution, and lawful operator interactions." ;
+    rdfs:seeAlso dslo: .
+
+dslo:RegionLoadCoupling
+    a owl:Class ;
+    rdfs:label "Region–Load Coupling" ;
+    rdfs:comment "The coupling between region geometry and semantic load, determining drift susceptibility, stability, and collapse thresholds in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:RoleCoherence
+    a owl:Class ;
+    rdfs:label "Role Coherence" ;
+    rdfs:comment "The coherence of roles within DSLO’s identity and legality geometry, ensuring stable meaning and lawful operator behavior." ;
+    rdfs:seeAlso dslo: .
+
+dslo:RolePressure
+    a owl:Class ;
+    rdfs:label "Role Pressure" ;
+    rdfs:comment "The semantic pressure exerted on roles within DSLO, influencing stability, drift risk, and boundary strain under load." ;
+    rdfs:seeAlso dslo: .
+
+dslo:RuntimeGeometry
+    a owl:Class ;
+    rdfs:label "Runtime Geometry" ;
+    rdfs:comment "The geometry governing DSLO runtime behavior, ensuring lawful operator execution, invariant preservation, and stable semantic evolution." ;
+    rdfs:seeAlso dslo: .
+
+### S – Block
+
+dslo:ScaleHierarchy
+    a owl:Class ;
+    rdfs:label "Scale Hierarchy" ;
+    rdfs:comment "The hierarchical structure of DSLO scales—local, meso, macro, and global—governing lawful semantic propagation across layers." ;
+    rdfs:seeAlso dslo: .
+
+dslo:ScaleInvariantLegality
+    a owl:Class ;
+    rdfs:label "Scale‑Invariant Legality" ;
+    rdfs:comment "The legality requirement that DSLO invariants and operators remain lawful across all scales of the semantic manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SemanticCurvature
+    a owl:Class ;
+    rdfs:label "Semantic Curvature" ;
+    rdfs:comment "The curvature of meaning within DSLO’s manifold, determining stability, drift susceptibility, and collapse proximity under load." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SemanticDistance
+    a owl:Class ;
+    rdfs:label "Semantic Distance" ;
+    rdfs:comment "The metric distance between semantic objects or states within DSLO geometry, governed by lawful manifold structure." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SemanticGradient
+    a owl:Class ;
+    rdfs:label "Semantic Gradient" ;
+    rdfs:comment "The gradient describing directional change in meaning across DSLO’s manifold, influencing drift, load, and stability behavior." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SemanticManifold
+    a owl:Class ;
+    rdfs:label "Semantic Manifold" ;
+    rdfs:comment "The lawful geometric space in which DSLO meaning evolves, defined by curvature, invariants, boundaries, and operator constraints." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SemanticOperator
+    a owl:Class ;
+    rdfs:label "Semantic Operator" ;
+    rdfs:comment "An operator acting on DSLO semantic structures, performing lawful transformations that preserve invariants and manifold geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SemanticState
+    a owl:Class ;
+    rdfs:label "Semantic State" ;
+    rdfs:comment "The structured representation of meaning at a given moment within DSLO, defined by load, curvature, invariants, and geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SignalEngine
+    a owl:Class ;
+    rdfs:label "Signal Engine" ;
+    rdfs:comment "A generative DSLO primitive that produces lawful meaning vectors and signal structures within the semantic manifold." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SignalIntegrity
+    a owl:Class ;
+    rdfs:label "Signal Integrity" ;
+    rdfs:comment "The requirement that DSLO signals maintain stable geometry, lawful structure, and invariant alignment under load and drift." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SignalSubstrateCoupling
+    a owl:Class ;
+    rdfs:label "Signal–Substrate Coupling" ;
+    rdfs:comment "The lawful coupling between DSLO signals and substrate geometry, ensuring stability, legality, and invariant preservation." ;
+    rdfs:seeAlso dslo: .
+
+dslo:StabilityGradientEnvelope
+    a owl:Class ;
+    rdfs:label "Stability Gradient Envelope" ;
+    rdfs:comment "The envelope governing lawful stability across semantic gradients, preventing collapse and regulating drift escalation in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:StabilityMode
+    a owl:Class ;
+    rdfs:label "Stability Mode" ;
+    rdfs:comment "The stability classification of a DSLO system—stable, critical, or collapse—determined by load, curvature, and invariant structure." ;
+    rdfs:seeAlso dslo: .
+
+dslo:StressGeometry
+    a owl:Class ;
+    rdfs:label "Stress Geometry" ;
+    rdfs:comment "The geometric representation of semantic stress within DSLO, encoding load, tension, and curvature pressure across regions." ;
+    rdfs:seeAlso dslo: .
+
+dslo:SubstrateInvariantSet
+    a owl:Class ;
+    rdfs:label "Substrate Invariant Set" ;
+    rdfs:comment "The complete set of invariants governing lawful evolution of DSLO substrates, ensuring stability and zero‑ambiguity tolerance." ;
+    rdfs:seeAlso dslo: .
+
+### T – Block
+
+dslo:TemporalRhythm
+    a owl:Class ;
+    rdfs:label "Temporal Rhythm" ;
+    rdfs:comment "The lawful temporal cadence of DSLO semantic evolution, governing update frequency, stability pacing, and manifold timing." ;
+    rdfs:seeAlso dslo: .
+
+dslo:TransformationRules
+    a owl:Class ;
+    rdfs:label "Transformation Rules" ;
+    rdfs:comment "The DSLO rules governing lawful transformation of semantic structures, ensuring invariant preservation and geometry stability." ;
+    rdfs:seeAlso dslo: .
+
+dslo:TransitionCurvatureConstraint
+    a owl:Class ;
+    rdfs:label "Transition Curvature Constraint" ;
+    rdfs:comment "The constraint requiring curvature continuity during semantic transitions, preventing collapse and drift escalation in DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:TransitionLegality
+    a owl:Class ;
+    rdfs:label "Transition Legality" ;
+    rdfs:comment "The legality condition determining whether a semantic transition is lawful, invariant‑preserving, and stable within DSLO’s manifold." ;
+    rdfs:seeAlso dslo: .
+
+### U – Block
+
+dslo:UpdateFunction
+    a owl:Class ;
+    rdfs:label "Update Function" ;
+    rdfs:comment "A lawful DSLO update mechanism that modifies semantic state while preserving invariants, legality, and manifold geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:UpwardCoupling
+    a owl:Class ;
+    rdfs:label "Upward Coupling" ;
+    rdfs:comment "The coupling that propagates lawful semantic influence upward across DSLO layers, maintaining stability and invariant alignment." ;
+    rdfs:seeAlso dslo: .
+
+dslo:UpwardLoadPropagation
+    a owl:Class ;
+    rdfs:label "Upward Load Propagation" ;
+    rdfs:comment "The lawful propagation of semantic load from local to macro scales, shaping DSLO stability, drift behavior, and collapse thresholds." ;
+    rdfs:seeAlso dslo: .
+
+### V – Block
+
+dslo:VectorCurvatureInteraction
+    a owl:Class ;
+    rdfs:label "Vector–Curvature Interaction" ;
+    rdfs:comment "The interaction between meaning vectors and semantic curvature, determining lawful movement and stability within DSLO geometry." ;
+    rdfs:seeAlso dslo: .
+
+dslo:VectorBindingMetadata
+    a owl:Class ;
+    rdfs:label "Vector Binding Metadata" ;
+    rdfs:comment "Metadata describing lawful binding relationships between meaning vectors, ensuring stable geometry and invariant preservation in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+dslo:VersionBlock
+    a owl:Class ;
+    rdfs:label "Version Block" ;
+    rdfs:comment "A DSLO versioning construct that defines lawful update boundaries, semantic compatibility, and invariant continuity across releases." ;
+    rdfs:seeAlso dslo: .
+
+### W – Block
+
+dslo:WorldContainerAlignment
+    a owl:Class ;
+    rdfs:label "World Container Alignment" ;
+    rdfs:comment "The lawful alignment between DSLO semantic structures and the containing world‑level frame, ensuring stability across global scales." ;
+    rdfs:seeAlso dslo: .
+
+dslo:WorldLoadAlignment
+    a owl:Class ;
+    rdfs:label "World Load Alignment" ;
+    rdfs:comment "The alignment of semantic load with world‑scale geometry, preventing collapse, drift propagation, and large‑scale instability in DSLO." ;
+    rdfs:seeAlso dslo: .
+
+### Z – Block
+
+dslo:ZeroAmbiguityTolerance
+    a owl:Class ;
+    rdfs:label "Zero Ambiguity Tolerance" ;
+    rdfs:comment "The DSLO requirement that semantic structures maintain zero ambiguity, ensuring lawful meaning, stable geometry, and invariant clarity." ;
+    rdfs:seeAlso dslo: .
+
+dslo:ZeroDriftEnvelope
+    a owl:Class ;
+    rdfs:label "Zero‑Drift Envelope" ;
+    rdfs:comment "The lawful region in which drift magnitude remains identically zero, guaranteeing perfect stability and invariant preservation in DSLO." ;
+    rdfs:seeAlso dslo: .
