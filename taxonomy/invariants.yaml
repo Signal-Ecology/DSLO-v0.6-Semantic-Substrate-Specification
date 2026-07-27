@@ -1,1 +1,37 @@
+invariants:
+  - id: dlo:BoundaryIntegrity_Invariant
+    label: "Boundary Integrity"
+    description: "Systems remain coherent only when they maintain a stable distinction between inside and outside."
+
+  - id: dlo:TemporalRhythm_Invariant
+    label: "Temporal Rhythm"
+    description: "Coherence requires a predictable rhythm for sensing, regeneration, and action."
+
+  - id: dlo:CausalLegibility_Invariant
+    label: "Causal Legibility"
+    description: "Systems must be able to trace causes to effects."
+
+  - id: dlo:RoleCoherence_Invariant
+    label: "Role Coherence"
+    description: "Roles must remain stable and predictable."
+
+  - id: dlo:SignalSubstrateCoupling_Invariant
+    label: "Signal–Substrate Coupling"
+    description: "Signals must remain anchored to the substrate they represent."
+
+  - id: dlo:RegenerationCapacity_Invariant
+    label: "Regeneration Capacity"
+    description: "Systems require slack to restore structure faster than it is consumed."
+
+  - id: dlo:DriftResistance_Invariant
+    label: "Drift Resistance"
+    description: "Internal geometry must resist curvature‑induced drift."
+
+  - id: dlo:LawfulTransitions_Invariant
+    label: "Lawful Transitions"
+    description: "State changes must preserve invariants."
+
+  - id: dlo:FallbackGeometry_Invariant
+    label: "Fallback Geometry"
+    description: "Systems need deterministic fallback paths when coherence degrades."
 
