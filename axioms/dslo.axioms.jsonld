@@ -1,1 +1,175 @@
-# Placeholder — DSLO v0.6
+{
+  "@context": {
+    "dlo": "https://www.tnopsi.com/ddslo/",
+    "Axiom": "dlo:Axiom",
+    "hasLabel": "dlo:hasLabel",
+    "hasLayer": "dlo:hasLayer",
+    "hasDescription": "dlo:hasDescription"
+  },
+  "@graph": [
+    {
+      "@id": "dlo:BoundaryIntegrity",
+      "@type": "Axiom",
+      "hasLabel": "Boundary Integrity",
+      "hasLayer": "FieldPhysics",
+      "hasDescription": "Systems remain coherent only when they maintain a stable distinction between inside and outside."
+    },
+    {
+      "@id": "dlo:TemporalRhythm",
+      "@type": "Axiom",
+      "hasLabel": "Temporal Rhythm",
+      "hasLayer": "FieldPhysics",
+      "hasDescription": "Coherence requires a predictable rhythm for sensing, regeneration, and action."
+    },
+    {
+      "@id": "dlo:CausalLegibility",
+      "@type": "Axiom",
+      "hasLabel": "Causal Legibility",
+      "hasLayer": "FieldPhysics",
+      "hasDescription": "Systems must be able to trace causes to effects."
+    },
+    {
+      "@id": "dlo:RoleCoherence",
+      "@type": "Axiom",
+      "hasLabel": "Role Coherence",
+      "hasLayer": "FieldPhysics",
+      "hasDescription": "Roles must remain stable and predictable."
+    },
+    {
+      "@id": "dlo:SignalSubstrateCoupling",
+      "@type": "Axiom",
+      "hasLabel": "Signal–Substrate Coupling",
+      "hasLayer": "FieldPhysics",
+      "hasDescription": "Signals must remain anchored to the substrate they represent."
+    },
+    {
+      "@id": "dlo:RegenerationCapacity",
+      "@type": "Axiom",
+      "hasLabel": "Regeneration Capacity",
+      "hasLayer": "FieldPhysics",
+      "hasDescription": "Systems require slack to restore structure faster than it is consumed."
+    },
+    {
+      "@id": "dlo:DriftResistance",
+      "@type": "Axiom",
+      "hasLabel": "Drift Resistance",
+      "hasLayer": "FieldPhysics",
+      "hasDescription": "Internal geometry must resist curvature‑induced drift."
+    },
+    {
+      "@id": "dlo:LawfulTransitions_Field",
+      "@type": "Axiom",
+      "hasLabel": "Lawful Transitions",
+      "hasLayer": "FieldPhysics",
+      "hasDescription": "State changes must preserve invariants."
+    },
+    {
+      "@id": "dlo:FallbackGeometry",
+      "@type": "Axiom",
+      "hasLabel": "Fallback Geometry",
+      "hasLayer": "FieldPhysics",
+      "hasDescription": "Systems need deterministic fallback paths when coherence degrades."
+    },
+
+    {
+      "@id": "dlo:EnergeticCost",
+      "@type": "Axiom",
+      "hasLabel": "Energetic Cost",
+      "hasLayer": "DomainPhysics",
+      "hasDescription": "Meaning‑containers must reduce the energy required for coordination."
+    },
+    {
+      "@id": "dlo:TransmissionFidelity",
+      "@type": "Axiom",
+      "hasLabel": "Transmission Fidelity",
+      "hasLayer": "DomainPhysics",
+      "hasDescription": "Meaning must survive replication across generations."
+    },
+    {
+      "@id": "dlo:MaterialAnchoring",
+      "@type": "Axiom",
+      "hasLabel": "Material Anchoring",
+      "hasLayer": "DomainPhysics",
+      "hasDescription": "Containers require physical or ecological grounding to resist mutation."
+    },
+    {
+      "@id": "dlo:ScalarStress",
+      "@type": "Axiom",
+      "hasLabel": "Scalar Stress",
+      "hasLayer": "DomainPhysics",
+      "hasDescription": "As containers scale, their stability decreases unless reinforced by invariants."
+    },
+    {
+      "@id": "dlo:ContainerWorldAlignment",
+      "@type": "Axiom",
+      "hasLabel": "Container–World Alignment",
+      "hasLayer": "DomainPhysics",
+      "hasDescription": "Meaning collapses when containers no longer match lived reality."
+    },
+    {
+      "@id": "dlo:DriftEnvelope",
+      "@type": "Axiom",
+      "hasLabel": "Drift Envelope",
+      "hasLayer": "DomainPhysics",
+      "hasDescription": "Every system has a maximum drift it can absorb before coherence fails."
+    },
+    {
+      "@id": "dlo:CorrectiveCapacity",
+      "@type": "Axiom",
+      "hasLabel": "Corrective Capacity",
+      "hasLayer": "DomainPhysics",
+      "hasDescription": "Systems require mechanisms to counteract drift."
+    },
+    {
+      "@id": "dlo:AbstractionDecoupling",
+      "@type": "Axiom",
+      "hasLabel": "Abstraction Decoupling",
+      "hasLayer": "DomainPhysics",
+      "hasDescription": "Symbolic systems naturally drift away from their physical referents."
+    },
+    {
+      "@id": "dlo:InstitutionalCollapse",
+      "@type": "Axiom",
+      "hasLabel": "Institutional Collapse",
+      "hasLayer": "DomainPhysics",
+      "hasDescription": "When cumulative drift breaches the drift envelope, containers undergo irreversible failure."
+    },
+
+    {
+      "@id": "dlo:UniversalityOfSignals",
+      "@type": "Axiom",
+      "hasLabel": "Universality of Signals",
+      "hasLayer": "RuntimePhysics",
+      "hasDescription": "Any signal‑bearing system can be projected into DSLO through a total mapping ΦS."
+    },
+    {
+      "@id": "dlo:IdentityContinuity",
+      "@type": "Axiom",
+      "hasLabel": "Identity Continuity",
+      "hasLayer": "RuntimePhysics",
+      "hasDescription": "A system must preserve identity across transitions."
+    },
+    {
+      "@id": "dlo:LoadBoundedStability",
+      "@type": "Axiom",
+      "hasLabel": "Load‑Bounded Stability",
+      "hasLayer": "RuntimePhysics",
+      "hasDescription": "Planning and action must remain within load tolerance."
+    },
+    {
+      "@id": "dlo:SpatialLegality",
+      "@type": "Axiom",
+      "hasLabel": "Spatial Legality",
+      "hasLayer": "RuntimePhysics",
+      "hasDescription": "Systems must obey lawful transitions in external geometry."
+    },
+    {
+      "@id": "dlo:LawfulTransitions_Runtime",
+      "@type": "Axiom",
+      "hasLabel": "Lawful Transitions (Runtime)",
+      "hasLayer": "RuntimePhysics",
+      "hasDescription": "State changes must preserve invariants and maintain bounded mutation velocity."
+    }
+  ]
+}
+
