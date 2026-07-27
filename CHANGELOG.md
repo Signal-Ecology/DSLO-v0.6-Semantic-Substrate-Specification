@@ -36,7 +36,7 @@ Public‑layer substrate vocabulary for AI crawlers, BioPortal ingestion, and se
 
 Unified ontology posture aligned with tnopsi.com hosting constraints
 
-Planned
+Finished :
 Export of ontology into additional formats:
 
 dslo.ttl (Turtle)
