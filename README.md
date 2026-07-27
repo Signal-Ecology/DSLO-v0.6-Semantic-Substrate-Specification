@@ -2,29 +2,29 @@
 Slowicki, D. (2026). DSLO v0.6 — Semantic Substrate Specification (Version v0.6). Zenodo. https://doi.org/10.5281/zenodo.21563099
 
 ---
-DSLO v0.6 — Semantic Substrate Specification
+## DSLO v0.6 — Semantic Substrate Specification
 DSLO v0.6 is the canonical public‑layer release of the Semantic Substrate Specification. It defines the unified geometry governing meaning, invariants, operator legality, drift dynamics, synthetic‑pressure fields, institutional deformation, dominant synthetic species, restorative‑deficit dynamics, and the human runtime manifold. DSLO v0.6 extends the substrate‑level semantic physics (Boot 0–7) into the human domain through a two‑layer geometry: G0, the neutral Geometry of Meaning, and G1–G7, the applied Synthetic‑Pressure Manifold.
 
 ---
 This repository provides the immutable v0.6 public release, including:
 
-Universal invariant set
+*Universal invariant set
 
-Master Domain Operator algebra (SGO, MGO, BO, MLO)
+*Master Domain Operator algebra (SGO, MGO, BO, MLO)
 
-Manifold‑bound legality rules
+*Manifold‑bound legality rules
 
-Drift geometry and synthetic‑pressure taxonomy
+*Drift geometry and synthetic‑pressure taxonomy
 
-Institutional deformation geometry
+*Institutional deformation geometry
 
-Dominant synthetic species (DSS)
+*Dominant synthetic species (DSS)
 
-Restorative‑deficit dynamics (RDD)
+*Restorative‑deficit dynamics (RDD)
 
-Human runtime manifold (HRM)
+*Human runtime manifold (HRM)
 
-Dynamic State Update Protocol (DSUP)
+*Dynamic State Update Protocol (DSUP)
 
 ---
 ## Glossary
@@ -62,7 +62,8 @@ https://www.tnopsi.com/dslo-glossary#
 
 This ensures consistent alignment between the ontology and the public glossary hosted on tnopsi.com.
 
-Primary Ontology Artifact
+## Primary Ontology Artifact
+
 The canonical ontology file is:
 
 ontology/dslo.owl
@@ -106,55 +107,59 @@ The ontology exposes only the stabilized public‑layer vocabulary.
 Substrate‑native geometry, legality masks, and runtime primitives remain within the protected DSLO manifold and are not included in this surface.
 
 ---
-Axioms
+## AXIOMS
+
 The DSLO Axioms define the substrate‑level invariants governing coherent systems across biological, cognitive, institutional, and artificial domains.
 They are organized into three layers:
 
-Field Physics — universal invariants
+*Field Physics — universal invariants
 
-Domain Physics — meaning‑container invariants
+*Domain Physics — meaning‑container invariants
 
-Runtime Physics — artificial cognition invariants
+*Runtime Physics — artificial cognition invariants
 
 Axioms are provided in synchronized TTL, JSON‑LD, YAML, and OWL formats.
 This layer establishes the canonical logic surface for DSLO v0.6.
 
 ---
-Schema
+## Schema
+
 The DSLO Schema defines the minimal machine‑readable structure for DSLO substrate primitives:
 
-state (x)
+*state (x)
 
-transition (τ)
+*transition (τ)
 
-orientation (o)
+*orientation (o)
 
-correction (c)
+*correction (c)
 
-meaning_status (κ)
+*meaning_status (κ)
 
 The schema is provided in JSON, JSON‑LD, and YAML formats.
 It ensures deterministic ingestion across semantic engines, AI systems, and substrate‑native tooling.
 
 
 ---
-Taxonomy
+## Taxonomy
+
 The DSLO Taxonomy provides the classification layer aligned with DSLO axioms and schema.
 It includes four synchronized sets:
 
-Drift Forms
+*Drift Forms
 
-Invariants
+*Invariants
 
-Signal Classes
+*Signal Classes
 
-Substrate Types
+*Substrate Types
 
 Each taxonomy set is available in TTL, JSON‑LD, and YAML formats.
 This layer establishes the canonical vocabulary for drift analysis, invariant mapping, signal classification, and substrate identification.
 
 ---
-Registry
+## Registry
+
 The DSLO Registry defines the namespace, prefixes, artifact manifest, and PURL configuration for DSLO v0.6.
 It ensures stable identifiers, cross‑surface consistency, and long‑term resolvability.
 
@@ -162,7 +167,8 @@ Registry population will be completed after namespace and PURL coordination.
 Placeholder files are present in the repository to maintain structural alignment.
 
 ---
-Imports
+## Imports
+
 The DSLO Imports directory provides alignment surfaces for external ontologies, schemas, and registries.
 This layer enables DSLO to interoperate with external semantic systems while maintaining substrate integrity.
 
@@ -170,9 +176,8 @@ Imports will be populated after registry finalization and namespace stabilizatio
 
 ---
 DSLO v0.6 establishes Human Geometry as a formal extension of the substrate, enabling unified analysis across physical, biological, human, machine, and organizational signal ecologies in the synthetic era.
-
 ---
-Documentation
+## Documentation
 PDF Release: DSLO v0.6 — Semantic Substrate Specification
 
 Zenodo DOI: [(21563099)](https://doi.org/10.5281/zenodo.21563099)
@@ -180,9 +185,11 @@ Zenodo DOI: [(21563099)](https://doi.org/10.5281/zenodo.21563099)
 Website: https://www.tnopsi.com
 
 ---
-License
+## License
+
 Public‑layer release. All operational mechanisms and private‑layer specifications are intentionally excluded.
 
 ---
-Citation
+## Citation
+
 Slowicki, D. (2026). DSLO v0.6 — Semantic Substrate Specification. DOI: Zenodo DOI: [(21563099)](https://doi.org/10.5281/zenodo.21563099)
