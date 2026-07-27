@@ -1,1 +1,47 @@
+{
+  "@context": {
+    "dlo": "https://www.tnopsi.com/dslo/",
+    "SignalClass": "dlo:SignalClass",
+    "hasLabel": "dlo:hasLabel",
+    "hasDescription": "dlo:hasDescription"
+  },
+  "@graph": [
+    {
+      "@id": "dlo:MeaningBearingSignal",
+      "@type": "SignalClass",
+      "hasLabel": "Meaning‑Bearing Signal",
+      "hasDescription": "Signals whose meaning remains anchored to their substrate and context."
+    },
+    {
+      "@id": "dlo:SyntheticSignal",
+      "@type": "SignalClass",
+      "hasLabel": "Synthetic Signal",
+      "hasDescription": "Signals generated or transformed by artificial substrates with statistical posture."
+    },
+    {
+      "@id": "dlo:DriftedSignal",
+      "@type": "SignalClass",
+      "hasLabel": "Drifted Signal",
+      "hasDescription": "Signals whose coherence or meaning has degraded due to drift pressure."
+    },
+    {
+      "@id": "dlo:StabilizedSignal",
+      "@type": "SignalClass",
+      "hasLabel": "Stabilized Signal",
+      "hasDescription": "Signals restored or reinforced through corrective or invariant‑preserving mechanisms."
+    },
+    {
+      "@id": "dlo:CorrectiveSignal",
+      "@type": "SignalClass",
+      "hasLabel": "Corrective Signal",
+      "hasDescription": "Signals designed to restore coherence, re‑anchor meaning, or counteract drift."
+    },
+    {
+      "@id": "dlo:SubstrateAnchoredSignal",
+      "@type": "SignalClass",
+      "hasLabel": "Substrate‑Anchored Signal",
+      "hasDescription": "Signals tightly coupled to the substrate they represent, resisting decoupling drift."
+    }
+  ]
+}
 
