@@ -1,1 +1,25 @@
+drift_forms:
+  - id: dlo:CurvatureDrift
+    label: "Curvature Drift"
+    description: "Drift caused by curvature pressure within internal geometry."
+
+  - id: dlo:SymbolicDrift
+    label: "Symbolic Drift"
+    description: "Drift caused by symbolic systems decoupling from physical referents."
+
+  - id: dlo:TemporalDrift
+    label: "Temporal Drift"
+    description: "Drift caused by fragmentation or instability in temporal rhythm."
+
+  - id: dlo:RoleDrift
+    label: "Role Drift"
+    description: "Drift caused by instability or mutation in role coherence."
+
+  - id: dlo:SubstrateDecoupling
+    label: "Substrate Decoupling"
+    description: "Drift caused by signals losing anchoring to their substrate."
+
+  - id: dlo:MeaningDetachment
+    label: "Meaning Detachment"
+    description: "Drift caused by meaning separating from lived reality or container alignment."
 
