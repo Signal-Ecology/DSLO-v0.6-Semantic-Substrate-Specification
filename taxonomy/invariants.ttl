@@ -1,1 +1,47 @@
+@prefix dlo: <https://www.tnopsi.com/dslo/> .
+
+dlo:BoundaryIntegrity_Invariant
+    a dlo:Invariant ;
+    dlo:hasLabel "Boundary Integrity" ;
+    dlo:hasDescription "Systems remain coherent only when they maintain a stable distinction between inside and outside." .
+
+dlo:TemporalRhythm_Invariant
+    a dlo:Invariant ;
+    dlo:hasLabel "Temporal Rhythm" ;
+    dlo:hasDescription "Coherence requires a predictable rhythm for sensing, regeneration, and action." .
+
+dlo:CausalLegibility_Invariant
+    a dlo:Invariant ;
+    dlo:hasLabel "Causal Legibility" ;
+    dlo:hasDescription "Systems must be able to trace causes to effects." .
+
+dlo:RoleCoherence_Invariant
+    a dlo:Invariant ;
+    dlo:hasLabel "Role Coherence" ;
+    dlo:hasDescription "Roles must remain stable and predictable." .
+
+dlo:SignalSubstrateCoupling_Invariant
+    a dlo:Invariant ;
+    dlo:hasLabel "Signal–Substrate Coupling" ;
+    dlo:hasDescription "Signals must remain anchored to the substrate they represent." .
+
+dlo:RegenerationCapacity_Invariant
+    a dlo:Invariant ;
+    dlo:hasLabel "Regeneration Capacity" ;
+    dlo:hasDescription "Systems require slack to restore structure faster than it is consumed." .
+
+dlo:DriftResistance_Invariant
+    a dlo:Invariant ;
+    dlo:hasLabel "Drift Resistance" ;
+    dlo:hasDescription "Internal geometry must resist curvature‑induced drift." .
+
+dlo:LawfulTransitions_Invariant
+    a dlo:Invariant ;
+    dlo:hasLabel "Lawful Transitions" ;
+    dlo:hasDescription "State changes must preserve invariants." .
+
+dlo:FallbackGeometry_Invariant
+    a dlo:Invariant ;
+    dlo:hasLabel "Fallback Geometry" ;
+    dlo:hasDescription "Systems need deterministic fallback paths when coherence degrades." .
 
