@@ -1,1 +1,116 @@
-# Placeholder — DSLO v0.6
+axioms:
+  - id: dlo:BoundaryIntegrity
+    label: "Boundary Integrity"
+    layer: "FieldPhysics"
+    description: "Systems remain coherent only when they maintain a stable distinction between inside and outside."
+
+  - id: dlo:TemporalRhythm
+    label: "Temporal Rhythm"
+    layer: "FieldPhysics"
+    description: "Coherence requires a predictable rhythm for sensing, regeneration, and action."
+
+  - id: dlo:CausalLegibility
+    label: "Causal Legibility"
+    layer: "FieldPhysics"
+    description: "Systems must be able to trace causes to effects."
+
+  - id: dlo:RoleCoherence
+    label: "Role Coherence"
+    layer: "FieldPhysics"
+    description: "Roles must remain stable and predictable."
+
+  - id: dlo:SignalSubstrateCoupling
+    label: "Signal–Substrate Coupling"
+    layer: "FieldPhysics"
+    description: "Signals must remain anchored to the substrate they represent."
+
+  - id: dlo:RegenerationCapacity
+    label: "Regeneration Capacity"
+    layer: "FieldPhysics"
+    description: "Systems require slack to restore structure faster than it is consumed."
+
+  - id: dlo:DriftResistance
+    label: "Drift Resistance"
+    layer: "FieldPhysics"
+    description: "Internal geometry must resist curvature‑induced drift."
+
+  - id: dlo:LawfulTransitions_Field
+    label: "Lawful Transitions"
+    layer: "FieldPhysics"
+    description: "State changes must preserve invariants."
+
+  - id: dlo:FallbackGeometry
+    label: "Fallback Geometry"
+    layer: "FieldPhysics"
+    description: "Systems need deterministic fallback paths when coherence degrades."
+
+  - id: dlo:EnergeticCost
+    label: "Energetic Cost"
+    layer: "DomainPhysics"
+    description: "Meaning‑containers must reduce the energy required for coordination."
+
+  - id: dlo:TransmissionFidelity
+    label: "Transmission Fidelity"
+    layer: "DomainPhysics"
+    description: "Meaning must survive replication across generations."
+
+  - id: dlo:MaterialAnchoring
+    label: "Material Anchoring"
+    layer: "DomainPhysics"
+    description: "Containers require physical or ecological grounding to resist mutation."
+
+  - id: dlo:ScalarStress
+    label: "Scalar Stress"
+    layer: "DomainPhysics"
+    description: "As containers scale, their stability decreases unless reinforced by invariants."
+
+  - id: dlo:ContainerWorldAlignment
+    label: "Container–World Alignment"
+    layer: "DomainPhysics"
+    description: "Meaning collapses when containers no longer match lived reality."
+
+  - id: dlo:DriftEnvelope
+    label: "Drift Envelope"
+    layer: "DomainPhysics"
+    description: "Every system has a maximum drift it can absorb before coherence fails."
+
+  - id: dlo:CorrectiveCapacity
+    label: "Corrective Capacity"
+    layer: "DomainPhysics"
+    description: "Systems require mechanisms to counteract drift."
+
+  - id: dlo:AbstractionDecoupling
+    label: "Abstraction Decoupling"
+    layer: "DomainPhysics"
+    description: "Symbolic systems naturally drift away from their physical referents."
+
+  - id: dlo:InstitutionalCollapse
+    label: "Institutional Collapse"
+    layer: "DomainPhysics"
+    description: "When cumulative drift breaches the drift envelope, containers undergo irreversible failure."
+
+  - id: dlo:UniversalityOfSignals
+    label: "Universality of Signals"
+    layer: "RuntimePhysics"
+    description: "Any signal‑bearing system can be projected into DSLO through a total mapping ΦS."
+
+  - id: dlo:IdentityContinuity
+    label: "Identity Continuity"
+    layer: "RuntimePhysics"
+    description: "A system must preserve identity across transitions."
+
+  - id: dlo:LoadBoundedStability
+    label: "Load‑Bounded Stability"
+    layer: "RuntimePhysics"
+    description: "Planning and action must remain within load tolerance."
+
+  - id: dlo:SpatialLegality
+    label: "Spatial Legality"
+    layer: "RuntimePhysics"
+    description: "Systems must obey lawful transitions in external geometry."
+
+  - id: dlo:LawfulTransitions_Runtime
+    label: "Lawful Transitions (Runtime)"
+    layer: "RuntimePhysics"
+    description: "State changes must preserve invariants and maintain bounded mutation velocity."
+
