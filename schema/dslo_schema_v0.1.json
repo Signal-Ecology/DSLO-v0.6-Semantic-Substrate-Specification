@@ -1,2 +1,39 @@
-# DSLO Schema (v0.6)
-Placeholder — machine-readable schema for DSLO substrate.
+{
+  "$schema": "https://tnopsi.com/dslo/schema",
+  "title": "DSLO Semantic Substrate Schema v0.1",
+  "description": "Canonical minimal schema for DSLO substrate primitives.",
+  "version": "0.1",
+  "type": "object",
+
+  "properties": {
+    "state": {
+      "type": "string",
+      "description": "Localized, moment‑bound position (x)."
+    },
+    "transition": {
+      "type": "string",
+      "description": "Lawful movement between states (τ)."
+    },
+    "orientation": {
+      "type": "string",
+      "description": "Contextual routing and alignment (o)."
+    },
+    "correction": {
+      "type": "string",
+      "description": "Invariant‑preserving fallback structure (c)."
+    },
+    "meaning_status": {
+      "type": "string",
+      "enum": ["meaning-bearing", "synthetic", "drifted", "stabilized"],
+      "description": "Meaning status (κ)."
+    }
+  },
+
+  "required": [
+    "state",
+    "transition",
+    "orientation",
+    "correction",
+    "meaning_status"
+  ]
+}
