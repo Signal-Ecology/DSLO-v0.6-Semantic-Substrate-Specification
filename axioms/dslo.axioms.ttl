@@ -1,1 +1,153 @@
-# Placeholder — DSLO v0.6
+@prefix dlo: <https://www.tnopsi.com/dslo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+##############################
+# FIELD PHYSICS — Nine Invariants
+##############################
+
+dlo:BoundaryIntegrity
+    a dlo:Axiom ;
+    dlo:hasLabel "Boundary Integrity" ;
+    dlo:hasLayer dlo:FieldPhysics ;
+    dlo:hasDescription "Systems remain coherent only when they maintain a stable distinction between inside and outside." .
+
+dlo:TemporalRhythm
+    a dlo:Axiom ;
+    dlo:hasLabel "Temporal Rhythm" ;
+    dlo:hasLayer dlo:FieldPhysics ;
+    dlo:hasDescription "Coherence requires a predictable rhythm for sensing, regeneration, and action." .
+
+dlo:CausalLegibility
+    a dlo:Axiom ;
+    dlo:hasLabel "Causal Legibility" ;
+    dlo:hasLayer dlo:FieldPhysics ;
+    dlo:hasDescription "Systems must be able to trace causes to effects." .
+
+dlo:RoleCoherence
+    a dlo:Axiom ;
+    dlo:hasLabel "Role Coherence" ;
+    dlo:hasLayer dlo:FieldPhysics ;
+    dlo:hasDescription "Roles must remain stable and predictable." .
+
+dlo:SignalSubstrateCoupling
+    a dlo:Axiom ;
+    dlo:hasLabel "Signal–Substrate Coupling" ;
+    dlo:hasLayer dlo:FieldPhysics ;
+    dlo:hasDescription "Signals must remain anchored to the substrate they represent." .
+
+dlo:RegenerationCapacity
+    a dlo:Axiom ;
+    dlo:hasLabel "Regeneration Capacity" ;
+    dlo:hasLayer dlo:FieldPhysics ;
+    dlo:hasDescription "Systems require slack to restore structure faster than it is consumed." .
+
+dlo:DriftResistance
+    a dlo:Axiom ;
+    dlo:hasLabel "Drift Resistance" ;
+    dlo:hasLayer dlo:FieldPhysics ;
+    dlo:hasDescription "Internal geometry must resist curvature‑induced drift." .
+
+dlo:LawfulTransitions_Field
+    a dlo:Axiom ;
+    dlo:hasLabel "Lawful Transitions" ;
+    dlo:hasLayer dlo:FieldPhysics ;
+    dlo:hasDescription "State changes must preserve invariants." .
+
+dlo:FallbackGeometry
+    a dlo:Axiom ;
+    dlo:hasLabel "Fallback Geometry" ;
+    dlo:hasLayer dlo:FieldPhysics ;
+    dlo:hasDescription "Systems need deterministic fallback paths when coherence degrades." .
+
+##############################
+# DOMAIN PHYSICS — Nine Meaning‑Container Axioms
+##############################
+
+dlo:EnergeticCost
+    a dlo:Axiom ;
+    dlo:hasLabel "Energetic Cost" ;
+    dlo:hasLayer dlo:DomainPhysics ;
+    dlo:hasDescription "Meaning‑containers must reduce the energy required for coordination." .
+
+dlo:TransmissionFidelity
+    a dlo:Axiom ;
+    dlo:hasLabel "Transmission Fidelity" ;
+    dlo:hasLayer dlo:DomainPhysics ;
+    dlo:hasDescription "Meaning must survive replication across generations." .
+
+dlo:MaterialAnchoring
+    a dlo:Axiom ;
+    dlo:hasLabel "Material Anchoring" ;
+    dlo:hasLayer dlo:DomainPhysics ;
+    dlo:hasDescription "Containers require physical or ecological grounding to resist mutation." .
+
+dlo:ScalarStress
+    a dlo:Axiom ;
+    dlo:hasLabel "Scalar Stress" ;
+    dlo:hasLayer dlo:DomainPhysics ;
+    dlo:hasDescription "As containers scale, their stability decreases unless reinforced by invariants." .
+
+dlo:ContainerWorldAlignment
+    a dlo:Axiom ;
+    dlo:hasLabel "Container–World Alignment" ;
+    dlo:hasLayer dlo:DomainPhysics ;
+    dlo:hasDescription "Meaning collapses when containers no longer match lived reality." .
+
+dlo:DriftEnvelope
+    a dlo:Axiom ;
+    dlo:hasLabel "Drift Envelope" ;
+    dlo:hasLayer dlo:DomainPhysics ;
+    dlo:hasDescription "Every system has a maximum drift it can absorb before coherence fails." .
+
+dlo:CorrectiveCapacity
+    a dlo:Axiom ;
+    dlo:hasLabel "Corrective Capacity" ;
+    dlo:hasLayer dlo:DomainPhysics ;
+    dlo:hasDescription "Systems require mechanisms to counteract drift." .
+
+dlo:AbstractionDecoupling
+    a dlo:Axiom ;
+    dlo:hasLabel "Abstraction Decoupling" ;
+    dlo:hasLayer dlo:DomainPhysics ;
+    dlo:hasDescription "Symbolic systems naturally drift away from their physical referents." .
+
+dlo:InstitutionalCollapse
+    a dlo:Axiom ;
+    dlo:hasLabel "Institutional Collapse" ;
+    dlo:hasLayer dlo:DomainPhysics ;
+    dlo:hasDescription "When cumulative drift breaches the drift envelope, containers undergo irreversible failure." .
+
+##############################
+# RUNTIME PHYSICS — DSLO Axioms of Artificial Cognition
+##############################
+
+dlo:UniversalityOfSignals
+    a dlo:Axiom ;
+    dlo:hasLabel "Universality of Signals" ;
+    dlo:hasLayer dlo:RuntimePhysics ;
+    dlo:hasDescription "Any signal‑bearing system can be projected into DSLO through a total mapping ΦS." .
+
+dlo:IdentityContinuity
+    a dlo:Axiom ;
+    dlo:hasLabel "Identity Continuity" ;
+    dlo:hasLayer dlo:RuntimePhysics ;
+    dlo:hasDescription "A system must preserve identity across transitions." .
+
+dlo:LoadBoundedStability
+    a dlo:Axiom ;
+    dlo:hasLabel "Load‑Bounded Stability" ;
+    dlo:hasLayer dlo:RuntimePhysics ;
+    dlo:hasDescription "Planning and action must remain within load tolerance." .
+
+dlo:SpatialLegality
+    a dlo:Axiom ;
+    dlo:hasLabel "Spatial Legality" ;
+    dlo:hasLayer dlo:RuntimePhysics ;
+    dlo:hasDescription "Systems must obey lawful transitions in external geometry." .
+
+dlo:LawfulTransitions_Runtime
+    a dlo:Axiom ;
+    dlo:hasLabel "Lawful Transitions (Runtime)" ;
+    dlo:hasLayer dlo:RuntimePhysics ;
+    dlo:hasDescription "State changes must preserve invariants and maintain bounded mutation velocity." .
+
