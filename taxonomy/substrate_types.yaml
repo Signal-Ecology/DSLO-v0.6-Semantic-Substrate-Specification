@@ -1,1 +1,21 @@
+substrate_types:
+  - id: dlo:BiologicalSubstrate
+    label: "Biological Substrate"
+    description: "Substrates composed of living systems with organic signal ecology."
+
+  - id: dlo:CognitiveSubstrate
+    label: "Cognitive Substrate"
+    description: "Substrates formed by human or animal cognition and meaning-bearing processes."
+
+  - id: dlo:InstitutionalSubstrate
+    label: "Institutional Substrate"
+    description: "Substrates composed of procedural, bureaucratic, or organizational meaning-containers."
+
+  - id: dlo:ArtificialSubstrate
+    label: "Artificial Substrate"
+    description: "Substrates composed of machine-native or synthetic signal-processing systems."
+
+  - id: dlo:HybridSubstrate
+    label: "Hybrid Substrate"
+    description: "Substrates combining biological, cognitive, institutional, or artificial components."
 
