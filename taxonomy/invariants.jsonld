@@ -1,1 +1,65 @@
+{
+  "@context": {
+    "dlo": "https://www.tnopsi.com/dslo/",
+    "Invariant": "dlo:Invariant",
+    "hasLabel": "dlo:hasLabel",
+    "hasDescription": "dlo:hasDescription"
+  },
+  "@graph": [
+    {
+      "@id": "dlo:BoundaryIntegrity_Invariant",
+      "@type": "Invariant",
+      "hasLabel": "Boundary Integrity",
+      "hasDescription": "Systems remain coherent only when they maintain a stable distinction between inside and outside."
+    },
+    {
+      "@id": "dlo:TemporalRhythm_Invariant",
+      "@type": "Invariant",
+      "hasLabel": "Temporal Rhythm",
+      "hasDescription": "Coherence requires a predictable rhythm for sensing, regeneration, and action."
+    },
+    {
+      "@id": "dlo:CausalLegibility_Invariant",
+      "@type": "Invariant",
+      "hasLabel": "Causal Legibility",
+      "hasDescription": "Systems must be able to trace causes to effects."
+    },
+    {
+      "@id": "dlo:RoleCoherence_Invariant",
+      "@type": "Invariant",
+      "hasLabel": "Role Coherence",
+      "hasDescription": "Roles must remain stable and predictable."
+    },
+    {
+      "@id": "dlo:SignalSubstrateCoupling_Invariant",
+      "@type": "Invariant",
+      "hasLabel": "Signal–Substrate Coupling",
+      "hasDescription": "Signals must remain anchored to the substrate they represent."
+    },
+    {
+      "@id": "dlo:RegenerationCapacity_Invariant",
+      "@type": "Invariant",
+      "hasLabel": "Regeneration Capacity",
+      "hasDescription": "Systems require slack to restore structure faster than it is consumed."
+    },
+    {
+      "@id": "dlo:DriftResistance_Invariant",
+      "@type": "Invariant",
+      "hasLabel": "Drift Resistance",
+      "hasDescription": "Internal geometry must resist curvature‑induced drift."
+    },
+    {
+      "@id": "dlo:LawfulTransitions_Invariant",
+      "@type": "Invariant",
+      "hasLabel": "Lawful Transitions",
+      "hasDescription": "State changes must preserve invariants."
+    },
+    {
+      "@id": "dlo:FallbackGeometry_Invariant",
+      "@type": "Invariant",
+      "hasLabel": "Fallback Geometry",
+      "hasDescription": "Systems need deterministic fallback paths when coherence degrades."
+    }
+  ]
+}
 
