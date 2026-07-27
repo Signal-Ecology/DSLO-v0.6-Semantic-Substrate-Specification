@@ -1,1 +1,32 @@
+@prefix dlo: <https://www.tnopsi.com/dslo/> .
+
+dlo:CurvatureDrift
+    a dlo:DriftForm ;
+    dlo:hasLabel "Curvature Drift" ;
+    dlo:hasDescription "Drift caused by curvature pressure within internal geometry." .
+
+dlo:SymbolicDrift
+    a dlo:DriftForm ;
+    dlo:hasLabel "Symbolic Drift" ;
+    dlo:hasDescription "Drift caused by symbolic systems decoupling from physical referents." .
+
+dlo:TemporalDrift
+    a dlo:DriftForm ;
+    dlo:hasLabel "Temporal Drift" ;
+    dlo:hasDescription "Drift caused by fragmentation or instability in temporal rhythm." .
+
+dlo:RoleDrift
+    a dlo:DriftForm ;
+    dlo:hasLabel "Role Drift" ;
+    dlo:hasDescription "Drift caused by instability or mutation in role coherence." .
+
+dlo:SubstrateDecoupling
+    a dlo:DriftForm ;
+    dlo:hasLabel "Substrate Decoupling" ;
+    dlo:hasDescription "Drift caused by signals losing anchoring to their substrate." .
+
+dlo:MeaningDetachment
+    a dlo:DriftForm ;
+    dlo:hasLabel "Meaning Detachment" ;
+    dlo:hasDescription "Drift caused by meaning separating from lived reality or container alignment." .
 
