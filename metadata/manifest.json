@@ -14,10 +14,43 @@
         "CHANGELOG.md",
         "manifest.json",
         "LICENSE",
+
         "glossary/dslo_glossary_v0.6.json",
         "glossary/dslo_glossary_v0.6.md",
         "glossary/dslo_glossary_v0.5.json",
-        "glossary/dslo_glossary_v0.5.md"
+        "glossary/dslo_glossary_v0.5.md",
+
+        "axioms/dslo_axioms.ttl",
+        "axioms/dslo_axioms.jsonld",
+        "axioms/dslo_axioms.yaml",
+        "axioms/dslo_axioms.owl",
+
+        "schema/dslo_schema_v0.1.json",
+        "schema/dslo_schema_v0.1.jsonld",
+        "schema/dslo_schema_v0.1.yaml",
+
+        "taxonomy/drift_forms.ttl",
+        "taxonomy/drift_forms.jsonld",
+        "taxonomy/drift_forms.yaml",
+
+        "taxonomy/invariants.ttl",
+        "taxonomy/invariants.jsonld",
+        "taxonomy/invariants.yaml",
+
+        "taxonomy/signal_classes.ttl",
+        "taxonomy/signal_classes.jsonld",
+        "taxonomy/signal_classes.yaml",
+
+        "taxonomy/substrate_types.ttl",
+        "taxonomy/substrate_types.jsonld",
+        "taxonomy/substrate_types.yaml",
+
+        "registry/manifest.jsonld",
+        "registry/prefixes.json",
+        "registry/purl-config.yaml",
+        "registry/registry.yaml",
+
+        "imports/README.md"
       ]
     },
 
@@ -46,25 +79,79 @@
       "type": "machine-readable",
       "extends": "https://github.com/Signal-Ecology/dslo-field-definition/blob/main/glossary/dslo_glossary_v0.5.json"
     },
-    "ontology": {
-  "canonical_namespace": "https://www.tnopsi.com/dslo-glossary#",
-  "canonical_iri": "https://www.tnopsi.com/dslo-glossary",
-  "github_path": "ontology/dslo.owl",
-  "formats": [
-    "dslo.owl",
-    "dslo.ttl",
-    "dslo.jsonld",
-    "dslo.rdf",
-    "dslo.skos",
-    "dslo.obo",
-    "dslo.umls"
-  ],
-  "version": "0.6",
-  "type": "semantic-web-ontology",
-  "glossary_reference": "glossary/dslo_glossary_v0.6.json"
-}
 
+    "ontology": {
+      "canonical_namespace": "https://www.tnopsi.com/dslo-glossary#",
+      "canonical_iri": "https://www.tnopsi.com/dslo-glossary",
+      "github_path": "ontology/dslo.owl",
+      "formats": [
+        "dslo.owl",
+        "dslo.ttl",
+        "dslo.jsonld",
+        "dslo.rdf",
+        "dslo.skos",
+        "dslo.obo",
+        "dslo.umls"
+      ],
+      "version": "0.6",
+      "type": "semantic-web-ontology",
+      "glossary_reference": "glossary/dslo_glossary_v0.6.json"
+    },
+
+    "axioms": {
+      "path": "axioms/",
+      "version": "0.6",
+      "formats": [
+        "dslo_axioms.ttl",
+        "dslo_axioms.jsonld",
+        "dslo_axioms.yaml",
+        "dslo_axioms.owl"
+      ],
+      "type": "substrate-invariant-layer"
+    },
+
+    "schema": {
+      "path": "schema/",
+      "version": "0.1",
+      "formats": [
+        "dslo_schema_v0.1.json",
+        "dslo_schema_v0.1.jsonld",
+        "dslo_schema_v0.1.yaml"
+      ],
+      "type": "substrate-primitive-schema"
+    },
+
+    "taxonomy": {
+      "path": "taxonomy/",
+      "version": "0.6",
+      "sets": [
+        "drift_forms",
+        "invariants",
+        "signal_classes",
+        "substrate_types"
+      ],
+      "type": "substrate-classification-layer"
+    },
+
+    "registry": {
+      "path": "registry/",
+      "version": "0.6",
+      "files": [
+        "manifest.jsonld",
+        "prefixes.json",
+        "purl-config.yaml",
+        "registry.yaml"
+      ],
+      "type": "identifier-and-namespace-layer"
+    },
+
+    "imports": {
+      "path": "imports/",
+      "version": "0.6",
+      "type": "external-alignment-layer",
+      "status": "placeholder"
+    }
   },
 
-  "description": "Cross-surface manifest for DSLO v0.6, defining canonical artifact locations and metadata alignment across GitHub, Zenodo, Hugging Face, and tnopsi. Ensures stable scientific indexing and unified public-layer posture."
+  "description": "Cross-surface manifest for DSLO v0.6, defining canonical artifact locations and metadata alignment across GitHub, Zenodo, Hugging Face, tnopsi, glossary, ontology, axioms, schema, taxonomy, registry, and imports. Ensures stable scientific indexing and unified public-layer posture."
 }
