@@ -1,3 +1,26 @@
-Code
-# DSLO Schema (v0.6)
-Placeholder — machine-readable schema for DSLO substrate.
+schema:
+  id: "dlo:Schema_v0.1"
+  version: "0.1"
+  description: "Canonical minimal YAML schema for DSLO substrate primitives."
+
+  fields:
+    - id: "dlo:state"
+      description: "Localized, moment‑bound position (x)."
+
+    - id: "dlo:transition"
+      description: "Lawful movement between states (τ)."
+
+    - id: "dlo:orientation"
+      description: "Contextual routing and alignment (o)."
+
+    - id: "dlo:correction"
+      description: "Invariant‑preserving fallback structure (c)."
+
+    - id: "dlo:meaningStatus"
+      description: "Meaning status (κ)."
+      allowed_values:
+        - "meaning-bearing"
+        - "synthetic"
+        - "drifted"
+        - "stabilized"
+
