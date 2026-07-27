@@ -56,3 +56,30 @@ v0.6 — Structural Consolidation and Surface Expansion
 
 Moved project‑wide metadata files into the new metadata/ directory  
 Centralizes manifest, citation, license, and cross‑surface metadata to support consistent ingestion across DSLO surfaces. Establishes metadata/ as the canonical location for project‑level metadata used by crawlers, indexers, and scientific repositories.
+
+v0.6 — DSLO Semantic Substrate Structural Consolidation
+27 July 2026
+
+This release establishes the full DSLO v0.6 multi-surface ecosystem, introducing a complete substrate architecture across ontology, taxonomy, axioms, schema, registry, imports, and metadata layers.
+
+New Directories
+Added taxonomy/ — DSLO classification layer for substrate types, signal classes, invariants, and drift forms, with multi-format placeholders (TTL, JSON-LD, YAML).
+
+Added axioms/ — placeholders for DSLO logic layer defining substrate-level axioms in OWL, TTL, JSON-LD, and YAML formats.
+
+Added schema/ — placeholders for machine-readable DSLO schema definitions in JSON, JSON-LD, and YAML.
+
+Added registry/ — placeholders for sovereign DSLO IDSPACE, PURL configuration, prefix rules, and registry manifest.
+
+Added imports/ — placeholders for external ontology alignment layer (RDF, OWL, SKOS, schema.org).
+
+Added metadata/ — centralized location for manifest, citation, license, and cross-surface metadata.
+
+Structural Improvements
+Consolidated metadata files into the new metadata/ directory for consistent ingestion across DSLO surfaces.
+
+Expanded ontology surface with placeholders for axioms and schema multi-format coverage.
+
+Established the canonical v0.6 folder architecture to support v0.7 outward expansion.
+
+DSLO v0.6 now provides a complete substrate-level semantic ecosystem, ready for consolidation, population, and ingestion by AI systems and scientific indexing platforms.
