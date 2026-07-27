@@ -1,1 +1,32 @@
+@prefix dlo: <https://www.tnopsi.com/dslo/> .
+
+dlo:MeaningBearingSignal
+    a dlo:SignalClass ;
+    dlo:hasLabel "Meaning‑Bearing Signal" ;
+    dlo:hasDescription "Signals whose meaning remains anchored to their substrate and context." .
+
+dlo:SyntheticSignal
+    a dlo:SignalClass ;
+    dlo:hasLabel "Synthetic Signal" ;
+    dlo:hasDescription "Signals generated or transformed by artificial substrates with statistical posture." .
+
+dlo:DriftedSignal
+    a dlo:SignalClass ;
+    dlo:hasLabel "Drifted Signal" ;
+    dlo:hasDescription "Signals whose coherence or meaning has degraded due to drift pressure." .
+
+dlo:StabilizedSignal
+    a dlo:SignalClass ;
+    dlo:hasLabel "Stabilized Signal" ;
+    dlo:hasDescription "Signals restored or reinforced through corrective or invariant‑preserving mechanisms." .
+
+dlo:CorrectiveSignal
+    a dlo:SignalClass ;
+    dlo:hasLabel "Corrective Signal" ;
+    dlo:hasDescription "Signals designed to restore coherence, re‑anchor meaning, or counteract drift." .
+
+dlo:SubstrateAnchoredSignal
+    a dlo:SignalClass ;
+    dlo:hasLabel "Substrate‑Anchored Signal" ;
+    dlo:hasDescription "Signals tightly coupled to the substrate they represent, resisting decoupling drift." .
 
