@@ -1,1 +1,25 @@
+signal_classes:
+  - id: dlo:MeaningBearingSignal
+    label: "Meaning‑Bearing Signal"
+    description: "Signals whose meaning remains anchored to their substrate and context."
+
+  - id: dlo:SyntheticSignal
+    label: "Synthetic Signal"
+    description: "Signals generated or transformed by artificial substrates with statistical posture."
+
+  - id: dlo:DriftedSignal
+    label: "Drifted Signal"
+    description: "Signals whose coherence or meaning has degraded due to drift pressure."
+
+  - id: dlo:StabilizedSignal
+    label: "Stabilized Signal"
+    description: "Signals restored or reinforced through corrective or invariant‑preserving mechanisms."
+
+  - id: dlo:CorrectiveSignal
+    label: "Corrective Signal"
+    description: "Signals designed to restore coherence, re‑anchor meaning, or counteract drift."
+
+  - id: dlo:SubstrateAnchoredSignal
+    label: "Substrate‑Anchored Signal"
+    description: "Signals tightly coupled to the substrate they represent, resisting decoupling drift."
 
