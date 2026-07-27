@@ -1,5 +1,5 @@
 {
-  "$schema": "https://tnopsi.com/dslo/schema",
+  "$schema": "https://www.tnopsi.com/dslo/schema",
   "title": "DSLO Semantic Substrate Schema v0.1",
   "description": "Canonical minimal schema for DSLO substrate primitives.",
   "version": "0.1",
