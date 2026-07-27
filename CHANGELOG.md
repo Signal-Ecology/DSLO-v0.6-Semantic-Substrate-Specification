@@ -50,3 +50,9 @@ dslo.skos (SKOS vocabulary)
 dslo.obo (OBO format)
 
 dslo.umls (UMLS mapping stub)
+
+v0.6 — Structural Consolidation and Surface Expansion
+27 July 2026
+
+Moved project‑wide metadata files into the new metadata/ directory  
+Centralizes manifest, citation, license, and cross‑surface metadata to support consistent ingestion across DSLO surfaces. Establishes metadata/ as the canonical location for project‑level metadata used by crawlers, indexers, and scientific repositories.
