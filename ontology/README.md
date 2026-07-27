@@ -43,7 +43,7 @@ This file is used for:
 
 ---
 
-The DSLO ontology is extendedin  multiple formats to support broad ingestion across semantic‑web and AI ecosystems:
+The DSLO ontology is extended in  multiple formats to support broad ingestion across semantic‑web and AI ecosystems:
 
 *dslo.ttl — Turtle
 
