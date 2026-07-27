@@ -1,1 +1,47 @@
+{
+  "@context": {
+    "dlo": "https://www.tnopsi.com/dslo/",
+    "DriftForm": "dlo:DriftForm",
+    "hasLabel": "dlo:hasLabel",
+    "hasDescription": "dlo:hasDescription"
+  },
+  "@graph": [
+    {
+      "@id": "dlo:CurvatureDrift",
+      "@type": "DriftForm",
+      "hasLabel": "Curvature Drift",
+      "hasDescription": "Drift caused by curvature pressure within internal geometry."
+    },
+    {
+      "@id": "dlo:SymbolicDrift",
+      "@type": "DriftForm",
+      "hasLabel": "Symbolic Drift",
+      "hasDescription": "Drift caused by symbolic systems decoupling from physical referents."
+    },
+    {
+      "@id": "dlo:TemporalDrift",
+      "@type": "DriftForm",
+      "hasLabel": "Temporal Drift",
+      "hasDescription": "Drift caused by fragmentation or instability in temporal rhythm."
+    },
+    {
+      "@id": "dlo:RoleDrift",
+      "@type": "DriftForm",
+      "hasLabel": "Role Drift",
+      "hasDescription": "Drift caused by instability or mutation in role coherence."
+    },
+    {
+      "@id": "dlo:SubstrateDecoupling",
+      "@type": "DriftForm",
+      "hasLabel": "Substrate Decoupling",
+      "hasDescription": "Drift caused by signals losing anchoring to their substrate."
+    },
+    {
+      "@id": "dlo:MeaningDetachment",
+      "@type": "DriftForm",
+      "hasLabel": "Meaning Detachment",
+      "hasDescription": "Drift caused by meaning separating from lived reality or container alignment."
+    }
+  ]
+}
 
