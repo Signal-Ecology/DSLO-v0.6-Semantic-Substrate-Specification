@@ -1,1 +1,156 @@
-# Placeholder — DSLO v0.6
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dlo="https://www.tnopsi.com/dslo/"
+    xml:base="https://www.tnopsi.com/dslo">
+
+    <owl:Ontology rdf:about="https://www.tnopsi.com/dslo/axioms"/>
+
+    <!-- FIELD PHYSICS -->
+
+    <dlo:Axiom rdf:about="dlo:BoundaryIntegrity">
+        <dlo:hasLabel>Boundary Integrity</dlo:hasLabel>
+        <dlo:hasLayer>dlo:FieldPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Systems remain coherent only when they maintain a stable distinction between inside and outside.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:TemporalRhythm">
+        <dlo:hasLabel>Temporal Rhythm</dlo:hasLabel>
+        <dlo:hasLayer>dlo:FieldPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Coherence requires a predictable rhythm for sensing, regeneration, and action.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:CausalLegibility">
+        <dlo:hasLabel>Causal Legibility</dlo:hasLabel>
+        <dlo:hasLayer>dlo:FieldPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Systems must be able to trace causes to effects.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:RoleCoherence">
+        <dlo:hasLabel>Role Coherence</dlo:hasLabel>
+        <dlo:hasLayer>dlo:FieldPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Roles must remain stable and predictable.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:SignalSubstrateCoupling">
+        <dlo:hasLabel>Signal–Substrate Coupling</dlo:hasLabel>
+        <dlo:hasLayer>dlo:FieldPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Signals must remain anchored to the substrate they represent.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:RegenerationCapacity">
+        <dlo:hasLabel>Regeneration Capacity</dlo:hasLabel>
+        <dlo:hasLayer>dlo:FieldPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Systems require slack to restore structure faster than it is consumed.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:DriftResistance">
+        <dlo:hasLabel>Drift Resistance</dlo:hasLabel>
+        <dlo:hasLayer>dlo:FieldPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Internal geometry must resist curvature‑induced drift.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:LawfulTransitions_Field">
+        <dlo:hasLabel>Lawful Transitions</dlo:hasLabel>
+        <dlo:hasLayer>dlo:FieldPhysics</dlo:hasLayer>
+        <dlo:hasDescription>State changes must preserve invariants.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:FallbackGeometry">
+        <dlo:hasLabel>Fallback Geometry</dlo:hasLabel>
+        <dlo:hasLayer>dlo:FieldPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Systems need deterministic fallback paths when coherence degrades.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <!-- DOMAIN PHYSICS -->
+
+    <dlo:Axiom rdf:about="dlo:EnergeticCost">
+        <dlo:hasLabel>Energetic Cost</dlo:hasLabel>
+        <dlo:hasLayer>dlo:DomainPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Meaning‑containers must reduce the energy required for coordination.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:TransmissionFidelity">
+        <dlo:hasLabel>Transmission Fidelity</dlo:hasLabel>
+        <dlo:hasLayer>dlo:DomainPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Meaning must survive replication across generations.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:MaterialAnchoring">
+        <dlo:hasLabel>Material Anchoring</dlo:hasLabel>
+        <dlo:hasLayer>dlo:DomainPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Containers require physical or ecological grounding to resist mutation.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:ScalarStress">
+        <dlo:hasLabel>Scalar Stress</dlo:hasLabel>
+        <dlo:hasLayer>dlo:DomainPhysics</dlo:hasLayer>
+        <dlo:hasDescription>As containers scale, their stability decreases unless reinforced by invariants.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:ContainerWorldAlignment">
+        <dlo:hasLabel>Container–World Alignment</dlo:hasLabel>
+        <dlo:hasLayer>dlo:DomainPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Meaning collapses when containers no longer match lived reality.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:DriftEnvelope">
+        <dlo:hasLabel>Drift Envelope</dlo:hasLabel>
+        <dlo:hasLayer>dlo:DomainPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Every system has a maximum drift it can absorb before coherence fails.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:CorrectiveCapacity">
+        <dlo:hasLabel>Corrective Capacity</dlo:hasLabel>
+        <dlo:hasLayer>dlo:DomainPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Systems require mechanisms to counteract drift.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:AbstractionDecoupling">
+        <dlo:hasLabel>Abstraction Decoupling</dlo:hasLabel>
+        <dlo:hasLayer>dlo:DomainPhysics</dlo:hasLayer>
+        <dlo:hasDescription>Symbolic systems naturally drift away from their physical referents.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:InstitutionalCollapse">
+        <dlo:hasLabel>Institutional Collapse</dlo:hasLabel>
+        <dlo:hasLayer>dlo:DomainPhysics</dlo:hasLayer>
+        <dlo:hasDescription>When cumulative drift breaches the drift envelope, containers undergo irreversible failure.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <!-- RUNTIME PHYSICS -->
+
+    <dlo:Axiom rdf:about="dlo:UniversalityOfSignals">
+        <dlo:hasLabel>Universality of Signals</dlo:hasLabel>
+        <dlo:hasLayer>dlo:RuntimePhysics</dlo:hasLayer>
+        <dlo:hasDescription>Any signal‑bearing system can be projected into DSLO through a total mapping ΦS.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:IdentityContinuity">
+        <dlo:hasLabel>Identity Continuity</dlo:hasLabel>
+        <dlo:hasLayer>dlo:RuntimePhysics</dlo:hasLayer>
+        <dlo:hasDescription>A system must preserve identity across transitions.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:LoadBoundedStability">
+        <dlo:hasLabel>Load‑Bounded Stability</dlo:hasLabel>
+        <dlo:hasLayer>dlo:RuntimePhysics</dlo:hasLayer>
+        <dlo:hasDescription>Planning and action must remain within load tolerance.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:SpatialLegality">
+        <dlo:hasLabel>Spatial Legality</dlo:hasLabel>
+        <dlo:hasLayer>dlo:RuntimePhysics</dlo:hasLayer>
+        <dlo:hasDescription>Systems must obey lawful transitions in external geometry.</dlo:hasDescription>
+    </dlo:Axiom>
+
+    <dlo:Axiom rdf:about="dlo:LawfulTransitions_Runtime">
+        <dlo:hasLabel>Lawful Transitions (Runtime)</dlo:hasLabel>
+        <dlo:hasLayer>dlo:RuntimePhysics</dlo:hasLayer>
+        <dlo:hasDescription>State changes must preserve invariants and maintain bounded mutation velocity.</dlo:hasDescription>
+    </dlo:Axiom>
+
+</rdf:RDF>
+
