@@ -42,8 +42,8 @@ This file is used for:
 *Cross‑ontology mapping
 
 ---
-Planned Additional Formats
-The DSLO ontology will be exported into multiple formats to support broad ingestion across semantic‑web and AI ecosystems:
+
+The DSLO ontology is extendedin  multiple formats to support broad ingestion across semantic‑web and AI ecosystems:
 
 *dslo.ttl — Turtle
 
