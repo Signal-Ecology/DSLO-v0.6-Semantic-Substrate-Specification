@@ -69,7 +69,6 @@ ontology/dslo.owl
 
 This RDF/XML file serves as the authoritative source for all downstream formats and external ontology ingestion pipelines.
 
-Purpose
 The DSLO Ontology provides:
 
 *deterministic ingestion by AI crawlers
@@ -85,8 +84,7 @@ The DSLO Ontology provides:
 It is the machine‑readable counterpart to the human‑readable glossary.
 
 ---
-Formats
-The ontology will be exported into multiple formats for broad interoperability:
+Formats:
 
 *dslo.owl — RDF/XML (canonical)
 
@@ -106,6 +104,70 @@ All formats derive from the canonical ontology IRI and preserve DSLO’s public�
 
 The ontology exposes only the stabilized public‑layer vocabulary.
 Substrate‑native geometry, legality masks, and runtime primitives remain within the protected DSLO manifold and are not included in this surface.
+
+---
+Axioms
+The DSLO Axioms define the substrate‑level invariants governing coherent systems across biological, cognitive, institutional, and artificial domains.
+They are organized into three layers:
+
+Field Physics — universal invariants
+
+Domain Physics — meaning‑container invariants
+
+Runtime Physics — artificial cognition invariants
+
+Axioms are provided in synchronized TTL, JSON‑LD, YAML, and OWL formats.
+This layer establishes the canonical logic surface for DSLO v0.6.
+
+---
+Schema
+The DSLO Schema defines the minimal machine‑readable structure for DSLO substrate primitives:
+
+state (x)
+
+transition (τ)
+
+orientation (o)
+
+correction (c)
+
+meaning_status (κ)
+
+The schema is provided in JSON, JSON‑LD, and YAML formats.
+It ensures deterministic ingestion across semantic engines, AI systems, and substrate‑native tooling.
+
+
+---
+Taxonomy
+The DSLO Taxonomy provides the classification layer aligned with DSLO axioms and schema.
+It includes four synchronized sets:
+
+Drift Forms
+
+Invariants
+
+Signal Classes
+
+Substrate Types
+
+Each taxonomy set is available in TTL, JSON‑LD, and YAML formats.
+This layer establishes the canonical vocabulary for drift analysis, invariant mapping, signal classification, and substrate identification.
+
+---
+Registry
+The DSLO Registry defines the namespace, prefixes, artifact manifest, and PURL configuration for DSLO v0.6.
+It ensures stable identifiers, cross‑surface consistency, and long‑term resolvability.
+
+Registry population will be completed after namespace and PURL coordination.
+Placeholder files are present in the repository to maintain structural alignment.
+
+---
+Imports
+The DSLO Imports directory provides alignment surfaces for external ontologies, schemas, and registries.
+This layer enables DSLO to interoperate with external semantic systems while maintaining substrate integrity.
+
+Imports will be populated after registry finalization and namespace stabilization.
+
 ---
 DSLO v0.6 establishes Human Geometry as a formal extension of the substrate, enabling unified analysis across physical, biological, human, machine, and organizational signal ecologies in the synthetic era.
 
