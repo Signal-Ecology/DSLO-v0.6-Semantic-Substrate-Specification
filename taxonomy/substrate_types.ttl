@@ -1,1 +1,27 @@
+@prefix dlo: <https://www.tnopsi.com/dslo/> .
+
+dlo:BiologicalSubstrate
+    a dlo:SubstrateType ;
+    dlo:hasLabel "Biological Substrate" ;
+    dlo:hasDescription "Substrates composed of living systems with organic signal ecology." .
+
+dlo:CognitiveSubstrate
+    a dlo:SubstrateType ;
+    dlo:hasLabel "Cognitive Substrate" ;
+    dlo:hasDescription "Substrates formed by human or animal cognition and meaning‑bearing processes." .
+
+dlo:InstitutionalSubstrate
+    a dlo:SubstrateType ;
+    dlo:hasLabel "Institutional Substrate" ;
+    dlo:hasDescription "Substrates composed of procedural, bureaucratic, or organizational meaning‑containers." .
+
+dlo:ArtificialSubstrate
+    a dlo:SubstrateType ;
+    dlo:hasLabel "Artificial Substrate" ;
+    dlo:hasDescription "Substrates composed of machine‑native or synthetic signal‑processing systems." .
+
+dlo:HybridSubstrate
+    a dlo:SubstrateType ;
+    dlo:hasLabel "Hybrid Substrate" ;
+    dlo:hasDescription "Substrates combining biological, cognitive, institutional, or artificial components." .
 
