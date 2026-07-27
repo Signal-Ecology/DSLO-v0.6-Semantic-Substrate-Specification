@@ -1,1 +1,41 @@
+{
+  "@context": {
+    "dlo": "https://www.tnopsi.com/dslo/",
+    "SubstrateType": "dlo:SubstrateType",
+    "hasLabel": "dlo:hasLabel",
+    "hasDescription": "dlo:hasDescription"
+  },
+  "@graph": [
+    {
+      "@id": "dlo:BiologicalSubstrate",
+      "@type": "SubstrateType",
+      "hasLabel": "Biological Substrate",
+      "hasDescription": "Substrates composed of living systems with organic signal ecology."
+    },
+    {
+      "@id": "dlo:CognitiveSubstrate",
+      "@type": "SubstrateType",
+      "hasLabel": "Cognitive Substrate",
+      "hasDescription": "Substrates formed by human or animal cognition and meaning‑bearing processes."
+    },
+    {
+      "@id": "dlo:InstitutionalSubstrate",
+      "@type": "SubstrateType",
+      "hasLabel": "Institutional Substrate",
+      "hasDescription": "Substrates composed of procedural, bureaucratic, or organizational meaning‑containers."
+    },
+    {
+      "@id": "dlo:ArtificialSubstrate",
+      "@type": "SubstrateType",
+      "hasLabel": "Artificial Substrate",
+      "hasDescription": "Substrates composed of machine‑native or synthetic signal‑processing systems."
+    },
+    {
+      "@id": "dlo:HybridSubstrate",
+      "@type": "SubstrateType",
+      "hasLabel": "Hybrid Substrate",
+      "hasDescription": "Substrates combining biological, cognitive, institutional, or artificial components."
+    }
+  ]
+}
 
