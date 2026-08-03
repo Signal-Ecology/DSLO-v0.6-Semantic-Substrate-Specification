@@ -83,3 +83,22 @@ Expanded ontology surface with placeholders for axioms and schema multi-format c
 Established the canonical v0.6 folder architecture to support v0.7 outward expansion.
 
 DSLO v0.6 now provides a complete substrate-level semantic ecosystem, ready for consolidation, population, and ingestion by AI systems and scientific indexing platforms.
+
+2026‑08‑03
+
+Added — DSLO v0.6 Semantic Substrate Specification (Full LaTeX Surface)
+The complete DSLO v0.6 paper has been restored into the repository, including:
+
+main.tex (abstract, preface, introduction, and full G0–G7 geometry views)
+
+all section surfaces (G0–G8)
+
+full appendix set (A–O)
+
+universal figures
+
+supporting LaTeX assets
+
+This update reintroduces the entire v0.6 Semantic Substrate Specification as a version‑accurate historical surface. DSLO v0.6 defines the foundational Geometry of Meaning (G0) and the Synthetic‑Pressure Manifold (G1–G7), establishing the first unified geometry of human meaning and synthetic‑signal dynamics.
+
+Restoring the full v0.6 LaTeX project ensures structural continuity across DSLO releases and provides a stable reference for v0.7 development, ontology alignment, glossary expansion, and public‑layer documentation.
