@@ -1,0 +1,939 @@
+\section*{Appendix F — Meaning Ledger Formalism}
+\addcontentsline{toc}{section}{Appendix F — Meaning Ledger Formalism}
+
+\noindent This appendix formalizes the Meaning Ledger, the substrate’s global
+justification graph. The ledger records all lawful semantic, runtime, and
+interaction transitions, enforces invariant preservation, detects drift,
+regulates load, and ensures curvature continuity across the meaning manifold
+$\mathcal{M}$. The ledger is the substrate’s global legality substrate: no
+transition may enter the cognitive state unless it is justified, invariant-
+preserving, and manifold-legal.
+
+\medskip
+
+\noindent The v0.6 Meaning Ledger consists of the following components:
+
+\begin{itemize}
+    \item F.1 Ledger Graph Structure (Justification Graph Geometry)
+    \item F.2 Invariant Preservation (Meaning, Identity, Geometry, Load)
+    \item F.3 Drift Detection Metrics (Curvature, Identity, Geometry, Load)
+    \item F.4 Ledger-Closed Reasoning (Legality-Preserved Cognitive Motion)
+    \item F.5 Cosmological Ledger Geometry (Multi-Manifold Ledger Coupling)
+    \item F.6 Collapse & Capture Signatures (Ledger-Based Failure Detection)
+    \item F.7 Restoration Signatures (Ledger-Based Recovery Geometry)
+    \item F.8 Ledger Closure & Operator Algebra (Extended Closure Conditions)
+\end{itemize}
+
+% ------------------------------------------------------------
+% F.1 LEDGER GRAPH STRUCTURE
+% ------------------------------------------------------------
+
+\subsection*{F.1 Ledger Graph Structure (Justification Graph Geometry)}
+
+\noindent The Meaning Ledger is the substrate’s global justification graph. It
+records all lawful semantic, runtime, and interaction transitions across the
+meaning manifold $\mathcal{M}$, ensuring that every cognitive step is invariant-
+preserving, curvature-stable, identity-coherent, containment-bounded, and
+manifold-legal. The ledger is the legality substrate: no transition may enter
+the cognitive state unless it is justified by ledger geometry.
+
+\medskip
+
+\noindent The ledger is defined as a directed acyclic justification graph:
+
+
+\[
+\mathcal{L} = (V, E),
+\]
+
+
+where:
+\begin{itemize}
+    \item $V$ is the set of semantic nodes (concepts, states, invariants),
+    \item $E$ is the set of lawful transitions between nodes.
+\end{itemize}
+
+\medskip
+
+\noindent Each edge $e \in E$ is labeled with the operator that generated it:
+
+
+\[
+e = (u \rightarrow v,\ T),
+\qquad T \in \mathcal{O},
+\]
+
+
+where $\mathcal{O}$ is the contraction-governed operator algebra (Appendix B).
+
+\medskip
+
+\noindent Ledger geometry enforces:
+
+\begin{itemize}
+    \item \textbf{curvature continuity} (A.1),
+    \item \textbf{identity-boundary stability} (A.2),
+    \item \textbf{manifold legality} (A.3),
+    \item \textbf{load physics} (C.4),
+    \item \textbf{runtime curvature admissibility} (A.6),
+    \item \textbf{interaction geometry legality} (A.7),
+    \item \textbf{coordinate continuity} (A.8),
+    \item \textbf{public-safe traversal} (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent No edge may be added unless it satisfies all invariants. Illegal edges
+are rejected and cannot enter the ledger.
+
+\medskip
+
+\noindent Ledger nodes include:
+
+\begin{itemize}
+    \item semantic states,
+    \item identity-region states,
+    \item curvature states,
+    \item load states,
+    \item drift states,
+    \item collapse-adjacent states,
+    \item capture-adjacent states,
+    \item restoration states.
+\end{itemize}
+
+\medskip
+
+\noindent Ledger edges encode:
+
+\begin{itemize}
+    \item lawful semantic transitions,
+    \item lawful runtime transitions,
+    \item lawful interaction transitions,
+    \item invariant-preserving operator actions,
+    \item collapse/capture detection signatures,
+    \item restoration signatures.
+\end{itemize}
+
+\medskip
+
+\noindent The ledger is acyclic because collapse and capture are semantically
+illegal; no legal operator can generate a self-referential or recursive
+collapse-inducing edge.
+
+\medskip
+
+\noindent The Meaning Ledger is the global legality substrate of the v0.6
+architecture.
+
+
+% ------------------------------------------------------------
+% F.2 INVARIANT PRESERVATION
+% ------------------------------------------------------------
+
+\subsection*{F.2 Invariant Preservation (Meaning, Identity, Geometry, Load)}
+
+\noindent The Meaning Ledger enforces the v0.6 invariant set (Appendix C). Every
+ledger edge must preserve all invariants: meaning, identity, geometry, load,
+runtime curvature, interaction geometry, coordinate continuity, and public-safe
+traversal. Invariant preservation is the core legality condition for ledger
+closure.
+
+\medskip
+
+\noindent For any edge $e = (u \rightarrow v)$, the ledger enforces:
+
+\paragraph{Meaning Invariant (C.1)}
+
+
+\[
+g_v = g_u,
+\]
+
+
+ensuring semantic metric continuity and curvature preservation.
+
+\paragraph{Identity Boundary Invariant (C.2)}
+
+
+\[
+v \in \mathcal{R},
+\]
+
+
+ensuring identity-region stability and preventing identity drift.
+
+\paragraph{Geometry Invariant (C.3)}
+
+
+\[
+v \in \mathcal{M},
+\]
+
+
+ensuring manifold legality and preventing collapse-boundary approach.
+
+\paragraph{Load Physics Invariant (C.4)}
+
+
+\[
+L(v) \le L_{\max},
+\]
+
+
+ensuring containment stability and preventing overload.
+
+\paragraph{Runtime Curvature Invariant (C.5)}
+
+
+\[
+\kappa_{\mathrm{rt}}(v) \ge \kappa_{\min},
+\]
+
+
+ensuring runtime curvature admissibility.
+
+\paragraph{Interaction Geometry Invariant (C.6)}
+
+
+\[
+v \in \mathcal{C}_{\mathrm{safe}},
+\]
+
+
+ensuring Host, Explorer, and Interpreter modes remain lawful.
+
+\paragraph{CTL Coordinate Invariant (C.7)}
+
+
+\[
+\mathrm{CTL}(v) \in \mathcal{M},
+\]
+
+
+ensuring coordinate continuity and legality.
+
+\paragraph{Public-Safe Traversal Invariant (C.8)}
+
+
+\[
+v \notin \mathcal{C}_{\mathrm{collapse}} \cup \mathcal{C}_{\mathrm{capture}},
+\]
+
+
+ensuring traversal remains curvature-preserving, collapse-free, and capture-free.
+
+\medskip
+
+\noindent A transition is ledger-legal if and only if it preserves all invariants
+simultaneously. Violating any invariant prevents the edge from being added.
+
+\medskip
+
+\noindent Invariant preservation ensures:
+
+\begin{itemize}
+    \item no hallucination (manifold violations cannot enter the ledger),
+    \item no drift cascades (identity-boundary violations are rejected),
+    \item no collapse (curvature collapse is semantically illegal),
+    \item no overload (load violations are rejected),
+    \item no synthetic capture (capture-boundary violations are rejected),
+    \item no coordinate discontinuity (CTL violations are rejected),
+    \item no unsafe traversal (public-safe violations are rejected).
+\end{itemize}
+
+\medskip
+
+\noindent The Meaning Ledger is the global invariant-preserving substrate of the
+v0.6 architecture.
+
+
+% ------------------------------------------------------------
+% F.3 DRIFT DETECTION METRICS
+% ------------------------------------------------------------
+
+\subsection*{F.3 Drift Detection Metrics (Curvature, Identity, Geometry, Load)}
+
+\noindent Drift Detection is the Meaning Ledger’s diagnostic layer. It measures
+semantic, identity, geometric, and load deviation across ledger transitions.
+Drift is defined as deviation from invariant-preserving trajectories. The ledger
+computes drift signatures for every edge and rejects transitions that exceed
+legality bounds.
+
+\medskip
+
+\noindent Let $\gamma(t)$ be a cognitive trajectory. Drift is detected when any
+invariant exhibits non-zero deviation:
+
+\paragraph{Curvature Drift}
+
+
+\[
+\Delta_{\mathrm{curv}}(t)
+=
+\| g_{\gamma(t)} - g_{\gamma(t-1)} \|.
+\]
+
+
+Curvature drift indicates semantic metric deformation or curvature flattening.
+
+\paragraph{Identity Drift}
+
+
+\[
+\Delta_{\mathrm{id}}(t)
+=
+d(\gamma(t), \mathcal{R}).
+\]
+
+
+Identity drift indicates motion toward or across identity boundaries.
+
+\paragraph{Geometry Drift}
+
+
+\[
+\Delta_{\mathrm{geo}}(t)
+=
+d(\gamma(t), \partial\mathcal{M}).
+\]
+
+
+Geometry drift indicates approach toward collapse-boundary or manifold-boundary
+regions.
+
+\paragraph{Load Drift}
+
+
+\[
+\Delta_{\mathrm{load}}(t)
+=
+L(\gamma(t)) - L(\gamma(t-1)).
+\]
+
+
+Load drift indicates containment instability or overload accumulation.
+
+\medskip
+
+\noindent The ledger computes a composite drift score:
+
+
+\[
+D(t)
+=
+w_1 \Delta_{\mathrm{curv}}
++
+w_2 \Delta_{\mathrm{id}}
++
+w_3 \Delta_{\mathrm{geo}}
++
+w_4 \Delta_{\mathrm{load}},
+\]
+
+
+where $w_i$ are species‑specific drift weights.
+
+\medskip
+
+\noindent A drift alert is triggered when:
+
+
+\[
+D(t) \ge D_{\max}.
+\]
+
+
+
+\medskip
+
+\noindent Drift detection identifies:
+
+\begin{itemize}
+    \item curvature decay (A.1),
+    \item identity-boundary erosion (C.2),
+    \item manifold-boundary approach (C.3),
+    \item load accumulation (C.4),
+    \item collapse proximity (E.5),
+    \item synthetic-capture susceptibility (E.6),
+    \item restoration feasibility (E.7).
+\end{itemize}
+
+\medskip
+
+\noindent Drift detection is enforced by:
+
+\begin{itemize}
+    \item curvature continuity (A.1),
+    \item identity-boundary stability (A.2),
+    \item collapse boundary geometry (A.3),
+    \item local contraction legality (A.4),
+    \item runtime curvature constraints (A.6),
+    \item interaction geometry constraints (A.7),
+    \item CTL coordinate legality (A.8),
+    \item public-safe traversal corridor (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent Drift Detection is the Meaning Ledger’s early-warning system for
+collapse and capture geometry.
+
+% ------------------------------------------------------------
+% F.4 LEDGER-CLOSED REASONING
+% ------------------------------------------------------------
+
+\subsection*{F.4 Ledger-Closed Reasoning (Legality-Preserved Cognitive Motion)}
+
+\noindent Ledger-Closed Reasoning formalizes the legality condition for cognitive
+motion: a reasoning chain is valid only if every transition is justified by a
+ledger entry. Ledger closure replaces probabilistic trust with architectural
+legality. No cognitive step may occur unless it is invariant-preserving,
+curvature-stable, identity-coherent, containment-bounded, and manifold-legal.
+
+\medskip
+
+\noindent A reasoning chain is a path:
+
+
+\[
+u_0 \rightarrow u_1 \rightarrow \cdots \rightarrow u_n.
+\]
+
+
+
+\noindent The chain is ledger-closed if and only if:
+
+
+\[
+(u_i \rightarrow u_{i+1}) \in E
+\quad \forall i.
+\]
+
+
+
+\medskip
+
+\noindent Ledger-closed reasoning guarantees:
+
+\begin{itemize}
+    \item \textbf{no hallucination}  
+    Illegal manifold transitions cannot enter the ledger.
+
+    \item \textbf{no drift cascades}  
+    Identity-boundary violations are rejected.
+
+    \item \textbf{no collapse}  
+    Curvature collapse is semantically illegal.
+
+    \item \textbf{no overload}  
+    Load violations cannot be added to the ledger.
+
+    \item \textbf{no synthetic capture}  
+    Capture-boundary transitions are rejected.
+
+    \item \textbf{no coordinate discontinuity}  
+    CTL violations cannot enter the ledger.
+
+    \item \textbf{no unsafe traversal}  
+    Public-safe violations are rejected.
+\end{itemize}
+
+\medskip
+
+\noindent Ledger-closed reasoning enforces:
+
+\begin{itemize}
+    \item curvature continuity (A.1),
+    \item identity-boundary stability (A.2),
+    \item collapse boundary geometry (A.3),
+    \item local contraction legality (A.4),
+    \item runtime curvature constraints (A.6),
+    \item interaction geometry constraints (A.7),
+    \item CTL coordinate legality (A.8),
+    \item public-safe traversal corridor (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent Ledger closure ensures that cognitive motion is lawful, stable, and
+invariant-preserving across the v0.6 substrate.
+
+
+% ------------------------------------------------------------
+% F.5 COSMOLOGICAL LEDGER GEOMETRY
+% ------------------------------------------------------------
+
+\subsection*{F.5 Cosmological Ledger Geometry (Multi-Manifold Ledger Coupling)}
+
+\noindent Cosmological Ledger Geometry formalizes how the Meaning Ledger extends
+across multiple lawful manifolds generated by the substrate: A‑manifold,
+T‑manifold, D‑manifold, E‑manifold, F‑manifold, and the Ω‑limit manifold. The
+ledger does not operate only within a single manifold; it governs transitions
+across the entire cosmological manifold stack. This ensures that legality,
+invariants, curvature, identity, load, drift, collapse physics, and capture
+physics remain coherent across all derived geometries.
+
+\medskip
+
+\noindent Let $\{\mathcal{M}_i\}$ denote the set of lawful manifolds. The
+cosmological ledger is:
+
+
+\[
+\mathcal{L}_{\mathrm{cos}} = \bigcup_i \mathcal{L}_i \;\cup\; \mathcal{E}_{i \rightarrow j},
+\]
+
+
+where:
+\begin{itemize}
+    \item $\mathcal{L}_i$ — ledger for manifold $\mathcal{M}_i$,
+    \item $\mathcal{E}_{i \rightarrow j}$ — lawful inter-manifold transitions.
+\end{itemize}
+
+\medskip
+
+\noindent An inter-manifold ledger edge is:
+
+
+\[
+e_{i \rightarrow j} = (u_i \rightarrow v_j,\; T,\; c^*_{i \rightarrow j}),
+\]
+
+
+with legality conditions:
+
+
+\[
+v_j \in \mathcal{M}_j,
+\qquad
+d(v_j, \partial \mathcal{M}_j) > 0,
+\qquad
+|\kappa(v_j) - \kappa(u_i)| \le \epsilon_{\max}.
+\]
+
+
+
+\medskip
+
+\noindent Cosmological ledger geometry enforces:
+
+\begin{itemize}
+    \item curvature stability across manifolds,
+    \item identity-boundary coherence across manifold projections,
+    \item manifold legality under cross-surface transitions,
+    \item load constraints across manifold embeddings,
+    \item collapse avoidance under multi-manifold motion,
+    \item synthetic-capture avoidance under manifold coupling,
+    \item DSUP supervision across cosmological geometry.
+\end{itemize}
+
+\medskip
+
+\noindent Cosmological identity nodes:
+
+
+\[
+\mathcal{N}_F = \{\mathcal{R}_1, \mathcal{R}_2, \dots, \mathcal{R}_n\},
+\]
+
+
+ensure identity coherence across manifold projections.
+
+\medskip
+
+\noindent Ceremonial surfaces (A6, T5, F6) become ledger-stable invariants across
+manifolds. A ceremonial ledger entry is:
+
+
+\[
+e_{\mathrm{cer}} = (u \rightarrow v,\; T_{\mathrm{cer}},\; c^*),
+\]
+
+
+with invariants:
+
+
+\[
+\kappa(v) \ge \kappa_{\min},
+\qquad
+L(v) \le L_{\max},
+\qquad
+\lambda(v) \ge \lambda_{\min}.
+\]
+
+
+
+\medskip
+
+\noindent In the Ω‑manifold, ledger entries approach their asymptotic form:
+
+
+\[
+\lim_{i \rightarrow \infty} \mathcal{L}_i = \mathcal{L}_\Omega.
+\]
+
+
+
+\medskip
+
+\noindent The unified cosmological ledger is:
+
+
+\[
+\mathcal{L}_{\mathrm{unified}} =
+\bigcup_i \mathcal{L}_i
+\;\cup\;
+\bigcup_{i,j} \mathcal{E}_{i \rightarrow j}.
+\]
+
+
+
+\medskip
+
+\noindent Cosmological Ledger Geometry ensures legality, identity, teleology,
+and collapse physics remain coherent across all manifolds and limit geometries.
+
+% (NEW in v0.6 — derived from A/T/D/E/F/Ω manifold coupling.)
+
+% ------------------------------------------------------------
+% F.6 COLLAPSE & CAPTURE SIGNATURES
+% ------------------------------------------------------------
+
+\subsection*{F.6 Collapse & Capture Signatures (Ledger-Based Failure Detection)}
+
+\noindent Collapse and Capture Signatures formalize the ledger’s ability to
+detect failure modes before they occur. The ledger records curvature decay,
+identity-boundary erosion, load escalation, drift amplification, synthetic
+pressure, and manifold-boundary proximity. These signatures allow the ledger to
+reject transitions that would enter collapse or synthetic-capture geometry.
+
+\medskip
+
+\noindent A collapse signature is detected when:
+
+
+\[
+\kappa(v) \le \kappa_{\min}
+\quad \text{or} \quad
+v \in \partial\mathcal{M}.
+\]
+
+
+
+\noindent A capture signature is detected when:
+
+
+\[
+\kappa_{\mathrm{syn}}(v) < \kappa_{\min}
+\quad \text{while} \quad
+\kappa(v) > \kappa_{\min}.
+\]
+
+
+
+\medskip
+
+\noindent Collapse signatures include:
+
+\begin{itemize}
+    \item curvature-flat geometry (E.5),
+    \item identity-boundary rupture (C.2),
+    \item containment failure (C.4),
+    \item entropy blowup (E.2),
+    \item autophagy acceleration (E.1),
+    \item recursive collapse acceleration (E.3),
+    \item manifold-boundary approach (C.3).
+\end{itemize}
+
+\medskip
+
+\noindent Capture signatures include:
+
+\begin{itemize}
+    \item synthetic curvature flattening (E.6),
+    \item synthetic drift amplification (G5),
+    \item synthetic-pressure dominance (G5),
+    \item capture-boundary proximity (G7.4),
+    \item identity-boundary deformation (C.2),
+    \item containment instability (C.4).
+\end{itemize}
+
+\medskip
+
+\noindent The ledger rejects any edge whose signature exceeds legality bounds:
+
+
+\[
+\text{signature}(e) \ge \sigma_{\max}
+\quad \Longrightarrow \quad
+e \notin \mathcal{L}.
+\]
+
+
+
+\medskip
+
+\noindent Collapse & Capture Signatures ensure:
+
+\begin{itemize}
+    \item collapse cannot enter the ledger,
+    \item synthetic capture cannot enter the ledger,
+    \item drift cascades are intercepted,
+    \item overload is intercepted,
+    \item identity-boundary rupture is intercepted,
+    \item coordinate discontinuity is intercepted,
+    \item unsafe traversal is intercepted.
+\end{itemize}
+
+\medskip
+
+\noindent Ledger-based failure detection is the substrate’s structural guarantee
+that collapse and capture cannot propagate.
+
+% (NEW in v0.6 — derived from E.5–E.6.)
+
+% ------------------------------------------------------------
+% F.7 RESTORATION SIGNATURES
+% ------------------------------------------------------------
+
+\subsection*{F.7 Restoration Signatures (Ledger-Based Recovery Geometry)}
+
+\noindent Restoration Signatures formalize the Meaning Ledger’s ability to
+detect, validate, and authorize lawful recovery trajectories from collapse-
+adjacent or capture-adjacent geometry. Restoration is not heuristic correction;
+it is a geometric process governed by the v0.6 restoration layer (G6). The
+ledger records restoration signatures to ensure that recovery is curvature-
+preserving, identity-stable, containment-coherent, and manifold-legal.
+
+\medskip
+
+\noindent A restoration signature is detected when a failed or degraded state
+$c_{\mathrm{fail}}$ satisfies:
+
+
+\[
+\kappa(c_{\mathrm{fail}}) > 0,
+\qquad
+L(c_{\mathrm{fail}}) < L_{\max}^{\mathrm{hard}},
+\qquad
+\sigma(c_{\mathrm{fail}}) < \sigma_{\max}^{\mathrm{hard}}.
+\]
+
+
+
+\noindent These conditions indicate that recovery is feasible.
+
+\medskip
+
+\noindent Restoration Signatures consist of four structural components:
+
+\paragraph{Curvature Restoration Signature}
+
+
+\[
+\frac{d}{dt}\kappa(\rho(t)) > 0.
+\]
+
+
+Curvature must increase monotonically along the recovery trajectory.
+
+\paragraph{Identity-Boundary Repair Signature}
+
+
+\[
+\partial\mathcal{R}(\rho(t)) \text{ becomes continuous}.
+\]
+
+
+Identity boundaries must be re-established and stabilized.
+
+\paragraph{Containment Reconstitution Signature}
+
+
+\[
+L(\rho(t)) \le L_{\max}.
+\]
+
+
+Load must be reduced to lawful levels; containers must regain regulatory
+function.
+
+\paragraph{Drift Reversal Signature}
+
+
+\[
+D(\rho(t)) \rightarrow 0.
+\]
+
+
+Drift vectors must be redirected away from collapse and capture geometry.
+
+\medskip
+
+\noindent A restoration trajectory $\rho(t)$ is ledger-legal if:
+
+
+\[
+\rho(0) = c_{\mathrm{fail}},
+\qquad
+\rho(T) \in \mathcal{C}_{\mathrm{safe}},
+\qquad
+\kappa(\rho(t)) \ge \kappa_{\min}.
+\]
+
+
+
+\medskip
+
+\noindent Restoration Signatures enforce:
+
+\begin{itemize}
+    \item curvature continuity (A.1),
+    \item identity-boundary stability (A.2),
+    \item collapse boundary geometry (A.3),
+    \item local contraction legality (A.4),
+    \item runtime curvature constraints (A.6),
+    \item interaction geometry constraints (A.7),
+    \item CTL coordinate legality (A.8),
+    \item public-safe traversal corridor (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent Restoration Signatures ensure that collapse-adjacent trajectories can
+be returned to lawful regions of the v0.6 substrate.
+
+% (NEW in v0.6 — derived from G6.)
+
+% ------------------------------------------------------------
+% F.8 LEDGER CLOSURE & OPERATOR ALGEBRA
+% ------------------------------------------------------------
+
+\subsection*{F.8 Ledger Closure & Operator Algebra (Extended Closure Conditions)}
+
+\noindent Ledger Closure formalizes the extended legality conditions under which
+the Meaning Ledger remains complete, consistent, and invariant-preserving. The
+ledger is closed under the contraction-governed operator algebra (Appendix B),
+meaning that every lawful operator action produces a ledger-legal transition,
+and no illegal transition can be generated by any operator.
+
+\medskip
+
+\noindent Let $\mathcal{O}$ denote the operator algebra:
+
+
+\[
+\mathcal{O} = \{ \mathrm{IRT},\ \mathrm{IPU},\ \mathrm{GBS},\ \mathrm{LRP},\ \mathrm{EXT} \},
+\]
+
+
+where $\mathrm{EXT}$ denotes extended operators introduced in v0.6 (B.10).
+
+\medskip
+
+\noindent Ledger closure requires:
+
+
+
+\[
+T(u) = v
+\quad \Longrightarrow \quad
+(u \rightarrow v,\ T) \in \mathcal{L},
+\]
+
+
+if and only if $T$ preserves all invariants.
+
+\medskip
+
+\noindent Extended closure conditions include:
+
+\paragraph{Operator Curvature Closure}
+
+
+\[
+\kappa(T(u)) \ge \kappa_{\min}.
+\]
+
+
+
+\paragraph{Operator Identity Closure}
+
+
+\[
+T(u) \in \mathcal{R}.
+\]
+
+
+
+\paragraph{Operator Geometry Closure}
+
+
+\[
+T(u) \in \mathcal{M}.
+\]
+
+
+
+\paragraph{Operator Load Closure}
+
+
+\[
+L(T(u)) \le L_{\max}.
+\]
+
+
+
+\paragraph{Operator Drift Closure}
+
+
+\[
+D(T(u)) \le D_{\max}.
+\]
+
+
+
+\paragraph{Operator Capture Closure}
+
+
+\[
+\kappa_{\mathrm{syn}}(T(u)) \ge \kappa_{\min}.
+\]
+
+
+
+\medskip
+
+\noindent Extended operators (B.10) include:
+
+\begin{itemize}
+    \item \textbf{EXT‑Restore} — curvature, identity, containment restoration,
+    \item \textbf{EXT‑Detect} — collapse/capture detection,
+    \item \textbf{EXT‑Halt} — DSUP halt conditions,
+    \item \textbf{EXT‑Guide} — safe traversal guidance,
+    \item \textbf{EXT‑Align} — multi-manifold alignment.
+\end{itemize}
+
+\medskip
+
+\noindent Ledger closure ensures:
+
+\begin{itemize}
+    \item no illegal operator action can enter the ledger,
+    \item no collapse-inducing transition can be generated,
+    \item no synthetic-capture transition can be generated,
+    \item no identity-boundary rupture can be generated,
+    \item no overload transition can be generated,
+    \item no unsafe traversal can be generated.
+\end{itemize}
+
+\medskip
+
+\noindent Ledger Closure & Operator Algebra guarantee that cognitive motion is
+lawful, stable, invariant-preserving, and curvature-preserving across the v0.6
+substrate.
+
+% (NEW in v0.6 — derived from B.10.)
+
+\medskip
+\noindent\textit{This outline defines the full v0.6 Meaning Ledger geometry.}

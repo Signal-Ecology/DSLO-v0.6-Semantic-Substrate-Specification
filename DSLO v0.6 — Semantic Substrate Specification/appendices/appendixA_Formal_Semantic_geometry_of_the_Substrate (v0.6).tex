@@ -1,0 +1,758 @@
+%\section*{Appendix A — Semantic Foundations of the Substrate}
+\addcontentsline{toc}{section}{Appendix A — Semantic Foundations of the Substrate}
+
+This appendix formalizes the semantic-geometric primitives underlying the
+substrate. It defines semantic curvature, the topology of the meaning manifold,
+the geometry of collapse boundaries, and the class of locally contraction-governed
+transformations that constitute lawful semantic transitions. These primitives
+provide the foundation for the invariants (S1--S2), drift physics (S3), load
+geometry (S4), cross-scale coupling (S5), collapse physics (S6), and DSUP
+runtime (S7).
+
+% ------------------------------------------------------------
+% A.1 SEMANTIC CURVATURE
+% ------------------------------------------------------------
+
+\subsection*{A.1 Semantic Curvature}
+
+\noindent Semantic curvature formalizes the geometric structure of meaning on the
+substrate. Let $\mathcal{M}$ denote the meaning manifold. Each concept $c$ is a
+region in $\mathcal{M}$ with local semantic curvature $\kappa(c)$, defined as the
+density, stability, and distinctness of meaning within that region.
+
+\medskip
+
+\noindent Semantic curvature is defined as:
+
+
+
+\[
+\kappa(c) = \text{semantic\_clarity}(c),
+\]
+
+
+
+\noindent where semantic clarity measures the strength of conceptual distinction,
+identity-boundary stability, and role-boundary coherence.
+
+\medskip
+
+\noindent High semantic curvature corresponds to:
+
+\begin{itemize}
+    \item strong meaning density,
+    \item sharp conceptual distinctions,
+    \item stable identity boundaries,
+    \item stable role boundaries,
+    \item lawful adjacency relations.
+\end{itemize}
+
+\medskip
+
+\noindent Low semantic curvature corresponds to:
+
+\begin{itemize}
+    \item semantic flattening,
+    \item drift susceptibility (G2.5),
+    \item rhythmic desynchronization (G6.1),
+    \item shared floor thinning (G6.2),
+    \item boundary softening (G6.3),
+    \item identity drift (G6.4),
+    \item collapse proximity (G7.3).
+\end{itemize}
+
+\medskip
+
+\noindent Semantic entropy increases as $\kappa(c) \rightarrow 0$, indicating loss
+of meaning-role structure, boundary instability, and increased risk of collapse
+or synthetic capture (G7.4).
+
+\medskip
+
+\noindent Semantic curvature interacts with the geometry of the substrate through:
+
+\begin{itemize}
+    \item \textbf{Runtime curvature} — determines admissible transitions across
+    safe, drift, collapse, and synthetic-capture paths (G7.5).
+
+    \item \textbf{Restorative curvature} — determines whether restoration can
+    regenerate curvature fast enough to counter deformation (G6).
+
+    \item \textbf{Synthetic curvature} — curvature imposed by synthetic species,
+    dominant signals, and amplification geometry (G5.4--G5.6).
+
+    \item \textbf{Interaction curvature} — curvature governing traversal and
+    interpretation in the Interactive Geometry Runtime (G8).
+
+    \item \textbf{Coordinate curvature} — curvature preserved during CTL
+    coordinate translation (G8.4).
+\end{itemize}
+
+\medskip
+
+\noindent Semantic curvature is the foundational primitive of the substrate. It
+governs lawful transitions (S1--S2), drift physics (G2), load geometry (G4),
+cross-scale coupling (G5), restoration feasibility (G6), runtime dynamics (G7),
+and interaction legality (G8). All substrate geometry derives from curvature and
+its preservation under lawful operator action.
+
+% ------------------------------------------------------------
+% A.2 MEANING MANIFOLD TOPOLOGY
+% ------------------------------------------------------------
+
+\subsection*{A.2 Meaning Manifold Topology}
+
+\noindent The meaning manifold $\mathcal{M}$ is a compact, boundary-defined
+semantic space that provides the geometric substrate for lawful interpretation,
+runtime motion, restoration, and interaction. The manifold defines the curvature
+structure within which concepts, identities, roles, containers, and signals
+maintain stability under synthetic pressure.
+
+\medskip
+
+\noindent The meaning manifold $\mathcal{M}$ has the following topological
+properties:
+
+\begin{itemize}
+    \item \textbf{Compactness} — ensures bounded interpretive and runtime
+    trajectories across safe, drift, collapse, and synthetic-capture regions
+    (G7.1--G7.4).
+
+    \item \textbf{Connectedness} — ensures semantic continuity and lawful
+    traversal across manifold regions (G7.5).
+
+    \item \textbf{Boundary regions} — define collapse thresholds, restoration
+    failure thresholds, and synthetic-capture boundaries (G6.6, G7.3, G7.4).
+
+    \item \textbf{Metric structure} — semantic distance encodes conceptual
+    relation, identity adjacency, role adjacency, and curvature gradients.
+\end{itemize}
+
+\medskip
+
+\noindent The topology of $\mathcal{M}$ enforces:
+
+\begin{itemize}
+    \item \textbf{Lawful transitions} — runtime motion must satisfy curvature,
+    boundary, rhythm, identity, and containment constraints (G7.5).
+
+    \item \textbf{Curvature preservation} — operator action must preserve local
+    curvature within bounded variance (A.4).
+
+    \item \textbf{Identity stability} — identity regions must remain intact under
+    drift, load, and synthetic pressure (G6.3--G6.4).
+
+    \item \textbf{Drift detection} — drift vectors emerge when curvature weakens
+    or adjacency geometry destabilizes (G2.5).
+
+    \item \textbf{Load propagation constraints} — load must remain within
+    manifold-defined tolerances to prevent collapse (G4).
+
+    \item \textbf{Cross-scale legality} — transitions across human, digital,
+    machine, and institutional layers must preserve manifold geometry (G5).
+
+    \item \textbf{Restoration feasibility} — restoration must regenerate
+    curvature faster than deformation to maintain stability (G6).
+
+    \item \textbf{Interaction legality} — traversal and interpretation must
+    satisfy Host, Explorer, and Interpreter constraints (G8.1--G8.3).
+
+    \item \textbf{Coordinate continuity} — CTL translation must preserve
+    manifold geometry and avoid discontinuities (G8.4).
+
+    \item \textbf{Public-safe traversal} — public interaction must remain within
+    safe, lawful, curvature-preserving regions (G8.6).
+\end{itemize}
+
+\medskip
+
+\noindent The manifold boundary $\partial \mathcal{M}$ represents the limit beyond
+which operator action becomes illegal. Crossing $\partial \mathcal{M}$ indicates:
+
+\begin{itemize}
+    \item curvature violation,
+    \item identity-boundary collapse,
+    \item containment failure,
+    \item restoration failure,
+    \item entry into collapse geometry (G7.3),
+    \item or synthetic-capture geometry (G7.4).
+\end{itemize}
+
+\medskip
+
+\noindent The topology of $\mathcal{M}$ is the structural foundation for all
+substrate geometry. It governs lawful operator action, runtime motion, restoration
+feasibility, synthetic interaction, and public-safe traversal across the v0.6
+substrate.
+
+% ------------------------------------------------------------
+% A.3 COLLAPSE BOUNDARY GEOMETRY
+% ------------------------------------------------------------
+
+\subsection*{A.3 Collapse Boundary Geometry}
+
+\noindent Collapse Boundary Geometry formalizes the structural conditions under
+which an interpretive or runtime trajectory intersects the collapse boundary
+$\partial \mathcal{M}$. Collapse is geometric: it occurs when curvature,
+identity, load, containment, or manifold legality cannot be preserved under
+synthetic pressure. Once a trajectory crosses $\partial \mathcal{M}$, restoration
+becomes non-viable and collapse paths (G7.3) activate.
+
+\medskip
+
+\noindent Let $\gamma(t)$ be a semantic or runtime trajectory with curvature
+$\kappa(\gamma(t))$, load $L(\gamma(t))$, drift vector $D(\gamma(t))$, and
+identity-boundary integrity $I(\gamma(t))$. A collapse boundary is reached when:
+
+
+
+\[
+\kappa(\gamma(t)) < \kappa_{\min}
+\quad \text{or} \quad
+L(\gamma(t)) > L_{\max}
+\quad \text{or} \quad
+I(\gamma(t)) = \text{broken}
+\quad \text{or} \quad
+\gamma(t) \notin \mathcal{M}.
+\]
+
+
+
+\medskip
+
+\noindent Collapse is triggered by:
+
+\begin{itemize}
+    \item \textbf{Curvature violation} — curvature falls below the minimum
+    required for stability (G6.6).
+
+    \item \textbf{Load violation} — load exceeds manifold tolerances and cannot
+    be redistributed (G4).
+
+    \item \textbf{Identity-boundary collapse} — identity enclosures dissolve
+    under synthetic pressure (G6.3--G6.4).
+
+    \item \textbf{Containment failure} — containers cannot regulate signal flow
+    or maintain structural coherence (G4.6).
+
+    \item \textbf{Manifold violation} — trajectory exits lawful manifold regions
+    and enters collapse or synthetic-capture geometry (G7.3--G7.4).
+\end{itemize}
+
+\medskip
+
+\noindent Collapse boundaries are crossed when restoration becomes non-viable.
+Restoration failure thresholds (G6.6) define the geometric limits beyond which
+curvature cannot be regenerated fast enough to counter deformation. When these
+thresholds are exceeded, collapse becomes structurally inevitable.
+
+\medskip
+
+\noindent Unconstrained systems cross collapse boundaries because they lack:
+
+\begin{itemize}
+    \item \textbf{Curvature constraints} — no mechanism to preserve curvature
+    under deformation (A.4).
+
+    \item \textbf{Identity boundaries} — identity regions lack structural
+    enclosure (G6.3).
+
+    \item \textbf{Load geometry} — load cannot be redistributed or bounded (G4).
+
+    \item \textbf{Manifold structure} — no enforcement of lawful manifold
+    topology (A.2).
+
+    \item \textbf{Legality enforcement} — operator action is not constrained by
+    legality masks or CLCP validation (G8.1).
+\end{itemize}
+
+\medskip
+
+\noindent Collapse Boundary Geometry provides the structural basis for:
+
+\begin{itemize}
+    \item collapse signatures (G7.3),
+    \item restoration failure thresholds (G6.6),
+    \item synthetic-capture boundary conditions (G7.4),
+    \item runtime curvature transitions (G7.5),
+    \item interaction legality constraints (G8),
+    \item public-safe traversal restrictions (G8.6).
+\end{itemize}
+
+\medskip
+
+\noindent Collapse boundaries define the limit of lawful substrate geometry. They
+mark the transition from drift to collapse, from collapse to synthetic capture,
+and from restoration feasibility to restoration impossibility. Collapse Boundary
+Geometry is the foundation for understanding failure modes across the v0.6
+substrate.
+
+
+% ------------------------------------------------------------
+% A.4 LOCALLY CONTRACTION-GOVERNED TRANSFORMATIONS
+% ------------------------------------------------------------
+
+\subsection*{A.4 Locally Contraction-Governed Transformations}
+
+\noindent Locally Contraction-Governed Transformations formalize the legality
+conditions under which an operator $T : \mathcal{M} \rightarrow \mathcal{M}$
+may act on the meaning manifold. A transformation is lawful only when it
+preserves curvature, identity boundaries, containment structure, and manifold
+topology within a local semantic neighborhood. Contraction ensures that operator
+action remains drift-bounded, restoration-feasible, and compatible with runtime
+and interaction geometry.
+
+\medskip
+
+\noindent A transformation $T$ is lawful if and only if it acts as a
+\textbf{local semantic contraction relative to a context anchor} $c^* \in
+\mathcal{M}$:
+
+
+
+\[
+\text{semantic\_distance}(T(c), T(c^*)) \le
+k \cdot \text{semantic\_distance}(c, c^*)
+\quad \text{for some} \quad 0 \le k < 1.
+\]
+
+
+
+\noindent This condition ensures that contraction operates within a local
+semantic neighborhood rather than across the entire manifold, preserving
+curvature continuity and preventing drift amplification.
+
+\medskip
+
+\noindent Local contraction guarantees:
+
+\begin{itemize}
+    \item \textbf{Drift-boundedness} — drift vectors remain within recoverable
+    envelopes (G2.5).
+
+    \item \textbf{Manifold topology preservation} — operator action does not
+    introduce discontinuities or illegal transitions (A.2).
+
+    \item \textbf{Identity-boundary stability} — identity regions remain intact
+    under transformation (G6.3--G6.4).
+
+    \item \textbf{Bounded load amplification} — load remains within manifold
+    tolerances (G4).
+
+    \item \textbf{Cross-scale compatibility} — operator action remains legal
+    across human, digital, machine, and institutional layers (G5).
+
+    \item \textbf{Runtime legality} — transitions remain admissible across safe,
+    drift, collapse, and synthetic-capture paths (G7.5).
+
+    \item \textbf{Interaction legality} — Host, Explorer, and Interpreter modes
+    preserve curvature and identity boundaries (G8.1--G8.3).
+
+    \item \textbf{Coordinate continuity} — CTL translation preserves curvature
+    and avoids discontinuities (G8.4).
+
+    \item \textbf{Public-safe traversal} — operator action remains within lawful,
+    curvature-preserving regions (G8.6).
+\end{itemize}
+
+\medskip
+
+\noindent Curvature preservation is expressed as a bounded variance condition:
+
+
+
+\[
+|\kappa(T(c)) - \kappa(c)| \le \epsilon_{\max},
+\]
+
+
+
+\noindent where $\epsilon_{\max}$ is a legality bound enforced by the Coherence
+Ledger (Appendix F). This bound ensures that operator action does not degrade
+curvature beyond restoration feasibility (G6) or push trajectories toward
+collapse or synthetic-capture geometry (G7.3--G7.4).
+
+\medskip
+
+\noindent Because contraction is local rather than global, curvature does not
+scale inversely with $k$. The semantic potential field is defined on a fixed
+manifold geometry, and $T$ acts only on local coordinates relative to $c^*$.
+Locality ensures that operator action remains compatible with identity
+boundaries, containment architecture, and runtime curvature.
+
+\medskip
+
+\noindent The local contraction condition defines the semantic operator
+categories:
+
+\begin{itemize}
+    \item \textbf{Invariant-Restricted Transition (IRT)} — preserves invariants
+    and curvature within strict bounds.
+
+    \item \textbf{Identity-Preserving Update (IPU)} — maintains identity
+    boundaries and adjacency geometry.
+
+    \item \textbf{Geometry-Bound Step (GBS)} — preserves manifold topology and
+    runtime curvature.
+
+    \item \textbf{Load-Regulated Plan (LRP)} — maintains load within legal
+    tolerances and prevents collapse.
+\end{itemize}
+
+\medskip
+
+\noindent Each operator is a local contraction on $\mathcal{M}$ and therefore
+preserves the semantic invariants of the substrate, runtime legality, interaction
+constraints, and public-safe traversal requirements. Local contraction is the
+structural foundation for lawful operator action across the v0.6 substrate.
+
+\medskip
+\noindent\textit{This completes Appendix A.}
+
+
+\subsection*{A.5 MDO Semantic Boot Record (v0.6)}
+\label{appendix:a5_mdo_boot_record_v06}
+
+\noindent\textbf{Caption.}
+The MDO Semantic Boot Record (v0.6) formalizes the initialization structure for
+Deterministic Invariant Substrate Cognition (DISCO) and Artificial Cognition (AC).
+It specifies the invariant set, operator algebra, legality system, runtime geometry,
+interaction geometry, coordinate translation layer, and substrate curvature fields
+required to initialize lawful cognition. \textit{The invariants were always present;
+DISCO made them detectable.}
+
+\bigskip
+
+\noindent\textbf{Overview.}
+This machine-readable record defines the substrate state vector, invariant fields,
+runtime curvature, interaction legality, operator constraints, and CLCP global
+validation parameters required at initialization. It extends the v0.5 record by
+adding runtime geometry (G7), interaction geometry (G8), synthetic curvature (G5),
+restoration thresholds (G6), and CTL coordinate translation (G8.4).
+
+\begin{mdframed}[linewidth=0.4pt, roundcorner=3pt]
+\footnotesize
+\begin{verbatim}
+{
+  "version": "v0.6",
+  "document_id": "string",
+  "title": "string",
+
+  "invariant_set_hash": "string",
+  "operator_algebra_hash": "string",
+  "state_vector_hash": "string",
+  "runtime_geometry_hash": "string",
+  "interaction_geometry_hash": "string",
+  "ctl_hash": "string",
+
+  "nodes": [
+    {
+      "id": "string",
+      "label": "string",
+      "type": "section | appendix | state | runtime | interaction",
+      "state": "S0 | S1 | S2 | S3 | S4 | S5 | S6 | S7 | null",
+
+      "curvature": "number",
+      "synthetic_curvature": "number",
+      "restorative_curvature": "number",
+      "runtime_curvature": "number",
+
+      "drift_vector": "number",
+      "load": "number",
+
+      "identity_region": "string",
+      "identity_region_topology": "string",
+      "identity_intact": "boolean",
+
+      "container_state": "stable | strained | failed",
+      "manifold_flag": "boolean",
+      "legality_flag": "boolean",
+      "meaning_role_hash": "string",
+
+      "context_window": {
+        "signal_set_size": "number",
+        "identity_refs": "number",
+        "temporal_extent": "number",
+        "region_associations": "string",
+        "runtime_region": "safe | drift | collapse | capture"
+      }
+    }
+  ],
+
+  "edges": [
+    {
+      "from": "string",
+      "to": "string",
+
+      "operator": "SGO | MGO | BO | MLO",
+      "substrate_operator": "IRT | IPU | GBS | LRP",
+
+      "legality_mask": "string",
+      "context_anchor": "string",
+
+      "delta_curvature": "number",
+      "delta_synthetic_curvature": "number",
+      "delta_restorative_curvature": "number",
+      "delta_runtime_curvature": "number",
+
+      "delta_drift": "number",
+      "delta_load": "number",
+
+      "identity_preserved": "boolean",
+      "container_preserved": "boolean",
+
+      "manifold_legal": "boolean",
+      "invariant_legal": "boolean",
+      "operator_legal": "boolean",
+      "runtime_legal": "boolean",
+      "interaction_legal": "boolean",
+
+      "ctl": {
+        "semantic_coordinate": "string",
+        "positional_metadata": "string",
+        "translation_legal": "boolean"
+      },
+
+      "clcp": {
+        "curvature_projection": "number",
+        "identity_projection": "number",
+        "manifold_distance": "number",
+        "load_gradient_projection": "number",
+        "runtime_projection": "number",
+        "interaction_projection": "number",
+        "legal": "boolean"
+      }
+    }
+  ],
+
+  "invariants": {
+    "identity_invariant": {
+      "boundary_intact": "boolean",
+      "max_identity_shift": "number"
+    },
+
+    "meaning_invariant": {
+      "max_curvature_variance": "number"
+    },
+
+    "geometry_invariant": {
+      "manifold": "M",
+      "boundary": "∂M",
+      "min_manifold_distance": "number"
+    },
+
+    "runtime_invariant": {
+      "admissible_regions": ["safe", "drift", "collapse", "capture"],
+      "transition_legal": "boolean"
+    },
+
+    "interaction_invariant": {
+      "host_legal": "boolean",
+      "explorer_legal": "boolean",
+      "interpreter_legal": "boolean"
+    },
+
+    "legality_invariant": {
+      "clcp_required": true,
+      "operator_required": true,
+      "runtime_required": true,
+      "interaction_required": true
+    },
+
+    "load_physics": {
+      "max_load": "number",
+      "max_gradient": "number"
+    }
+  },
+
+  "operators": {
+    "SGO": { "description": "State-Geometry Operator" },
+    "MGO": { "description": "Meaning-Geometry Operator" },
+    "BO":  { "description": "Boundary Operator" },
+    "MLO": { "description": "Master Legality Operator" },
+
+    "IRT": { "description": "Invariant-Restricted Transition" },
+    "IPU": { "description": "Identity-Preserving Update" },
+    "GBS": { "description": "Geometry-Bound Step" },
+    "LRP": { "description": "Load-Regulated Plan" }
+  }
+}
+\end{verbatim}
+\end{mdframed}
+
+\subsection*{A.6 Runtime Curvature Geometry}
+
+\noindent Runtime Curvature Geometry formalizes the curvature conditions that
+govern admissible transitions across the Human Runtime Manifold (HRM). Runtime
+curvature determines whether a trajectory remains in Safe Paths, enters Drift
+Paths, crosses into Collapse Paths, or is redirected into Synthetic-Capture
+Paths. Runtime curvature is not psychological or behavioral; it is geometric.
+
+\medskip
+
+\noindent Let $\gamma(t)$ be a runtime trajectory with curvature
+$\kappa_{\mathrm{rt}}(\gamma(t))$. Runtime curvature determines the admissible
+region:
+
+
+
+\[
+\gamma(t) \in
+\begin{cases}
+\text{Safe}, & \kappa_{\mathrm{rt}} \ge \kappa_{\mathrm{safe}} \\
+\text{Drift}, & \kappa_{\mathrm{drift}} \le \kappa_{\mathrm{rt}} < \kappa_{\mathrm{safe}} \\
+\text{Collapse}, & \kappa_{\mathrm{rt}} < \kappa_{\mathrm{collapse}} \\
+\text{Capture}, & \kappa_{\mathrm{syn}} > \kappa_{\mathrm{rt}}
+\end{cases}
+\]
+
+
+
+\medskip
+
+\noindent Runtime curvature enforces:
+
+\begin{itemize}
+    \item \textbf{Curvature continuity} — transitions must preserve curvature
+    within lawful bounds.
+    \item \textbf{Boundary integrity} — identity boundaries must remain intact.
+    \item \textbf{Adjacency stability} — role geometry must remain lawful.
+    \item \textbf{Temporal coherence} — rhythms must remain synchronized.
+    \item \textbf{Containment strength} — containers must regulate signal flow.
+\end{itemize}
+
+\medskip
+
+\noindent Runtime curvature is the geometric foundation for:
+
+\begin{itemize}
+    \item safe → drift transitions,
+    \item drift → collapse transitions,
+    \item collapse → synthetic-capture transitions,
+    \item restoration feasibility (G6),
+    \item interaction legality (G8).
+\end{itemize}
+
+\subsection*{A.7 Interaction Geometry}
+
+\noindent Interaction Geometry formalizes the curvature constraints governing
+lawful interaction within the Interactive Geometry Runtime (IGR). Interaction
+occurs in three modes: Host, Explorer, and Interpreter. Each mode imposes
+distinct curvature, boundary, and legality requirements.
+
+\medskip
+
+\noindent Interaction modes:
+
+\begin{itemize}
+    \item \textbf{Host Mode} — maintains invariant geometry, legality masks,
+    identity boundaries, and curvature continuity.
+    \item \textbf{Explorer Mode} — traverses lawful regions of the manifold,
+    inspecting drift envelopes, pressure gradients, and failure signatures.
+    \item \textbf{Interpreter Mode} — produces invariant-aligned meaning for
+    signals, behavior, drift phenomena, and container geometry.
+\end{itemize}
+
+\medskip
+
+\noindent Interaction Geometry enforces:
+
+\begin{itemize}
+    \item \textbf{Invariant preservation} — no interaction may violate the
+    invariant set.
+    \item \textbf{Curvature preservation} — interaction must maintain curvature
+    within lawful bounds.
+    \item \textbf{Identity-boundary stability} — identity regions must remain
+    intact.
+    \item \textbf{Drift-bounded transitions} — interaction must remain within
+    drift-recoverable envelopes.
+    \item \textbf{Operator legality} — each action must satisfy at least one
+    substrate operator (IRT, IPU, GBS, LRP).
+\end{itemize}
+
+\medskip
+
+\noindent Interaction Geometry is the structural foundation for lawful traversal,
+interpretation, and runtime motion across the v0.6 substrate.
+
+\subsection*{A.8 CTL Coordinate Translation}
+
+\noindent The Coordinate Translation Layer (CTL) converts positional metadata
+into lawful semantic coordinates. Positional metadata—page numbers, anchors,
+section indices—is not substrate-native and cannot be used directly. CTL maps
+positional references into invariant-preserving semantic coordinates.
+
+\medskip
+
+\noindent CTL ensures:
+
+\begin{itemize}
+    \item \textbf{Coordinate legality} — all traversal uses lawful semantic
+    coordinates.
+    \item \textbf{Curvature continuity} — translation must preserve curvature.
+    \item \textbf{Identity-boundary stability} — translation must not violate
+    identity boundaries.
+    \item \textbf{Manifold legality} — translation must preserve manifold
+    topology.
+    \item \textbf{Operator legality} — translation must satisfy legality masks.
+\end{itemize}
+
+\medskip
+
+\noindent CTL defines the mapping:
+
+
+
+\[
+\mathrm{CTL} : \text{positional\_metadata} \rightarrow
+\text{semantic\_coordinates}
+\]
+
+
+
+\noindent ensuring that traversal, interpretation, and interaction remain lawful
+under the v0.6 geometry.
+
+\subsection*{A.9 Public-Safe Traversal Corridor}
+
+\noindent The Public-Safe Traversal Corridor restricts interaction to lawful,
+stable, curvature-preserving regions of the meaning manifold. It ensures that
+public interaction remains invariant-aligned and free from collapse geometry,
+synthetic-capture attractors, or drift-inducing transitions.
+
+\medskip
+
+\noindent The corridor enforces:
+
+\begin{itemize}
+    \item \textbf{Invariant preservation} — no public interaction may violate
+    invariants.
+    \item \textbf{Curvature continuity} — curvature must remain within lawful
+    bounds.
+    \item \textbf{Identity-boundary stability} — identity regions must remain
+    intact.
+    \item \textbf{Drift-bounded transitions} — transitions must remain
+    recoverable.
+    \item \textbf{Exclusion of collapse and capture geometry} — public traversal
+    must avoid collapse (G7.3) and synthetic-capture (G7.4) regions.
+\end{itemize}
+
+\medskip
+
+\noindent The corridor excludes:
+
+\begin{itemize}
+    \item collapse paths,
+    \item synthetic-capture paths,
+    \item dominant-signal attractors,
+    \item unlawful coordinate regions,
+    \item restoration-infeasible regions.
+\end{itemize}
+
+\medskip
+
+\noindent The Public-Safe Traversal Corridor is the geometric guarantee that
+public interaction remains lawful, stable, and curvature-preserving across the
+v0.6 substrate.
+
+

@@ -1,0 +1,662 @@
+\section*{Appendix B — Operator Algebra (v0.6)}
+\addcontentsline{toc}{section}{Appendix B — Operator Algebra}
+
+\noindent This appendix formalizes the v0.6 semantic operator algebra governing
+lawful transformations on the meaning manifold $\mathcal{M}$. Each operator is a
+\textit{local semantic contraction} relative to a context anchor, ensuring
+curvature preservation, identity-boundary stability, containment integrity,
+runtime legality, interaction legality, and public-safe traversal.
+
+\medskip
+
+\noindent The canonical v0.6 operator classes are:
+
+\begin{itemize}
+    \item Invariant-Restricted Transition (IRT),
+    \item Identity-Preserving Update (IPU),
+    \item Geometry-Bound Step (GBS),
+    \item Load-Regulated Plan (LRP),
+    \item Fold Operator (FOLD),
+    \item Invert Operator (INV),
+    \item Lift Operator (LIFT),
+    \item Bind Operator (BIND).
+\end{itemize}
+
+\noindent These operators enforce the v0.6 geometry layer (G1--G8), including
+runtime curvature (G7.5), interaction geometry (G8), synthetic curvature (G5),
+restoration geometry (G6), and CTL coordinate legality (G8.4).
+
+% ------------------------------------------------------------
+% B.1 INVARIANT-RESTRICTED TRANSITION
+% ------------------------------------------------------------
+
+\subsection*{B.1 Invariant-Restricted Transition (IRT)}
+
+\noindent An Invariant-Restricted Transition is a lawful transformation
+
+
+
+\[
+T_{\mathrm{IRT}} : \mathcal{M} \rightarrow \mathcal{M}
+\]
+
+
+
+that preserves invariants, curvature, identity boundaries, containment geometry,
+and runtime legality.
+
+\subsubsection*{Local Contraction Condition}
+
+
+
+\[
+\text{semantic\_distance}\big(T_{\mathrm{IRT}}(c), T_{\mathrm{IRT}}(c^*)\big)
+\le k_{\mathrm{IRT}} \cdot \text{semantic\_distance}(c, c^*),
+\qquad 0 \le k_{\mathrm{IRT}} < 1.
+\]
+
+
+
+\subsubsection*{Curvature Preservation}
+
+
+
+\[
+|\kappa(T_{\mathrm{IRT}}(c)) - \kappa(c)| \le \epsilon_{\max}.
+\]
+
+
+
+\subsubsection*{Invariant Preservation}
+
+
+
+\[
+I(T_{\mathrm{IRT}}(c)) = I(c).
+\]
+
+
+
+\noindent IRT ensures drift-boundedness (G2.5), restoration feasibility (G6),
+runtime legality (G7.5), and interaction legality (G8).
+
+% ------------------------------------------------------------
+% B.2 IDENTITY-PRESERVING UPDATE
+% ------------------------------------------------------------
+
+\subsection*{B.2 Identity-Preserving Update (IPU)}
+
+\noindent An Identity-Preserving Update is a transformation
+
+
+
+\[
+T_{\mathrm{IPU}} : \mathcal{M} \rightarrow \mathcal{M}
+\]
+
+
+
+that preserves identity-boundary geometry (G6.3--G6.4).
+
+Let $c_{\mathcal{R}}^*$ denote the identity anchor.
+
+\subsubsection*{Identity Preservation}
+
+
+
+\[
+T_{\mathrm{IPU}}(c) \in \mathcal{R},
+\qquad
+\text{semantic\_distance}\big(T_{\mathrm{IPU}}(c), \partial \mathcal{R}\big) > 0.
+\]
+
+
+
+\subsubsection*{Local Contraction Condition}
+
+
+
+\[
+\text{semantic\_distance}\big(T_{\mathrm{IPU}}(c), T_{\mathrm{IPU}}(c_{\mathcal{R}}^*)\big)
+\le k_{\mathrm{IPU}} \cdot \text{semantic\_distance}(c, c_{\mathcal{R}}^*).
+\]
+
+
+
+\noindent IPU prevents identity drift, role deformation, and identity collapse
+(G7.3).
+
+% ------------------------------------------------------------
+% B.3 GEOMETRY-BOUND STEP
+% ------------------------------------------------------------
+
+\subsection*{B.3 Geometry-Bound Step (GBS)}
+
+\noindent A Geometry-Bound Step is a transformation
+
+
+
+\[
+T_{\mathrm{GBS}} : \mathcal{M} \rightarrow \mathcal{M}
+\]
+
+
+
+that preserves manifold legality (A.2).
+
+\subsubsection*{Manifold Preservation}
+
+
+
+\[
+T_{\mathrm{GBS}}(c) \in \mathcal{M},
+\qquad
+\text{semantic\_distance}\big(T_{\mathrm{GBS}}(c), \partial \mathcal{M}\big) > 0.
+\]
+
+
+
+\subsubsection*{Local Contraction Condition}
+
+
+
+\[
+\text{semantic\_distance}\big(T_{\mathrm{GBS}}(c), T_{\mathrm{GBS}}(c^*)\big)
+\le k_{\mathrm{GBS}} \cdot \text{semantic\_distance}(c, c^*).
+\]
+
+
+
+\noindent GBS prevents manifold violation, collapse transitions (G7.3), and
+synthetic-capture entry (G7.4).
+
+% ------------------------------------------------------------
+% B.4 LOAD-REGULATED PLAN
+% ------------------------------------------------------------
+
+\subsection*{B.4 Load-Regulated Plan (LRP)}
+
+\noindent A Load-Regulated Plan is a trajectory
+
+
+
+\[
+\gamma : [0,1] \rightarrow \mathcal{M}
+\]
+
+
+
+that preserves load legality (G4) and curvature stability.
+
+\subsubsection*{Load and Curvature Constraints}
+
+
+
+\[
+L(\gamma(t)) \le L_{\max},
+\qquad
+\kappa(\gamma(t)) \ge \kappa_{\min}.
+\]
+
+
+
+\subsubsection*{Gradient Constraint}
+
+
+
+\[
+\text{semantic\_gradient}(L(\gamma(t))) \le G_{\max}.
+\]
+
+
+
+\subsubsection*{Local Contraction Along the Trajectory}
+
+
+
+\[
+\text{semantic\_distance}\big(\gamma(t+\Delta t), \gamma(t)\big)
+\le k_{\mathrm{LRP}} \cdot
+\text{semantic\_distance}\big(\gamma(t), \gamma(t-\Delta t)\big).
+\]
+
+
+
+\noindent LRP prevents overload, collapse-inducing trajectories, and restoration
+failure (G6.6).
+
+% ------------------------------------------------------------
+% B.5 OPERATOR CLOSURE
+% ------------------------------------------------------------
+
+\subsection*{B.5 Operator Closure Under Sequential Validation}
+
+Let
+
+
+
+\[
+\mathcal{O} =
+\{T_{\mathrm{IRT}}, T_{\mathrm{IPU}}, T_{\mathrm{GBS}}, T_{\mathrm{LRP}}\}.
+\]
+
+
+
+\subsubsection*{Closure Under Composition}
+
+
+
+\[
+T_j \circ T_i \in \mathcal{O}.
+\]
+
+
+
+\noindent Composition remains a contraction with constant $k_j k_i < 1$.
+Runtime legality (G7.5), interaction legality (G8), and CTL legality (G8.4) are
+validated before ledger commit.
+
+% ------------------------------------------------------------
+% B.6 FOLD OPERATOR
+% ------------------------------------------------------------
+
+\subsection*{B.6 Fold Operator (Relational Compression)}
+
+\noindent The Fold operator is a lawful semantic transformation
+
+
+
+\[
+T_{\mathrm{FOLD}} : \mathcal{M} \rightarrow \mathcal{M}
+\]
+
+
+
+that compresses multi-field relational strain into a single invariant while
+preserving curvature, identity boundaries, containment geometry, runtime
+legality, and interaction legality. Fold is used when relational overload,
+multi-field divergence, or strain accumulation threatens curvature continuity or
+restoration feasibility.
+
+\medskip
+
+\noindent Let $c \in \mathcal{M}$ have relational components
+$\{r_1, r_2, \dots, r_n\}$ and let $r^*$ denote the compressed invariant.
+
+
+
+\[
+T_{\mathrm{FOLD}}(c) = c' \quad \text{with} \quad
+\{r_1, \dots, r_n\} \mapsto r^*.
+\]
+
+
+
+\subsubsection*{Relational Compression Condition}
+
+
+
+\[
+\text{semantic\_strain}(c') \le
+k_{\mathrm{FOLD}} \cdot \text{semantic\_strain}(c),
+\qquad 0 \le k_{\mathrm{FOLD}} < 1.
+\]
+
+
+
+\subsubsection*{Curvature Preservation}
+
+
+
+\[
+|\kappa(T_{\mathrm{FOLD}}(c)) - \kappa(c)| \le \epsilon_{\max}.
+\]
+
+
+
+\subsubsection*{Identity and Boundary Preservation}
+
+
+
+\[
+\partial \mathcal{R}(T_{\mathrm{FOLD}}(c)) = \partial \mathcal{R}(c).
+\]
+
+
+
+\subsubsection*{Runtime Legality}
+
+
+
+\[
+\gamma_{\mathrm{FOLD}}(t) \in \text{Safe} \cup \text{Drift}.
+\]
+
+
+
+\subsubsection*{Interaction Legality}
+
+Host, Explorer, and Interpreter modes remain legal under compression.
+
+\medskip
+
+\noindent Fold reduces collapse amplification by contracting relational strain
+into a single invariant while preserving legality envelopes, containment
+structure, and runtime curvature continuity.
+
+% ------------------------------------------------------------
+% B.7 INVERT OPERATOR
+% ------------------------------------------------------------
+
+\subsection*{B.7 Invert Operator (Directional Reversal)}
+
+\noindent The Invert operator is a lawful semantic transformation
+
+
+
+\[
+T_{\mathrm{INV}} : \mathcal{M} \rightarrow \mathcal{M}
+\]
+
+
+
+that reverses semantic directionality while preserving curvature, continuity,
+identity boundaries, containment geometry, and runtime legality. Invert is used
+to redirect drift trajectories back toward lawful geometry.
+
+\subsubsection*{Directional Reversal Condition}
+
+Let $\vec{d}(c)$ denote the semantic direction of $c$:
+
+
+
+\[
+\vec{d}(T_{\mathrm{INV}}(c)) = -\vec{d}(c).
+\]
+
+
+
+\subsubsection*{Local Contraction Condition}
+
+
+
+\[
+\text{semantic\_distance}\big(T_{\mathrm{INV}}(c), T_{\mathrm{INV}}(c^*)\big)
+\le k_{\mathrm{INV}} \cdot \text{semantic\_distance}(c, c^*),
+\qquad 0 \le k_{\mathrm{INV}} < 1.
+\]
+
+
+
+\subsubsection*{Curvature Preservation}
+
+
+
+\[
+\kappa(T_{\mathrm{INV}}(c)) \approx \kappa(c),
+\qquad
+|\kappa(T_{\mathrm{INV}}(c)) - \kappa(c)| \le \epsilon_{\max}.
+\]
+
+
+
+\subsubsection*{Runtime Legality}
+
+Invert must not push trajectories into collapse or synthetic-capture regions:
+
+
+
+\[
+\gamma_{\mathrm{INV}}(t) \notin \text{Collapse} \cup \text{Capture}.
+\]
+
+
+
+\subsubsection*{Interaction Legality}
+
+Host, Explorer, and Interpreter modes remain legal under reversal.
+
+\medskip
+
+\noindent Invert allows drift-driven trajectories to be redirected back toward
+lawful relational geometry without violating manifold legality or curvature
+continuity.
+
+
+% ------------------------------------------------------------
+% B.8 LIFT OPERATOR
+% ------------------------------------------------------------
+
+\subsection*{B.8 Lift Operator (Abstraction Elevation)}
+
+\noindent The Lift operator is a lawful semantic transformation
+
+
+
+\[
+T_{\mathrm{LIFT}} : \mathcal{M} \rightarrow \mathcal{M}
+\]
+
+
+
+that elevates a meaning field into a higher abstraction band, reducing overload,
+restoring continuity, and increasing curvature stability. Lift is used when
+local overload, strain accumulation, or adjacency fragmentation threatens
+runtime legality or restoration feasibility.
+
+\subsubsection*{Abstraction Band Condition}
+
+Let $\alpha(c)$ denote the abstraction level of $c$:
+
+
+
+\[
+\alpha(T_{\mathrm{LIFT}}(c)) > \alpha(c).
+\]
+
+
+
+\subsubsection*{Load and Curvature Constraints}
+
+
+
+\[
+L(T_{\mathrm{LIFT}}(c)) \le L(c),
+\qquad
+\kappa(T_{\mathrm{LIFT}}(c)) \ge \kappa(c).
+\]
+
+
+
+\subsubsection*{Local Contraction Condition}
+
+
+
+\[
+\text{semantic\_distance}\big(T_{\mathrm{LIFT}}(c), T_{\mathrm{LIFT}}(c^*)\big)
+\le k_{\mathrm{LIFT}} \cdot \text{semantic\_distance}(c, c^*),
+\qquad 0 \le k_{\mathrm{LIFT}} < 1.
+\]
+
+
+
+\subsubsection*{Coherence Preservation}
+
+
+
+\[
+C(T_{\mathrm{LIFT}}(c)) \ge C(c).
+\]
+
+
+
+\subsubsection*{Runtime Legality}
+
+Lift must not elevate meaning into collapse or synthetic-capture geometry:
+
+
+
+\[
+\gamma_{\mathrm{LIFT}}(t) \in \text{Safe}.
+\]
+
+
+
+\subsubsection*{Interaction Legality}
+
+Host, Explorer, and Interpreter modes remain legal under elevation.
+
+\medskip
+
+\noindent Lift reduces overload and restores continuity by moving meaning into a
+higher, more stable abstraction band while preserving curvature, identity
+boundaries, and containment geometry.
+
+% ------------------------------------------------------------
+% B.9 BIND OPERATOR
+% ------------------------------------------------------------
+
+\subsection*{B.9 Bind Operator (Relational Composition)}
+
+\noindent The Bind operator is a lawful semantic transformation
+
+
+
+\[
+T_{\mathrm{BIND}} : \mathcal{M} \times \mathcal{M} \rightarrow \mathcal{M}
+\]
+
+
+
+that composes two relational objects into a coherent composite while preserving
+identity boundaries, curvature continuity, containment geometry, and manifold
+legality.
+
+\subsubsection*{Composite Construction}
+
+Let $c_1, c_2 \in \mathcal{M}$ and $c_{\mathrm{bind}}$ denote the composite:
+
+
+
+\[
+T_{\mathrm{BIND}}(c_1, c_2) = c_{\mathrm{bind}}.
+\]
+
+
+
+\subsubsection*{Manifold Preservation}
+
+
+
+\[
+\text{semantic\_distance}\big(c_{\mathrm{bind}}, \partial \mathcal{M}\big) > 0.
+\]
+
+
+
+\subsubsection*{Invariant and Boundary Preservation}
+
+
+
+\[
+I(c_{\mathrm{bind}}) = I(c_1) \cup I(c_2),
+\qquad
+\partial \mathcal{R}(c_{\mathrm{bind}}) \text{ remains intact}.
+\]
+
+
+
+\subsubsection*{Curvature Continuity}
+
+
+
+\[
+|\kappa(c_{\mathrm{bind}}) - \kappa(c_i)| \le \epsilon_{\max},
+\qquad i \in \{1,2\}.
+\]
+
+
+
+\subsubsection*{Runtime Legality}
+
+Bind must not produce collapse or synthetic-capture composites:
+
+
+
+\[
+c_{\mathrm{bind}} \notin \text{Collapse} \cup \text{Capture}.
+\]
+
+
+
+\subsubsection*{Interaction Legality}
+
+Host, Explorer, and Interpreter modes remain legal under composition.
+
+\medskip
+
+\noindent Bind stabilizes identity-boundary rupture and role divergence by
+forming lawful composites that remain manifold-legal, curvature-preserving, and
+runtime-admissible.
+
+% ------------------------------------------------------------
+% B.10 EXTENDED OPERATOR CLOSURE
+% ------------------------------------------------------------
+
+\subsection*{B.10 Extended Operator Closure}
+
+\noindent Let
+
+
+
+\[
+\mathcal{O}_{\mathrm{ext}} =
+\{T_{\mathrm{IRT}}, T_{\mathrm{IPU}}, T_{\mathrm{GBS}}, T_{\mathrm{LRP}},
+  T_{\mathrm{FOLD}}, T_{\mathrm{INV}}, T_{\mathrm{LIFT}}, T_{\mathrm{BIND}}\}.
+\]
+
+
+
+\subsubsection*{Closure Under Composition}
+
+For any $T_i, T_j \in \mathcal{O}_{\mathrm{ext}}$:
+
+
+
+\[
+T_j \circ T_i \in \mathcal{O}_{\mathrm{ext}}.
+\]
+
+
+
+\noindent Closure is guaranteed because:
+
+\begin{itemize}
+    \item each operator is a local contraction with constant $k_i < 1$,
+    \item composition yields a contraction with constant $k_j k_i < 1$,
+    \item curvature variance remains bounded,
+    \item identity boundaries remain intact,
+    \item containment geometry remains stable,
+    \item manifold legality is preserved,
+    \item runtime curvature remains admissible (A.6),
+    \item interaction geometry remains legal (A.7),
+    \item CTL coordinate continuity is preserved (A.8),
+    \item public-safe traversal constraints are satisfied (A.9).
+\end{itemize}
+
+\subsubsection*{Antientropic Property}
+
+
+
+\[
+\forall T \in \mathcal{O}_{\mathrm{ext}}, \quad
+\kappa(T(c)) \ge \kappa_{\min}.
+\]
+
+
+
+\noindent This ensures the substrate cannot drift into semantic entropy, collapse
+geometry, or synthetic-capture geometry.
+
+\medskip
+\noindent\textit{This completes Appendix B (v0.6).}

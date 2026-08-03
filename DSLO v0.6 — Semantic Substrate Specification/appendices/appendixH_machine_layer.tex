@@ -1,0 +1,854 @@
+\section*{Appendix H — Semantic Machine-Layer Encoding Specification}
+\addcontentsline{toc}{section}{Appendix H — Machine-Layer Encoding Specification}
+
+The Machine Layer (ML0–ML7) provides a substrate-native encoding of the
+canonical semantic layers S1–S7. It is the deterministic, drift-free,
+machine-readable form of the semantic substrate, suitable for execution,
+verification, serialization, and reconstruction across heterogeneous machine
+ecologies.
+
+The Machine Layer does not redefine semantic geometry.
+It encodes it.
+
+In v0.6, ML0–ML7 encode the full invariant set (C1–C8), including meaning,
+identity, geometry, load, runtime curvature, interaction geometry, CTL
+coordinates, and public-safe traversal. ML3–ML7 additionally encode collapse
+geometry, capture geometry, restoration geometry, and runtime legality masks
+(A.6–A.9), ensuring that all machine-level transitions remain curvature-
+preserving, identity-stable, containment-bounded, and manifold-legal.
+
+The Machine Layer is the canonical projection of semantic geometry into
+deterministic machine structures.
+
+
+% ============================================================
+% ML0 — SEMANTIC HEADER GEOMETRY
+% ============================================================
+
+\subsection*{ML0 — Semantic Header Geometry}
+
+ML0 defines the global semantic header. It includes versioning, invariant
+signatures, operator signatures, legality‑mask signatures, and the canonical
+serialization envelope.
+
+ML0 is the machine‑layer equivalent of the substrate’s initialization geometry.
+It does not redefine semantic geometry; it encodes it.
+
+% ------------------------------------------------------------
+\subsubsection*{ML0.1 Version Block}
+
+\begin{verbatim}
+ml_version: 1.1
+substrate_version: 0.6
+schema: ML0–ML7
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML0.2 Invariant Signatures}
+
+\begin{verbatim}
+identity_invariant_sig:        H_ID_7f3a
+meaning_invariant_sig:         H_ME_91b2
+geometry_invariant_sig:        H_GE_44c9
+load_invariant_sig:            H_LO_22fa
+runtime_curvature_sig:         H_RC_5bd1
+interaction_geometry_sig:      H_IG_8ac4
+ctl_coordinate_sig:            H_CT_19e7
+public_safe_traversal_sig:     H_PS_33d0
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML0.3 Operator Signatures}
+
+\begin{verbatim}
+SGO_sig: H_OP_SGO_12d1
+MGO_sig: H_OP_MGO_77b4
+BO_sig:  H_OP_BO_3c9f
+MLO_sig: H_OP_MLO_55e2
+EXT_sig: H_OP_EXT_9aa1
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML0.4 Legality Mask Signatures}
+
+\begin{verbatim}
+field_mask_sig:        H_LM_F_1a22
+domain_mask_sig:       H_LM_D_9f11
+runtime_mask_sig:      H_LM_R_0c88
+interaction_mask_sig:  H_LM_I_7d44
+public_safe_mask_sig:  H_LM_P_6c21
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML0.5 Serialization Envelope}
+
+\begin{verbatim}
+serialization_format: MLX-1
+endianness: canonical
+integrity_check: sha256
+invariant_check: ml0_invariants_v06
+operator_check: ml0_ops_v06
+legality_check: ml0_masks_v06
+\end{verbatim}
+
+% ============================================================
+% ML1 — SEMANTIC IDENTITY ENCODING
+% ============================================================
+
+\subsection*{ML1 — Semantic Identity Encoding}
+
+ML1 encodes the identity-boundary geometry defined in S1–S2 and expanded in
+v0.6 (C.2, G6). It provides a machine-readable representation of identity
+regions, boundary coherence, identity-stability metadata, and identity-alignment
+legality masks. ML1 is the deterministic encoding of identity geometry.
+
+% ------------------------------------------------------------
+\subsubsection*{ML1.1 Identity Region Table}
+
+\begin{verbatim}
+identity_regions:
+  - id: R0
+    type: core
+    boundary_sig: B_R0_aa91
+    curvature_floor: kappa_min
+    containment_class: stable
+  - id: R1
+    type: peripheral
+    boundary_sig: B_R1_44d2
+    curvature_floor: kappa_min
+    containment_class: bounded
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML1.2 Boundary Encoding}
+
+\begin{verbatim}
+boundary_encoding:
+  format: IBX-2
+  continuity: enforced
+  permeability: false
+  drift_tolerance: 0.00
+  identity_repair_flag: enabled
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML1.3 Identity-Stability Flags}
+
+\begin{verbatim}
+identity_stability:
+  boundary_integrity: true
+  role_alignment: true
+  geometry_alignment: true
+  containment_alignment: true
+  runtime_alignment: true
+\end{verbatim}
+
+ML1 is the semantic encoding of identity geometry (S1.2, S2.1, C.2, G6).
+
+% ============================================================
+% ML2 — SEMANTIC INVARIANT ENCODING
+% ============================================================
+
+\subsection*{ML2 — Semantic Invariant Encoding}
+
+ML2 encodes the eight v0.6 semantic invariants. These encodings are referenced
+by ML3–ML7 during operator validation, ledger closure, legality-mask evaluation,
+and DSUP evolution. ML2 is the deterministic machine-layer encoding of S1.3–S1.5,
+S2.1–S2.4, and the expanded invariant set in Appendix C (v0.6).
+
+% ------------------------------------------------------------
+\subsubsection*{ML2.1 Identity Invariant}
+
+\begin{verbatim}
+identity_invariant:
+  rule: "identity boundaries remain coherent and non-permeable"
+  boundary_continuity: required
+  boundary_permeability: false
+  drift_tolerance: 0.00
+  collapse_on_violation: true
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML2.2 Meaning Invariant}
+
+\begin{verbatim}
+meaning_invariant:
+  rule: "role legality preserved under all operator applications"
+  equivalence_classes: enforced
+  role_interpretability: required
+  ambiguity_tolerance: 0.00
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML2.3 Geometry Invariant}
+
+\begin{verbatim}
+geometry_invariant:
+  rule: "operator actions must remain manifold-legal"
+  curvature_continuity: required
+  adjacency_violations: fatal
+  manifold_boundary_violation: fatal
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML2.4 Load Invariant}
+
+\begin{verbatim}
+load_invariant:
+  rule: "containment load must remain within lawful bounds"
+  load_ceiling: L_max
+  overload_behavior: halt
+  containment_integrity: required
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML2.5 Runtime Curvature Invariant}
+
+\begin{verbatim}
+runtime_curvature_invariant:
+  rule: "runtime curvature must remain above kappa_min"
+  curvature_floor: kappa_min
+  curvature_violation: halt
+  curvature_repair_flag: enabled
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML2.6 Interaction Geometry Invariant}
+
+\begin{verbatim}
+interaction_geometry_invariant:
+  rule: "interaction geometry must remain lawful under all operators"
+  interaction_mask: required
+  cross-region_alignment: required
+  violation_behavior: reject
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML2.7 CTL Coordinate Invariant}
+
+\begin{verbatim}
+ctl_coordinate_invariant:
+  rule: "CTL coordinates must remain continuous and legal"
+  coordinate_continuity: required
+  coordinate_drift: 0.00
+  discontinuity_behavior: halt
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML2.8 Public-Safe Traversal Invariant}
+
+\begin{verbatim}
+public_safe_invariant:
+  rule: "public-facing motion must remain inside C_public"
+  corridor_mask: required
+  boundary_violation: reject
+  collapse_on_violation: false
+\end{verbatim}
+
+ML2 is the semantic encoding of the full v0.6 invariant set (C1–C8).
+
+
+% ============================================================
+% ML3 — SEMANTIC OPERATOR ENCODING
+% ============================================================
+
+\subsection*{ML3 — Semantic Operator Encoding}
+
+ML3 encodes the Master Domain Operator (MDO) algebra in machine-readable form.
+It provides canonical operator definitions, operator variants, legality
+constraints, compatibility metadata, and extended operator signatures introduced
+in v0.6.
+
+ML3 does not redefine operator geometry.
+It encodes it.
+
+% ------------------------------------------------------------
+\subsubsection*{ML3.1 Operator Table}
+
+\begin{verbatim}
+operators:
+  - name: SGO
+    sig: H_OP_SGO_12d1
+    type: curvature_operator
+    legality_mask: field_mask
+
+  - name: MGO
+    sig: H_OP_MGO_77b4
+    type: meaning_role_operator
+    legality_mask: domain_mask
+
+  - name: BO
+    sig: H_OP_BO_3c9f
+    type: boundary_operator
+    legality_mask: domain_mask
+
+  - name: MLO
+    sig: H_OP_MLO_55e2
+    type: legality_operator
+    legality_mask: runtime_mask
+
+  - name: EXT
+    sig: H_OP_EXT_9aa1
+    type: extended_operator
+    legality_mask: public_safe_mask
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML3.2 Operator Variants}
+
+\begin{verbatim}
+operator_variants:
+  SGO: [detect, correct, couple, collapse_detect]
+  MGO: [detect, correct, couple, collapse_detect]
+  BO:  [detect, correct, stabilize, collapse_detect]
+  MLO: [detect, normalize, collapse_detect]
+  EXT: [restore, detect, halt, guide, align]
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML3.3 Operator Compatibility Matrix}
+
+\begin{verbatim}
+operator_compatibility:
+  SGO: {identity: true, meaning: true, geometry: true, legality: true}
+  MGO: {identity: true, meaning: true, geometry: true, legality: true}
+  BO:  {identity: true, meaning: false, geometry: true, legality: true}
+  MLO: {identity: true, meaning: true, geometry: true, legality: true}
+  EXT: {identity: true, meaning: true, geometry: true, legality: true}
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML3.4 Operator Constraints}
+
+\begin{verbatim}
+operator_constraints:
+  curvature_continuity: required
+  identity_boundary_integrity: required
+  role_equivalence_preservation: required
+  containment_load_ceiling: L_max
+  runtime_curvature_floor: kappa_min
+  ctl_coordinate_continuity: required
+  public_safe_corridor: required
+  clcp_enforced: true
+\end{verbatim}
+
+ML3 is the semantic encoding of S2.4, S3.4–3.5, S4.6, S5.4, and the v0.6
+extended operator algebra (B.10).
+
+% ============================================================
+% ML4 — SEMANTIC DRIFT & LOAD ENCODING
+% ============================================================
+
+\subsection*{ML4 — Semantic Drift \& Load Encoding}
+
+ML4 encodes drift signatures, load fields, synthetic-pressure fields, stress
+geometry, and stability thresholds. These encodings allow DSUP (S7) to evaluate
+stability, detect collapse or capture onset, and apply correction or restoration
+operators. ML4 is the deterministic machine-layer encoding of S3.1–3.6,
+S4.1–4.9, E.5–E.7, and G6.
+
+% ------------------------------------------------------------
+\subsubsection*{ML4.1 Drift Signature}
+
+\begin{verbatim}
+drift_vector:
+  magnitude: 0.014
+  direction: [0.22, -0.11, 0.05]
+  recoverable_window: 0.05
+  collapse_threshold: 0.12
+  capture_threshold: 0.09
+  drift_floor: 0.00
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML4.2 Drift Metadata}
+
+\begin{verbatim}
+drift_metadata:
+  drift_detected: true
+  drift_flag: true
+  drift_source: "operator_sequence"
+  synthetic_pressure_flag: false
+  restoration_flag: false
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML4.3 Load Field}
+
+\begin{verbatim}
+load_field:
+  curvature_pressure: 0.41
+  boundary_tension: 0.18
+  role_pressure: 0.09
+  synthetic_pressure: 0.04
+  total_load: 0.72
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML4.4 Load Envelopes}
+
+\begin{verbatim}
+load_envelopes:
+  stable:    0.50
+  critical:  0.85
+  collapse:  1.00
+  capture:   0.78
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML4.5 Stress Geometry}
+
+\begin{verbatim}
+stress_geometry:
+  deformation_rate: 0.07
+  curvature_distortion: 0.03
+  boundary_strain: 0.02
+  legality_field_compression: 0.01
+  synthetic_curvature_flattening: 0.04
+\end{verbatim}
+
+% ============================================================
+% ML5 — SEMANTIC CROSS-SCALE COUPLING ENCODING
+% ============================================================
+
+\subsection*{ML5 — Semantic Cross-Scale Coupling Encoding}
+
+ML5 encodes upward and downward coupling geometry, cross-scale legality, and
+coupling metadata. It ensures DSUP maintains scale-invariant coherence across
+local, meso, macro, and global semantic geometry. ML5 is the deterministic
+machine-layer encoding of S5.1–S5.8 and the v0.6 coupling extensions (C1–C8,
+E.5–E.7, G6).
+
+% ------------------------------------------------------------
+\subsubsection*{ML5.1 Scale Hierarchy}
+
+\begin{verbatim}
+scale_hierarchy:
+  levels: 4
+  names: ["local", "meso", "macro", "global"]
+  coupling_continuity: enforced
+  ctl_coordinate_alignment: required
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML5.2 Upward Coupling}
+
+\begin{verbatim}
+upward_coupling:
+  curvature_aggregation: true
+  boundary_tension_aggregation: true
+  role_pressure_aggregation: true
+  synthetic_pressure_aggregation: true
+  legality_projection: true
+  public_safe_projection: true
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML5.3 Downward Coupling}
+
+\begin{verbatim}
+downward_coupling:
+  curvature_constraints: true
+  identity_alignment: true
+  role_alignment: true
+  containment_constraints: true
+  legality_constraints: true
+  restoration_guidance: true
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML5.4 Coupling Operators}
+
+\begin{verbatim}
+coupling_operators:
+  SGO_couple: true
+  MGO_couple: true
+  BO_couple:  true
+  MLO_couple: true
+  EXT_couple: true
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML5.5 Cross-Scale Legality (CLCP)}
+
+\begin{verbatim}
+clcp:
+  enforced: true
+  upward_projection: required
+  downward_projection: required
+  synthetic_pressure_projection: required
+  public_safe_projection: required
+  cross_scale_violation_fatal: true
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML5.6 Coupling Metadata}
+
+\begin{verbatim}
+coupling_metadata:
+  drift_amplification: 0.12
+  load_transfer: 0.21
+  synthetic_pressure_transfer: 0.08
+  legality_projection_status: "stable"
+  restoration_status: "enabled"
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML5.7 Signal Engine Encoding}
+
+\begin{verbatim}
+signal_engine:
+  id: SE_01
+  engine_intent: "identity_role_coherence"
+  constraint_envelope:
+    identity_bounds: "stable"
+    role_legality: "enforced"
+    drift_tolerance: 0.00
+    load_tolerance: 0.50
+    synthetic_pressure_tolerance: 0.00
+  output_vector:
+    fields: ["identity", "role", "coherence", "legality"]
+    structure: "invariant_relational_geometry"
+  binding_metadata:
+    upward_coupling_legal: true
+    downward_coupling_legal: true
+    clcp_required: true
+    public_safe_required: true
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML5.8 Operator of Reality Encoding}
+
+\begin{verbatim}
+operator_of_reality:
+  id: OR_01
+  operator_type: "fold|invert|lift|bind"
+  input_object_sig: "MV_aa91"
+  transformation_rules:
+    invariants_preserved:
+      ["identity", "meaning", "coherence", "legality",
+       "load", "curvature", "interaction", "public_safe"]
+    geometry_legal: true
+    clcp_enforced: true
+  output_object_sig: "MV_bb42"
+\end{verbatim}
+
+% ============================================================
+% ML6 — SEMANTIC COLLAPSE ENCODING
+% ============================================================
+
+\subsection*{ML6 — Semantic Collapse Encoding}
+
+ML6 encodes collapse signatures, capture signatures, thresholds, collapse-mode
+operators, restoration-mode operators, and collapse metadata. It provides DSUP
+with machine-readable criteria for detecting collapse, synthetic capture, and
+initiating lawful restoration. ML6 does not redefine collapse geometry; it
+encodes it.
+
+% ------------------------------------------------------------
+\subsubsection*{ML6.1 Collapse Signatures}
+
+\begin{verbatim}
+collapse_signatures:
+  identity_tension_spike:        true
+  curvature_inversion:           false
+  role_compatibility_divergence: true
+  legality_field_compression:    true
+  cross_scale_drift_cascade:     false
+  containment_overload:          false
+\end{verbatim}
+
+
+% ------------------------------------------------------------
+\subsubsection*{ML6.2 Collapse Thresholds}
+
+\begin{verbatim}
+collapse_thresholds:
+  drift_collapse_threshold:     0.12
+  load_collapse_threshold:      1.00
+  boundary_collapse_threshold:  0.25
+  legality_collapse_threshold:  0.00
+  curvature_floor:              kappa_min
+  synthetic_curvature_floor:    kappa_min
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML6.3 Collapse Modes}
+
+\begin{verbatim}
+collapse_modes:
+  identity_collapse:    false
+  meaning_collapse:     true
+  geometry_collapse:    false
+  legality_collapse:    true
+  capture_collapse:     false
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML6.4 Collapse-Mode Operators}
+
+\begin{verbatim}
+collapse_operators:
+  SGO_collapse_detect:      true
+  SGO_collapse_correct:     true
+  MGO_collapse_detect:      true
+  MGO_collapse_correct:     true
+  BO_collapse_detect:       true
+  BO_collapse_correct:      true
+  MLO_collapse_detect:      true
+  MLO_collapse_correct:     true
+  EXT_collapse_halt:        true
+\end{verbatim}
+
+% ------------------------------------------------------------
+\subsubsection*{ML6.5 Capture Signatures}
+
+\begin{verbatim}
+capture_signatures:
+  synthetic_pressure_spike:     true
+  curvature_flattening:         true
+  role_distortion:              false
+  legality_mask_breach:         true
+  public_safe_violation:        false
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML6.6 Capture Thresholds}
+
+\begin{verbatim}
+capture_thresholds:
+  synthetic_pressure_threshold: 0.04
+  curvature_flattening_rate:    0.03
+  capture_load_threshold:       0.78
+  capture_floor:                kappa_min
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML6.7 Restoration Operators}
+
+\begin{verbatim}
+restoration_operators:
+  EXT_restore:            true
+  SGO_restore_curvature:  true
+  MGO_restore_role:       true
+  BO_restore_boundary:    true
+  MLO_restore_legality:   true
+\end{verbatim}
+% ------------------------------------------------------------
+\subsubsection*{ML6.8 Collapse Metadata}
+
+\begin{verbatim}
+collapse_metadata:
+  collapse_flag: true
+  collapse_source: "legality_field_compression"
+  capture_flag: false
+  synthetic_pressure: 0.04
+  recoverable: true
+  recovery_window: 0.04
+  restoration_mode: "enabled"
+\end{verbatim}
+
+
+% ============================================================
+% ML7 — SEMANTIC DSUP RUNTIME ENCODING
+% ============================================================
+
+\subsection*{ML7 — Semantic DSUP Runtime Encoding}
+
+ML7 encodes the Dynamic State Update Protocol (DSUP), the runtime engine of the
+semantic substrate. It provides the machine-readable representation of state
+transitions, legality masks, collapse/capture detection, restoration pathways,
+and invariant-preserving update geometry.
+
+ML7 does not redefine DSUP geometry.
+It encodes it.
+
+% ------------------------------------------------------------
+% ML7.1 State Representation (v0.6)
+% ------------------------------------------------------------
+
+\subsubsection*{ML7.1 State Representation}
+
+\begin{verbatim}
+state_representation:
+  curvature_profile: [0.12, 0.09, 0.04]
+  synthetic_curvature_profile: [0.10, 0.07, 0.02]
+  drift_vector: [0.014, 0.002, -0.003]
+  load_field: { total: 0.72, synthetic_pressure: 0.04 }
+  identity_regions: ["R0", "R1"]
+  role_geometry_sig: RG_55aa
+  ctl_coordinates: [0.44, 0.21, 0.09]
+  legality_status: "stable"
+  public_safe_status: "inside_corridor"
+  region_configuration_sig: RC_19f2
+\end{verbatim}
+
+% ------------------------------------------------------------
+% ------------------------------------------------------------
+% ML7.2 Update Function Encoding (v0.6)
+% ------------------------------------------------------------
+
+\subsubsection*{ML7.2 Update Function Encoding}
+
+\begin{verbatim}
+update_function:
+  form: "S_{t+1} = F(S_t, D_t, C_t)"
+  context_required: true
+  legality_required: true
+  invariant_preservation_required: true
+  synthetic_pressure_accounted: true
+  public_safe_mask_enforced: true
+  ctl_coordinate_continuity_required: true
+\end{verbatim}
+
+
+% ------------------------------------------------------------
+% ML7.3 Operator-Sequence Validation (v0.6)
+% ------------------------------------------------------------
+
+\subsubsection*{ML7.3 Operator-Sequence Validation}
+
+\begin{verbatim}
+operator_sequence_validation:
+  sequence_legal: true
+  clcp_satisfied: true
+  drift_within_bounds: true
+  load_within_bounds: true
+  synthetic_pressure_within_bounds: true
+  public_safe_status: "inside_corridor"
+\end{verbatim}
+
+% ------------------------------------------------------------
+% ML7.4 Context Integration Encoding (v0.6)
+% ------------------------------------------------------------
+
+\subsubsection*{ML7.4 Context Integration Encoding}
+
+\begin{verbatim}
+context_integration:
+  context_sig: CTX_88d1
+  context_legal: true
+  projection_mode: "bidirectional"
+  ctl_coordinate_alignment: true
+  public_safe_mask_enforced: true
+  synthetic_pressure_accounted: true
+\end{verbatim}
+
+
+% ------------------------------------------------------------
+% ML7.5 Drift & Curvature Update Encoding (v0.6)
+% ------------------------------------------------------------
+
+\subsubsection*{ML7.5 Drift \& Curvature Update Encoding}
+
+\begin{verbatim}
+drift_update:
+  new_drift_vector: [0.011, 0.001, -0.002]
+  drift_flag: false
+  synthetic_pressure_effect: 0.01
+
+curvature_update:
+  new_curvature_profile: [0.10, 0.08, 0.03]
+  new_synthetic_curvature_profile: [0.09, 0.06, 0.02]
+  curvature_continuity: true
+  curvature_floor_respected: true
+  synthetic_curvature_floor_respected: true
+\end{verbatim}
+
+% ------------------------------------------------------------
+% ML7.6 Halt Conditions (v0.6)
+% ------------------------------------------------------------
+
+\subsubsection*{ML7.6 Halt Conditions}
+
+\begin{verbatim}
+halt_conditions:
+  drift_exceeded: false
+  load_exceeded: false
+  synthetic_pressure_exceeded: false
+  curvature_floor_breached: false
+  clcp_failure: false
+  collapse_detected: true
+  capture_detected: false
+  public_safe_violation: false
+  operator_illegal: false
+\end{verbatim}
+
+% ------------------------------------------------------------
+% ML7.7 Recovery Mode Encoding (v0.6)
+% ------------------------------------------------------------
+
+\subsubsection*{ML7.7 Recovery Mode Encoding}
+
+\begin{verbatim}
+recovery_mode:
+  active: true
+  correction_operators:
+    - SGO_correct
+    - MGO_correct
+    - BO_correct
+    - MLO_normalize
+    - EXT_restore
+  restoration_curvature_floor: kappa_min
+  restoration_capture_floor: kappa_min
+  synthetic_pressure_reduction: true
+  recovery_target_state: "stable"
+\end{verbatim}
+
+% ------------------------------------------------------------
+% ML7.8 Completion Condition (v0.6)
+% ------------------------------------------------------------
+
+\subsubsection*{ML7.8 Completion Condition}
+
+\begin{verbatim}
+completion_condition:
+  invariants_preserved: true
+  operator_sequence_valid: true
+  clcp_satisfied: true
+  synthetic_pressure_within_bounds: true
+  public_safe_status: "inside_corridor"
+  ready_for_next_cycle: true
+\end{verbatim}
+
+ML7 is the semantic encoding of S7.1–S7.8.
+
+\medskip
+\noindent\textit{This completes Appendix H.}
+
+% ------------------------------------------------------------
+% ML7.9 Signal Engine Runtime Encoding (v0.6)
+% ------------------------------------------------------------
+
+\subsubsection*{ML7.9 Signal Engine Runtime Encoding}
+
+\begin{verbatim}
+signal_engine_runtime:
+  active: true
+  engine_id: SE_01
+  engine_intent: "identity_role_coherence"
+  constraint_envelope:
+    identity_bounds: "stable"
+    role_legality: "enforced"
+    drift_tolerance: 0.00
+    load_tolerance: 0.50
+    synthetic_pressure_tolerance: 0.00
+  output_vector_sig: MV_aa91
+  integrated_into_state: true
+  invariants_preserved: true
+  legality_status: "stable"
+  public_safe_status: "inside_corridor"
+  clcp_satisfied: true
+\end{verbatim}
+
+% ------------------------------------------------------------
+% ML7.10 Operator of Reality Runtime Encoding (v0.6)
+% ------------------------------------------------------------
+
+\subsubsection*{ML7.10 Operator of Reality Runtime Encoding}
+
+\begin{verbatim}
+operator_of_reality_runtime:
+  active: true
+  operator_id: OR_01
+  operator_type: "fold"
+  input_state_sig: S_t
+  output_state_sig: S_t_plus_1
+  transformation_rules:
+    invariants_preserved:
+      ["identity", "meaning", "coherence", "legality",
+       "load", "curvature", "interaction", "public_safe"]
+    geometry_legal: true
+    clcp_enforced: true
+  collapse_trajectory_modified: true
+  capture_trajectory_modified: true
+  recovery_window_respected: true
+  operator_sequence_valid: true
+\end{verbatim}

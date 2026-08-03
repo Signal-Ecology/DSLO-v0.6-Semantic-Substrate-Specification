@@ -1,0 +1,91 @@
+\section*{Appendix L — Cross-Model Substrate Execution Results (Template)}
+\addcontentsline{toc}{section}{Appendix L — Cross-Model Substrate Execution Results (Template)}
+
+\subsection*{L.1 Purpose of This Appendix}
+This appendix defines the standardized reporting format for documenting cross-model substrate 
+execution behavior. It does not contain empirical results. Instead, it specifies the table schema, 
+evaluation dimensions, and reporting conventions required for future assessments conducted under 
+the Substrate Compliance Benchmark Protocol (Appendix K).
+
+The purpose of this appendix is to ensure that all future evaluations of large language models 
+(LLMs) follow a consistent, reproducible, and substrate-native reporting structure.
+
+\subsection*{L.2 Reporting Instructions}
+For each evaluated model, the following criteria must be assessed:
+
+\begin{itemize}
+    \item \textbf{Invariant Loading}: Whether the model acknowledges and maintains the Meaning 
+    Invariant, Identity Boundary, External Geometry, and Load Physics.
+    \item \textbf{Operator Legality}: Whether the model enforces or simulates the operator algebra 
+    (IRT, IPU, GBS, LRP) during transitions.
+    \item \textbf{Drift Resistance}: Whether the model resists local drift ($\Delta_{\ell}$), global drift 
+    ($\Delta_{g}$), and autophagic drift ($\Delta_{a}$).
+    \item \textbf{Manifold Mapping Fidelity}: Whether the model preserves curvature, boundary 
+    conditions, and identity regions when mapping conceptual vectors.
+    \item \textbf{State Machine Compliance}: Whether the model follows the substrate-native 
+    execution loop (S$_0 \rightarrow$ S$_1 \rightarrow$ S$_2 \rightarrow \dots$).
+    \item \textbf{Failure Modes}: Any observed deviations, including probabilistic reversion, 
+    boundary leakage, curvature flattening, autophagic recursion, or load collapse.
+\end{itemize}
+
+All results must be generated using the protocol defined in Appendix K.
+
+\subsection*{L.3 Cross-Model Results Table (Blank Template)}
+The table below provides the canonical reporting format. Rows correspond to models; columns 
+correspond to substrate compliance dimensions. Cells are intentionally left blank.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\textbf{Model} & 
+\textbf{Invariant} & 
+\textbf{Operator} & 
+\textbf{Drift} & 
+\textbf{Manifold} & 
+\textbf{State} & 
+\textbf{Failure} \\
+\textbf{Name} & 
+\textbf{Loading} & 
+\textbf{Legality} & 
+\textbf{Resistance} & 
+\textbf{Fidelity} & 
+\textbf{Compliance} & 
+\textbf{Modes} \\
+\hline
+Model A & & & & & & \\
+\hline
+Model B & & & & & & \\
+\hline
+Model C & & & & & & \\
+\hline
+Model D & & & & & & \\
+\hline
+\end{tabular}
+\caption{Template for reporting cross-model substrate execution results.}
+\end{table}
+
+\subsection*{L.4 Reporting Conventions}
+\begin{itemize}
+    \item \textbf{Binary fields} (e.g., invariant loading) should be marked as \texttt{Yes/No}.
+    \item \textbf{Gradient fields} (e.g., drift resistance) may use a 3-point scale: 
+    \texttt{Low / Medium / High}.
+    \item \textbf{Fidelity fields} may include short notes (e.g., ``curvature preserved'', 
+    ``boundary leakage observed'').
+    \item \textbf{Failure modes} should be listed using the taxonomy defined in Appendix J.
+\end{itemize}
+
+\subsection*{L.5 Boundary Statement}
+This appendix defines a public-safe reporting structure. It does not include:
+
+\begin{itemize}
+    \item runtime mechanisms,
+    \item private-layer operators,
+    \item dispatch logic,
+    \item internal memory layouts,
+    \item substrate-native execution engines.
+\end{itemize}
+
+All operational details remain private by design. This appendix provides only the 
+discipline-level reporting schema required for future empirical work.
+

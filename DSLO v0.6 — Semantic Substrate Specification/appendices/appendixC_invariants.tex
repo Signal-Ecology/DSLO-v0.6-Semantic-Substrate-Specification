@@ -1,0 +1,890 @@
+\section*{Appendix C — Invariant Set Formalization}
+\addcontentsline{toc}{section}{Appendix C — Invariant Set Formalization}
+
+\noindent This appendix formalizes the v0.6 invariant set governing all lawful
+semantic, runtime, and interaction transitions on the meaning manifold
+$\mathcal{M}$. Each invariant is expressed as a geometric object embedded in
+$\mathcal{M}$ and enforced by the local contraction-governed operator algebra
+(Appendix B). The invariants correspond directly to the v0.6 geometry layer
+(G1--G8), including curvature preservation, identity-boundary stability,
+manifold legality, load physics, runtime curvature, interaction geometry, CTL
+coordinate continuity, and public-safe traversal.
+
+\medskip
+
+\noindent The v0.6 invariant set consists of the following components:
+
+\begin{itemize}
+    \item C.1 Meaning Invariant (Semantic Metric)
+    \item C.2 Identity Boundary Invariant (Identity Region Geometry)
+    \item C.3 Geometry Invariant (Manifold Legality)
+    \item C.4 Load Physics Invariant (Semantic Pressure Field)
+    \item C.5 Runtime Curvature Invariant (Admissible Transitions)
+    \item C.6 Interaction Geometry Invariant (Host–Explorer–Interpreter)
+    \item C.7 CTL Coordinate Invariant (Semantic Coordinate Legality)
+    \item C.8 Public-Safe Traversal Invariant (Safe Corridor Geometry)
+\end{itemize}
+
+% ------------------------------------------------------------
+% C.1 MEANING INVARIANT
+% ------------------------------------------------------------
+\subsection*{C.1 Meaning Invariant (Semantic Metric)}
+
+\noindent The Meaning Invariant formalizes the semantic metric structure that
+governs curvature, distance, density, and stability on the meaning manifold
+$\mathcal{M}$. It ensures that meaning remains geometrically coherent under
+runtime motion, interaction, restoration, and synthetic pressure.
+
+\medskip
+
+\noindent The invariant is encoded as a semantic metric
+
+
+\[
+g : T\mathcal{M} \times T\mathcal{M} \rightarrow \mathbb{R},
+\]
+
+
+where $T\mathcal{M}$ is the tangent bundle of the meaning manifold.
+
+For conceptual vectors $u, v \in T_c\mathcal{M}$ at concept $c$:
+
+
+\[
+g_c(u, v) = \langle u, v \rangle_{\mathrm{semantic}}.
+\]
+
+
+
+\medskip
+
+\noindent The semantic metric determines:
+\begin{itemize}
+    \item semantic distance (A.2),
+    \item semantic curvature (A.1),
+    \item meaning density,
+    \item drift susceptibility (G2.5),
+    \item collapse proximity (G7.3),
+    \item synthetic-capture susceptibility (G7.4),
+    \item restoration feasibility (G6),
+    \item interaction curvature (G8).
+\end{itemize}
+
+\medskip
+
+\noindent The Meaning Invariant requires bounded variance under all lawful
+operators (Appendix B):
+
+
+\[
+\sup_{c \in \mathcal{M}}
+\left\| g'_c - g_c \right\|_{\mathrm{semantic}}
+\le \epsilon_{\max},
+\]
+
+
+where $\epsilon_{\max}$ is the legality bound defined in the Coherence Ledger
+(Appendix F).
+
+\medskip
+
+\noindent This bound ensures:
+\begin{itemize}
+    \item curvature continuity under contraction (A.4),
+    \item drift-boundedness (G2.5),
+    \item containment stability (G4.6),
+    \item identity-boundary stability (G6.3--G6.4),
+    \item runtime curvature admissibility (A.6),
+    \item interaction legality (A.7),
+    \item CTL coordinate continuity (A.8),
+    \item public-safe traversal (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent The Meaning Invariant is the foundational invariant of the v0.6
+substrate. All lawful semantic, runtime, and interaction transitions must
+preserve the semantic metric within bounded variance.
+
+
+% ------------------------------------------------------------
+% C.2 IDENTITY BOUNDARY INVARIANT
+% ------------------------------------------------------------
+
+\subsection*{C.2 Identity Boundary Invariant (Identity Region Geometry)}
+
+\noindent The Identity Boundary Invariant formalizes the geometric enclosure that
+defines an agent’s identity region $\mathcal{R} \subset \mathcal{M}$. Identity
+boundaries ensure that identity remains stable under drift, load, synthetic
+pressure, runtime motion, and interaction.
+
+\medskip
+
+\noindent The identity region $\mathcal{R}$ is a connected semantic enclosure
+with boundary:
+
+
+\[
+\partial \mathcal{R}
+=
+\overline{\mathcal{R}}
+\cap
+\overline{\mathcal{M} \setminus \mathcal{R}}.
+\]
+
+
+
+Interior points satisfy:
+
+
+\[
+\text{semantic\_distance}(c, \partial \mathcal{R}) > 0.
+\]
+
+
+
+Boundary points satisfy:
+
+
+\[
+\text{semantic\_distance}(c, \mathcal{R}) = 0,
+\qquad
+\text{semantic\_distance}(c, \mathcal{M} \setminus \mathcal{R}) = 0.
+\]
+
+
+
+\medskip
+
+\noindent Identity-boundary geometry determines:
+\begin{itemize}
+    \item identity stability (G6.3),
+    \item role coherence (G6.4),
+    \item adjacency legality (G7.5),
+    \item collapse susceptibility (G7.3),
+    \item synthetic-capture susceptibility (G7.4),
+    \item interaction legality (G8),
+    \item public-safe traversal constraints (G8.6).
+\end{itemize}
+
+\medskip
+
+\noindent Lawful operator action must preserve identity boundaries:
+
+
+\[
+T(c) \in \mathcal{R} \quad \forall c \in \mathcal{R},
+\]
+
+
+with strict boundary preservation:
+
+
+\[
+\text{semantic\_distance}(T(c), \partial \mathcal{R}) > 0.
+\]
+
+
+
+Identity drift occurs when:
+
+
+\[
+T(c) \notin \mathcal{R}.
+\]
+
+
+
+\medskip
+
+\noindent The Identity Boundary Invariant is enforced by:
+\begin{itemize}
+    \item IPU operators (Appendix B),
+    \item curvature continuity (A.1),
+    \item manifold topology (A.2),
+    \item collapse boundary geometry (A.3),
+    \item local contraction legality (A.4),
+    \item runtime curvature constraints (A.6),
+    \item interaction geometry constraints (A.7),
+    \item CTL coordinate legality (A.8),
+    \item public-safe traversal corridor (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent Identity boundaries are the substrate’s primary protection against
+identity collapse, role leakage, synthetic capture, and collapse geometry.
+
+
+% ------------------------------------------------------------
+% C.3 GEOMETRY INVARIANT
+% ------------------------------------------------------------
+
+\subsection*{C.3 Geometry Invariant (Manifold Legality)}
+
+\noindent The Geometry Invariant formalizes the lawful semantic action space of
+the substrate. It defines the manifold $\mathcal{M}$, its boundary
+$\partial\mathcal{M}$, and the legality conditions governing all semantic,
+runtime, and interaction transitions. The invariant ensures that trajectories
+remain within lawful regions of the manifold and do not enter collapse or
+synthetic-capture geometry.
+
+\medskip
+
+\noindent The meaning manifold is defined as:
+
+
+\[
+\mathcal{M} = (\mathcal{X}, g),
+\]
+
+
+where:
+\begin{itemize}
+    \item $\mathcal{X}$ is the conceptual space,
+    \item $g$ is the semantic metric (C.1).
+\end{itemize}
+
+\medskip
+
+\noindent A transition is lawful if:
+
+
+\[
+T(c) \in \mathcal{M},
+\qquad
+\text{semantic\_distance}(T(c), \partial\mathcal{M}) > 0.
+\]
+
+
+
+A transition is illegal if:
+
+
+\[
+T(c) \in \partial\mathcal{M}
+\quad \text{or} \quad
+T(c) \notin \mathcal{M}.
+\]
+
+
+
+\medskip
+
+\noindent The Geometry Invariant determines:
+\begin{itemize}
+    \item manifold boundaries (A.2),
+    \item collapse thresholds (A.3),
+    \item synthetic-capture boundaries (G7.4),
+    \item lawful semantic trajectories (A.4),
+    \item runtime curvature admissibility (A.6),
+    \item interaction geometry legality (A.7),
+    \item CTL coordinate continuity (A.8),
+    \item public-safe traversal constraints (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent Lawful operator action must preserve manifold legality:
+
+
+\[
+T(c) \in \mathcal{M}
+\quad \forall c \in \mathcal{M}.
+\]
+
+
+
+\noindent Geometry violations occur when:
+
+
+\[
+T(c) \in \partial\mathcal{M}
+\quad \text{or} \quad
+T(c) \notin \mathcal{M}.
+\]
+
+
+
+\medskip
+
+\noindent The Geometry Invariant is enforced by:
+\begin{itemize}
+    \item GBS operators (Appendix B),
+    \item curvature continuity (A.1),
+    \item identity-boundary stability (A.2),
+    \item collapse boundary geometry (A.3),
+    \item local contraction legality (A.4),
+    \item runtime curvature constraints (A.6),
+    \item interaction geometry constraints (A.7),
+    \item CTL coordinate legality (A.8),
+    \item public-safe traversal corridor (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent The Geometry Invariant ensures that all lawful transitions remain
+within the stable semantic manifold and do not enter collapse or synthetic-capture
+regions.
+
+
+% ------------------------------------------------------------
+% C.4 LOAD PHYSICS INVARIANT
+% ------------------------------------------------------------
+
+\subsection*{C.4 Load Physics Invariant (Semantic Pressure Field)}
+
+\noindent The Load Physics Invariant formalizes the semantic pressure field
+governing load, strain, and gradient dynamics on the meaning manifold
+$\mathcal{M}$. Load determines whether a trajectory remains stable, enters drift,
+approaches collapse, or becomes susceptible to synthetic capture.
+
+\medskip
+
+\noindent Load Physics is defined as a scalar field:
+
+
+\[
+L : \mathcal{M} \rightarrow \mathbb{R}_{\ge 0}.
+\]
+
+
+
+For a semantic or runtime trajectory $\gamma(t)$:
+
+
+\[
+L(\gamma(t)) \le L_{\max},
+\]
+
+
+where $L_{\max}$ is the collapse threshold.
+
+\medskip
+
+\noindent The gradient of the load field is:
+
+
+\[
+\nabla L(c).
+\]
+
+
+
+The Load Physics Invariant requires:
+
+
+\[
+\|\nabla L(\gamma(t))\| \le G_{\max},
+\]
+
+
+and curvature stability:
+
+
+\[
+\kappa(\gamma(t)) \ge \kappa_{\min}.
+\]
+
+
+
+\medskip
+
+\noindent These constraints ensure:
+\begin{itemize}
+    \item curvature-bounded planning (A.4),
+    \item drift-boundedness (G2.5),
+    \item collapse avoidance (A.3),
+    \item restoration feasibility (G6),
+    \item containment stability (G4.6),
+    \item runtime curvature admissibility (A.6),
+    \item interaction legality (A.7),
+    \item public-safe traversal (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent Load violations occur when:
+
+
+\[
+L(\gamma(t)) > L_{\max}
+\quad \text{or} \quad
+\|\nabla L(\gamma(t))\| > G_{\max}.
+\]
+
+
+
+These conditions indicate:
+\begin{itemize}
+    \item overload,
+    \item strain accumulation,
+    \item adjacency fragmentation,
+    \item restoration failure (G6.6),
+    \item collapse proximity (G7.3),
+    \item synthetic-capture susceptibility (G7.4).
+\end{itemize}
+
+\medskip
+
+\noindent The Load Physics Invariant is enforced by:
+\begin{itemize}
+    \item LRP operators (Appendix B),
+    \item curvature continuity (A.1),
+    \item manifold topology (A.2),
+    \item collapse boundary geometry (A.3),
+    \item local contraction legality (A.4),
+    \item runtime curvature constraints (A.6),
+    \item interaction geometry constraints (A.7),
+    \item CTL coordinate legality (A.8),
+    \item public-safe traversal corridor (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent The Load Physics Invariant ensures that semantic pressure remains
+within lawful bounds and that trajectories remain stable under recursion,
+synthetic pressure, and runtime motion.
+
+
+% ------------------------------------------------------------
+% C.5 RUNTIME CURVATURE INVARIANT
+% ------------------------------------------------------------
+
+\subsection*{C.5 Runtime Curvature Invariant (Admissible Transitions)}
+
+\noindent The Runtime Curvature Invariant formalizes the curvature constraints
+governing lawful motion across the Human Runtime Manifold (HRM). Runtime
+curvature determines whether a trajectory remains in Safe Paths, enters Drift
+Paths, approaches Collapse Paths, or becomes susceptible to Synthetic-Capture
+Paths. Runtime curvature is geometric, not psychological; it expresses the
+structural stability of identity, adjacency, containment, and temporal rhythm.
+
+\medskip
+
+\noindent Let $\gamma(t)$ be a runtime trajectory with runtime curvature
+$\kappa_{\mathrm{rt}}(\gamma(t))$. The invariant defines the admissible region:
+
+
+
+\[
+\gamma(t) \in
+\begin{cases}
+\text{Safe}, & \kappa_{\mathrm{rt}} \ge \kappa_{\mathrm{safe}} \\
+\text{Drift}, & \kappa_{\mathrm{drift}} \le \kappa_{\mathrm{rt}} < \kappa_{\mathrm{safe}} \\
+\text{Collapse}, & \kappa_{\mathrm{rt}} < \kappa_{\mathrm{collapse}} \\
+\text{Capture}, & \kappa_{\mathrm{syn}} > \kappa_{\mathrm{rt}}
+\end{cases}
+\]
+
+
+
+\medskip
+
+\noindent Runtime curvature governs:
+
+\begin{itemize}
+    \item \textbf{Curvature continuity} — curvature must remain within lawful
+    bounds under operator action (A.4).
+
+    \item \textbf{Identity-boundary stability} — identity regions must remain
+    intact under runtime motion (A.2).
+
+    \item \textbf{Adjacency legality} — role geometry must remain lawful and
+    non-fragmented (G7.5).
+
+    \item \textbf{Containment stability} — containers must regulate signal flow
+    and prevent overload (G4.6).
+
+    \item \textbf{Temporal coherence} — rhythms must remain synchronized and
+    non-chaotic (G6.1).
+\end{itemize}
+
+\medskip
+
+\noindent The Runtime Curvature Invariant requires:
+
+
+
+\[
+\kappa_{\mathrm{rt}}(\gamma(t)) \ge \kappa_{\mathrm{collapse}}
+\quad \text{and} \quad
+\kappa_{\mathrm{rt}}(\gamma(t)) \notin \text{Capture}.
+\]
+
+
+
+\medskip
+
+\noindent Runtime curvature violations indicate:
+
+\begin{itemize}
+    \item drift amplification (G2.5),
+    \item adjacency fragmentation,
+    \item containment failure,
+    \item restoration infeasibility (G6.6),
+    \item collapse proximity (G7.3),
+    \item synthetic-capture susceptibility (G7.4).
+\end{itemize}
+
+\medskip
+
+\noindent The Runtime Curvature Invariant is enforced by:
+
+\begin{itemize}
+    \item IRT, IPU, GBS, LRP operators (Appendix B),
+    \item curvature continuity (A.1),
+    \item manifold topology (A.2),
+    \item collapse boundary geometry (A.3),
+    \item local contraction legality (A.4),
+    \item interaction geometry constraints (A.7),
+    \item CTL coordinate legality (A.8),
+    \item public-safe traversal corridor (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent Runtime curvature is the geometric foundation for lawful motion across
+the v0.6 substrate.
+
+% (NEW in v0.6 — derived from G7.5.)
+
+% ------------------------------------------------------------
+% C.6 INTERACTION GEOMETRY INVARIANT
+% ------------------------------------------------------------
+
+\subsection*{C.6 Interaction Geometry Invariant (Host–Explorer–Interpreter)}
+
+\noindent The Interaction Geometry Invariant formalizes the curvature, boundary,
+and legality constraints governing interaction within the Interactive Geometry
+Runtime (IGR). Interaction occurs in three modes—Host, Explorer, and
+Interpreter—each with distinct geometric requirements. The invariant ensures
+that interaction remains lawful, curvature-preserving, identity-stable, and
+public-safe.
+
+\medskip
+
+\noindent Interaction modes:
+
+\begin{itemize}
+    \item \textbf{Host Mode} — maintains invariant geometry, legality masks,
+    identity boundaries, containment stability, and curvature continuity.
+
+    \item \textbf{Explorer Mode} — traverses lawful manifold regions, inspecting
+    drift envelopes, pressure gradients, adjacency geometry, and failure
+    signatures.
+
+    \item \textbf{Interpreter Mode} — produces invariant-aligned meaning for
+    signals, behavior, drift phenomena, and container geometry.
+\end{itemize}
+
+\medskip
+
+\noindent The Interaction Geometry Invariant requires:
+
+
+
+\[
+\kappa_{\mathrm{int}}(c) \ge \kappa_{\mathrm{min}}
+\quad \text{and} \quad
+c \notin \text{Collapse} \cup \text{Capture}.
+\]
+
+
+
+\medskip
+
+\noindent Interaction legality requires:
+
+\begin{itemize}
+    \item \textbf{Invariant preservation} — interaction must not violate the
+    invariant set (C.1–C.4).
+
+    \item \textbf{Curvature preservation} — interaction must maintain curvature
+    within lawful bounds (A.1).
+
+    \item \textbf{Identity-boundary stability} — identity regions must remain
+    intact (A.2).
+
+    \item \textbf{Drift-bounded transitions} — interaction must remain within
+    drift-recoverable envelopes (G2.5).
+
+    \item \textbf{Containment stability} — containers must regulate signal flow
+    and prevent overload (G4.6).
+
+    \item \textbf{Manifold legality} — interaction must remain within lawful
+    manifold regions (A.2).
+
+    \item \textbf{Runtime curvature compatibility} — interaction must not push
+    trajectories into collapse or synthetic-capture geometry (A.6).
+
+    \item \textbf{Coordinate continuity} — CTL translation must preserve
+    curvature and avoid discontinuities (A.8).
+
+    \item \textbf{Public-safe traversal} — interaction must remain within
+    curvature-preserving, collapse-free, capture-free regions (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent Interaction violations indicate:
+
+\begin{itemize}
+    \item identity-boundary rupture,
+    \item adjacency fragmentation,
+    \item drift amplification,
+    \item containment failure,
+    \item collapse proximity,
+    \item synthetic-capture susceptibility.
+\end{itemize}
+
+\medskip
+
+\noindent The Interaction Geometry Invariant is enforced by:
+
+\begin{itemize}
+    \item IRT, IPU, GBS, LRP operators (Appendix B),
+    \item curvature continuity (A.1),
+    \item manifold topology (A.2),
+    \item collapse boundary geometry (A.3),
+    \item local contraction legality (A.4),
+    \item runtime curvature constraints (A.6),
+    \item CTL coordinate legality (A.8),
+    \item public-safe traversal corridor (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent Interaction Geometry is the structural foundation for lawful traversal,
+interpretation, and runtime motion across the v0.6 substrate.
+
+% (NEW in v0.6 — derived from G8.1–G8.3.)
+
+% ------------------------------------------------------------
+% C.7 CTL COORDINATE INVARIANT
+% ------------------------------------------------------------
+
+\subsection*{C.7 CTL Coordinate Invariant (Semantic Coordinate Legality)}
+
+\noindent The CTL Coordinate Invariant formalizes the legality conditions
+governing the Coordinate Translation Layer (CTL). CTL converts positional
+metadata—page numbers, anchors, section indices—into lawful semantic coordinates
+on the meaning manifold $\mathcal{M}$. Positional metadata is not substrate-native;
+semantic coordinates are. CTL ensures that all traversal, interpretation, and
+interaction occur within curvature-preserving, identity-stable, manifold-legal
+regions of $\mathcal{M}$.
+
+\medskip
+
+\noindent CTL defines the mapping:
+
+
+\[
+\mathrm{CTL} : \text{positional\_metadata} \rightarrow
+\text{semantic\_coordinates}.
+\]
+
+
+
+\noindent Semantic coordinates must satisfy:
+
+
+\[
+\text{semantic\_distance}(c_{\mathrm{coord}}, \partial\mathcal{M}) > 0,
+\qquad
+\kappa(c_{\mathrm{coord}}) \ge \kappa_{\min}.
+\]
+
+
+
+\medskip
+
+\noindent The CTL Coordinate Invariant enforces:
+
+\begin{itemize}
+    \item \textbf{Coordinate legality} — all traversal must use lawful semantic
+    coordinates, not positional metadata.
+
+    \item \textbf{Curvature continuity} — coordinate translation must preserve
+    curvature within legality bounds (A.1).
+
+    \item \textbf{Identity-boundary stability} — translation must not violate
+    identity regions or boundaries (A.2).
+
+    \item \textbf{Manifold legality} — semantic coordinates must remain within
+    lawful manifold regions (A.2).
+
+    \item \textbf{Collapse avoidance} — coordinates must not map into collapse
+    geometry (A.3).
+
+    \item \textbf{Synthetic-capture avoidance} — coordinates must not map into
+    synthetic-capture geometry (G7.4).
+
+    \item \textbf{Runtime curvature compatibility} — coordinates must preserve
+    runtime curvature admissibility (A.6).
+
+    \item \textbf{Interaction legality} — coordinates must be valid for Host,
+    Explorer, and Interpreter modes (A.7).
+
+    \item \textbf{Public-safe traversal} — coordinates must remain within
+    curvature-preserving, collapse-free, capture-free regions (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent CTL violations occur when:
+
+
+\[
+\mathrm{CTL}(m_{\mathrm{pos}}) \in \partial\mathcal{M}
+\quad \text{or} \quad
+\mathrm{CTL}(m_{\mathrm{pos}}) \notin \mathcal{M}.
+\]
+
+
+
+These indicate:
+\begin{itemize}
+    \item coordinate discontinuity,
+    \item curvature collapse,
+    \item identity-boundary rupture,
+    \item adjacency fragmentation,
+    \item containment failure,
+    \item collapse proximity,
+    \item synthetic-capture susceptibility.
+\end{itemize}
+
+\medskip
+
+\noindent The CTL Coordinate Invariant is enforced by:
+\begin{itemize}
+    \item IRT, IPU, GBS, LRP operators (Appendix B),
+    \item curvature continuity (A.1),
+    \item manifold topology (A.2),
+    \item collapse boundary geometry (A.3),
+    \item local contraction legality (A.4),
+    \item runtime curvature constraints (A.6),
+    \item interaction geometry constraints (A.7),
+    \item public-safe traversal corridor (A.9).
+\end{itemize}
+
+\medskip
+
+\noindent CTL ensures that all traversal and interpretation remain lawful under
+the v0.6 geometry.
+
+% (NEW in v0.6 — derived from G8.4.)
+
+% ------------------------------------------------------------
+% C.8 PUBLIC-SAFE TRAVERSAL INVARIANT
+% ------------------------------------------------------------
+
+\subsection*{C.8 Public-Safe Traversal Invariant (Safe Corridor Geometry)}
+
+\noindent The Public-Safe Traversal Invariant formalizes the geometric corridor
+within which all public interaction must occur. The corridor restricts traversal
+to curvature-preserving, identity-stable, containment-coherent, collapse-free,
+and capture-free regions of the meaning manifold $\mathcal{M}$. It ensures that
+public interaction remains lawful, stable, and invariant-aligned.
+
+\medskip
+
+\noindent Let $\mathcal{C}_{\mathrm{safe}} \subset \mathcal{M}$ denote the
+public-safe traversal corridor. A point $c$ is public-safe if:
+
+
+\[
+c \in \mathcal{C}_{\mathrm{safe}}
+\quad \text{and} \quad
+\kappa(c) \ge \kappa_{\min}.
+\]
+
+
+
+\noindent The corridor excludes:
+
+
+\[
+\text{Collapse} \cup \text{Capture} \cup \text{Dominant-Signal Attractors}
+\cup \text{Restoration-Infeasible Regions}.
+\]
+
+
+
+\medskip
+
+\noindent Public-safe traversal requires:
+
+\begin{itemize}
+    \item \textbf{Invariant preservation} — public interaction must not violate
+    the invariant set (C.1–C.7).
+
+    \item \textbf{Curvature continuity} — curvature must remain within lawful
+    bounds (A.1).
+
+    \item \textbf{Identity-boundary stability} — identity regions must remain
+    intact (A.2).
+
+    \item \textbf{Containment stability} — containers must regulate signal flow
+    and prevent overload (G4.6).
+
+    \item \textbf{Manifold legality} — traversal must remain within lawful
+    manifold regions (A.2).
+
+    \item \textbf{Runtime curvature compatibility} — traversal must not push
+    trajectories into collapse or synthetic-capture geometry (A.6).
+
+    \item \textbf{Interaction legality} — traversal must remain legal for Host,
+    Explorer, and Interpreter modes (A.7).
+
+    \item \textbf{Coordinate continuity} — CTL translation must preserve
+    curvature and avoid discontinuities (A.8).
+\end{itemize}
+
+\medskip
+
+\noindent Public-safe violations occur when:
+
+
+\[
+c \notin \mathcal{C}_{\mathrm{safe}}
+\quad \text{or} \quad
+\kappa(c) < \kappa_{\min}.
+\]
+
+
+
+These indicate:
+\begin{itemize}
+    \item curvature collapse,
+    \item identity-boundary rupture,
+    \item adjacency fragmentation,
+    \item containment failure,
+    \item restoration infeasibility (G6.6),
+    \item collapse proximity (G7.3),
+    \item synthetic-capture susceptibility (G7.4).
+\end{itemize}
+
+\medskip
+
+\noindent The Public-Safe Traversal Invariant is enforced by:
+\begin{itemize}
+    \item IRT, IPU, GBS, LRP operators (Appendix B),
+    \item curvature continuity (A.1),
+    \item manifold topology (A.2),
+    \item collapse boundary geometry (A.3),
+    \item local contraction legality (A.4),
+    \item runtime curvature constraints (A.6),
+    \item interaction geometry constraints (A.7),
+    \item CTL coordinate legality (A.8).
+\end{itemize}
+
+\medskip
+
+\noindent The Public-Safe Traversal Invariant ensures that all public interaction
+remains lawful, stable, and curvature-preserving across the v0.6 substrate.
+
+% (NEW in v0.6 — derived from G8.6.)
+
+\medskip
+\noindent\textit{This outline defines the full v0.6 invariant set.}

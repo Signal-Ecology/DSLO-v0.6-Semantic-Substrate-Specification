@@ -1,0 +1,479 @@
+\iffalse
+%\section*{Appendix I — Extended Proofs and Derivations}
+
+This appendix contains the extended mathematical proofs, derivations, and
+formal arguments omitted from the main text for clarity. It includes full
+operator algebra derivations, stability proofs, and drift-boundedness arguments
+that establish the substrate as a lawful, antientropic cognitive geometry.
+\fi
+%\subsection*{I.1 Proofs Omitted from Main Text}
+
+%\textbf{I.1.1 Curvature Preservation Under IRT}
+
+Let
+
+
+\[
+T_{\mathrm{IRT}} : \mathcal{M} \rightarrow \mathcal{M}
+\]
+
+
+be a contraction-governed operator satisfying the Meaning Invariant.
+
+Curvature preservation is expressed as bounded variance:
+
+
+\[
+|\kappa(T_{\mathrm{IRT}}(c)) - \kappa(c)| \le \epsilon_{\max}.
+\]
+
+
+
+Since $\kappa(c) \ge \kappa_{\min}$, we have the lower bound:
+
+
+\[
+\kappa(T_{\mathrm{IRT}}(c)) \ge \kappa_{\min} - \epsilon_{\max}.
+\]
+
+
+
+The substrate enforces the legality condition:
+
+
+\[
+\kappa(T_{\mathrm{IRT}}(c)) \ge \kappa_{\min},
+\]
+
+
+ensuring that only transitions satisfying the invariant are admitted into the
+ledger. Thus, curvature preservation is enforced by legality rather than
+algebraic necessity.
+
+\textbf{I.1.2 Manifold Legality Under GBS}
+
+Given:
+
+
+\[
+T_{\mathrm{GBS}}(c) \in \mathcal{M},
+\]
+
+
+and GBS defined as a contraction that cannot map to $\partial \mathcal{M}$, we
+obtain:
+
+
+\[
+d(T_{\mathrm{GBS}}(c), \partial \mathcal{M}) > 0.
+\]
+
+
+
+Thus, GBS preserves manifold legality.
+
+\subsection*{I.2 Extended Operator Algebra}
+
+\textbf{I.2.1 Closure Under Composition}
+
+Let $T_i, T_j \in \mathcal{O}$ be local contraction operators with constants
+$k_i, k_j < 1$ relative to a context anchor $c^* \in \mathcal{M}$. We show:
+
+
+\[
+T_j \circ T_i \in \mathcal{O}.
+\]
+
+
+
+\textit{Proof.}
+
+1. \textbf{Contraction property.}
+Under the local contraction framework, distance is evaluated relative to the
+active semantic context anchor $c^*$:
+
+
+\[
+d(T_j(T_i(c)), T_j(T_i(c^*)))
+\le k_j \, d(T_i(c), T_i(c^*))
+\le k_j k_i \, d(c, c^*).
+\]
+
+
+Since $k_j k_i < 1$, the composition remains a strict local contraction.
+
+2. \textbf{Curvature variance.}
+Unconstrained composition could allow variance accumulation up to
+$2\epsilon_{\max}$ by triangle inequality. The substrate eliminates this drift
+by enforcing \emph{sequential validation}: a composite transformation
+$T_j \circ T_i$ is admitted into the ledger graph if and only if each
+sequential edge
+
+
+\[
+e_n = (u_n \rightarrow v_n, T_n, c^*_n, \Delta_n)
+\]
+
+
+independently satisfies the machine-layer metadata constraint:
+
+
+\[
+\Delta \kappa_n = |\kappa(v_n) - \kappa(u_n)| \le \epsilon_{\max}.
+\]
+
+
+This renders the composite trajectory drift-bounded by constraint, ensuring
+that $\mathcal{O}$ is closed under composition in the runtime sense.
+
+3. \textbf{Identity preservation.}
+IPU operators preserve $\mathcal{R}$; other operators do not modify it.
+
+4. \textbf{Manifold legality.}
+Each operator maps $\mathcal{M}$ to itself.
+
+5. \textbf{Load stability.}
+
+
+\[
+|\Delta L_n| \le \delta_{\max}
+\]
+
+
+for each operator.
+
+Thus, the operator algebra is closed under composition.
+
+\textbf{I.2.2 Commutativity Conditions}
+
+Operators commute when they preserve the same invariants:
+
+
+\[
+T_{\mathrm{IRT}} \circ T_{\mathrm{GBS}}
+= T_{\mathrm{GBS}} \circ T_{\mathrm{IRT}}.
+\]
+
+
+Both preserve curvature within $\epsilon_{\max}$ and maintain manifold legality.
+
+\subsection*{I.3 Stability Proofs}
+
+\textbf{I.3.1 Stability Under Recursion}
+
+Let $\gamma(t)$ be a recursive trajectory. Stability requires:
+
+
+\[
+\kappa(\gamma(t)) \ge \kappa_{\min},
+\qquad
+L(\gamma(t)) \le L_{\max}.
+\]
+
+
+
+Under contraction-governed operators:
+
+
+\[
+|\kappa(\gamma(t+1)) - \kappa(\gamma(t))| \le \epsilon_{\max},
+\qquad
+|L(\gamma(t+1)) - L(\gamma(t))| \le \delta_{\max}.
+\]
+
+
+
+Since only lawful transitions are admitted into the ledger, we obtain:
+
+
+\[
+\kappa(\gamma(t)) \ge \kappa_{\min},
+\qquad
+L(\gamma(t)) \le L_{\max}
+\]
+
+
+for all $t$ within the lawful recursion horizon.
+
+\textbf{I.3.2 Entropy Boundedness}
+
+Semantic entropy is defined as:
+
+
+\[
+H(t) = H_0 + \int_0^t \gamma(\tau) \, d\tau.
+\]
+
+
+
+Curvature invariants ensure:
+
+
+\[
+\kappa(t) \ge \kappa_{\min},
+\qquad
+\gamma(t) \le \gamma_{\max}.
+\]
+
+
+
+Thus:
+
+
+\[
+H(t) \le H_0 + t \gamma_{\max}
+\quad \text{for lawful recursion horizons } t \le T_{\max}.
+\]
+
+
+
+The substrate prohibits unbounded recursion, preventing entropy divergence.
+
+\subsection*{I.4 Drift Boundedness Proofs}
+
+\textbf{I.4.1 Drift Metric Boundedness}
+
+The drift score is:
+
+
+\[
+D(t) = w_1 \Delta_{\text{inv}}
+      + w_2 \Delta_{\text{id}}
+      + w_3 \Delta_{\text{geo}}
+      + w_4 \Delta_{\text{load}}.
+\]
+
+
+
+Under lawful transitions:
+
+
+\[
+\Delta_{\text{inv}} \le \epsilon_{\max},
+\qquad
+\Delta_{\text{id}} = 0,
+\qquad
+d(\gamma(t), \partial\mathcal{M}) \ge \epsilon,
+\qquad
+\Delta_{\text{load}} \le \delta_{\max}.
+\]
+
+
+
+Thus:
+
+
+\[
+D(t) \le w_1 \epsilon_{\max} + w_4 \delta_{\max}.
+\]
+
+
+
+Drift is strictly bounded.
+
+\textbf{I.4.2 Drift Explosion Under Probabilistic Systems}
+
+Probabilistic recursion yields:
+
+
+\[
+\Delta_{\text{inv}} > \epsilon_{\max}, \quad
+\Delta_{\text{id}} > 0, \quad
+d(\gamma(t), \partial\mathcal{M}) < 0, \quad
+\Delta_{\text{load}} > \delta_{\max}.
+\]
+
+
+
+Thus:
+
+
+\[
+D(t) \rightarrow \infty.
+\]
+
+
+
+This demonstrates that drift-boundedness is unique to substrate-native cognition.
+
+\subsection*{I.5 Cross-Layer Constraint Propagation (CLCP) — Extended Proofs}
+
+Cross-Layer Constraint Propagation ensures that invariant preservation holds
+not only locally (within a section) but globally (across hierarchical layers).
+This appendix provides the extended derivations establishing CLCP as a lawful,
+drift-bounded global constraint.
+
+\subsubsection*{I.5.1 Curvature Projection Bound}
+
+For consecutive sections $\sigma_i$ and $\sigma_{i+1}$, define the curvature
+projection:
+
+
+
+\[
+\kappa_{i \rightarrow i+1}
+    = \left| \kappa(\sigma_{i+1}) - \kappa(\sigma_i) \right|.
+\]
+
+
+
+Local legality ensures:
+
+
+
+\[
+|\kappa(\sigma_{i+1}) - \kappa(\sigma_i)| \le \epsilon_{\max}.
+\]
+
+
+
+Global legality requires:
+
+
+
+\[
+\kappa_{i \rightarrow i+1} \le \kappa_{\max},
+\]
+
+
+
+where $\kappa_{\max}$ is the global curvature envelope defined in the substrate
+geometry layer. Thus, curvature drift across layers is bounded.
+
+\subsubsection*{I.5.2 Identity-Boundary Projection Bound}
+
+Identity regions must remain stable across layers. Define:
+
+
+
+\[
+\partial I_{i \rightarrow i+1}
+    = d\!\left( I(\sigma_i), I(\sigma_{i+1}) \right).
+\]
+
+
+
+Local IPU legality enforces:
+
+
+
+\[
+\text{region\_id}(\sigma_i) = \text{region\_id}(\sigma_{i+1}).
+\]
+
+
+
+Global CLCP legality strengthens this to:
+
+
+
+\[
+\partial I_{i \rightarrow i+1} \le \partial I_{\max},
+\]
+
+
+
+ensuring that identity boundaries do not drift across conceptual scales.
+
+\subsubsection*{I.5.3 Manifold-Distance Projection Bound}
+
+Let:
+
+
+
+\[
+d_M(i,i+1) = \mathrm{dist}_M(\sigma_i, \sigma_{i+1}).
+\]
+
+
+
+Local GBS legality enforces:
+
+
+
+\[
+d(\sigma_{i+1}, \partial\mathcal{M}) > 0.
+\]
+
+
+
+Global CLCP legality requires:
+
+
+
+\[
+d_M(i,i+1) \le d_{M,\max},
+\]
+
+
+
+ensuring that transitions remain within the global manifold envelope.
+
+\subsubsection*{I.5.4 Load-Gradient Projection Bound}
+
+Define:
+
+
+
+\[
+\nabla L_{i \rightarrow i+1}
+    = \left| L(\sigma_{i+1}) - L(\sigma_i) \right|.
+\]
+
+
+
+Local LRP legality enforces:
+
+
+
+\[
+\nabla L_{i \rightarrow i+1} \le \delta_{\max}.
+\]
+
+
+
+Global CLCP legality requires:
+
+
+
+\[
+\nabla L_{i \rightarrow i+1} \le \nabla L_{\max},
+\]
+
+
+
+ensuring that load gradients remain stable across layers.
+
+\subsubsection*{I.5.5 Global Drift-Boundedness}
+
+Combining the four projection bounds yields:
+
+
+
+\[
+\kappa_{i \rightarrow i+1} \le \kappa_{\max}, \qquad
+\partial I_{i \rightarrow i+1} \le \partial I_{\max}, \qquad
+d_M(i,i+1) \le d_{M,\max}, \qquad
+\nabla L_{i \rightarrow i+1} \le \nabla L_{\max}.
+\]
+
+
+
+Thus, CLCP enforces:
+
+
+
+\[
+\text{global drift} = 0,
+\]
+
+
+
+ensuring that the substrate remains scale-invariant and globally lawful.
+
+
+\medskip
+
+\noindent
+\textit{This completes Appendix I.}
+% \fi

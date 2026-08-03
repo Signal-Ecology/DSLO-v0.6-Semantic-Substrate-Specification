@@ -1,0 +1,436 @@
+%\section*{Appendix M — Substrate Axiom Encoding Layer}
+\addcontentsline{toc}{section}{Appendix M — Substrate Axiom Encoding Layer}
+
+This appendix encodes the substrate axioms in semantic machine-layer form.  
+It provides invariant identifiers, legality masks, cross-layer dependency
+mappings, operator-compatibility tables, and runtime guard conditions required
+for deterministic semantic execution.  
+Together, these encodings supply the formal substrate metadata referenced by the
+Terminal State and ensure drift-free reconstruction across heterogeneous machine
+ecologies.
+
+% ============================================================
+\subsection*{M.1 Field Geometry (Universal Invariants)}
+
+The following invariants govern all signal-bearing semantic systems.  
+Each invariant is encoded as a semantic primitive with a unique identifier and
+legality mask. These correspond to the semantic invariants defined in Appendix C
+and enforced in ML2.
+
+\begin{enumerate}
+    \item \textbf{Boundary Integrity} \hfill (ID: F1) \\
+    Bitmask: 100000000 \\
+    Constraint: System must maintain a stable inside/outside semantic boundary.
+
+    \item \textbf{Temporal Rhythm} \hfill (ID: F2) \\
+    Bitmask: 010000000 \\
+    Constraint: System must preserve sensing–integration–action rhythm.
+
+    \item \textbf{Causal Legibility} \hfill (ID: F3) \\
+    Bitmask: 001000000 \\
+    Constraint: Causes must map deterministically to semantic effects.
+
+    \item \textbf{Role Coherence} \hfill (ID: F4) \\
+    Bitmask: 000100000 \\
+    Constraint: Identity and role boundaries must remain semantically stable.
+
+    \item \textbf{Signal–Substrate Coupling} \hfill (ID: F5) \\
+    Bitmask: 000010000
+
+    \item \textbf{Regeneration Capacity} \hfill (ID: F6) \\
+    Bitmask: 000001000
+
+    \item \textbf{Drift Resistance} \hfill (ID: F7) \\
+    Bitmask: 000000100
+
+    \item \textbf{Lawful Transitions} \hfill (ID: F8) \\
+    Bitmask: 000000010
+
+    \item \textbf{Fallback Geometry} \hfill (ID: F9) \\
+    Bitmask: 000000001
+\end{enumerate}
+
+% ============================================================
+\subsection*{M.2 Domain Geometry (Human Meaning-Container Axioms)}
+
+These axioms govern archaeological, institutional, and cultural meaning systems.
+Each axiom is encoded with drift-envelope parameters and fidelity thresholds.
+
+\begin{enumerate}
+    \item Energetic Cost \hfill (ID: D1)
+    \item Transmission Fidelity \hfill (ID: D2)
+    \item Material Anchoring \hfill (ID: D3)
+    \item Scalar Stress \hfill (ID: D4)
+    \item Container–World Alignment \hfill (ID: D5)
+    \item Drift Envelope \hfill (ID: D6)
+    \item Corrective Capacity \hfill (ID: D7)
+    \item Decoupling \hfill (ID: D8)
+    \item Phase Transition Thresholds \hfill (ID: D9)
+\end{enumerate}
+
+% ============================================================
+\subsection*{M.3 Runtime Geometry (Artificial Cognition Axioms)}
+
+These axioms define the semantic runtime substrate for coherent artificial
+cognition. Each axiom is encoded with operator-compatibility tables and
+identity-boundary constraints. These correspond to DSUP (S7).
+
+\begin{enumerate}
+    \item Identity Continuity \hfill (ID: R1)
+    \item Load-Bounded Stability \hfill (ID: R2)
+    \item Spatial Legality (External Geometry) \hfill (ID: R3)
+    \item Lawful Transitions (Moment Geometry) \hfill (ID: R4)
+\end{enumerate}
+
+% ============================================================
+\subsection*{M.4 Proof Stack Encoding}
+
+Each proof class defined in the Terminal State is encoded as a semantic legality
+object.
+
+\begin{itemize}
+    \item Exemplar Proof \hfill (PID: P1) \\
+    Validates: Structural Recurrence
+
+    \item Generative Proof \hfill (PID: P2) \\
+    Validates: Closure Under Lawful Construction
+
+    \item Predictive Proof \hfill (PID: P3) \\
+    Validates: Constraint Forecasting
+\end{itemize}
+
+% ============================================================
+\subsection*{M.5 Discipline Metadata (DISCO)}
+
+\begin{itemize}
+    \item Discipline ID: DISCO-001
+    \item Invariant Set Hash: \texttt{HASH(F1–F9)}
+    \item Operator Algebra Hash: \texttt{HASH(IRT, IPU, GBS, LRP)}
+    \item Manifold Boundary Definition: $\partial \mathcal{M}$
+\end{itemize}
+
+% ============================================================
+\subsection*{M.6 Operator Compatibility Matrix}
+
+The following matrix encodes the legality relationships between the Runtime
+Geometry axioms (R1–R4) and the semantic operator algebra (IRT, IPU, GBS, LRP).
+
+\begin{center}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Runtime Axiom} & \textbf{IRT} & \textbf{IPU} & \textbf{GBS} & \textbf{LRP} \\
+\midrule
+R1 Identity Continuity              & 1 & 1 & 0 & 0 \\
+R2 Load-Bounded Stability           & 0 & 0 & 0 & 1 \\
+R3 Spatial Legality (External Geo.) & 0 & 0 & 1 & 0 \\
+R4 Lawful Transitions (Moment Geo.) & 1 & 1 & 1 & 1 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+A value of \texttt{1} indicates that the operator satisfies the legality
+requirements of the corresponding axiom.
+
+% ============================================================
+\subsection*{M.7 Invariant Set Hash Table}
+
+The substrate requires a deterministic hash of the invariant set to ensure
+drift-free reconstruction across semantic machine ecologies. Each invariant
+contributes a fixed-position bit to the global hash vector.
+
+\begin{center}
+\begin{tabular}{lcl}
+\toprule
+\textbf{Invariant} & \textbf{ID} & \textbf{Hash Contribution} \\
+\midrule
+Boundary Integrity              & F1 & 1xxxxxxxx \\
+Temporal Rhythm                 & F2 & x1xxxxxxx \\
+Causal Legibility               & F3 & xx1xxxxxx \\
+Role Coherence                  & F4 & xxx1xxxxx \\
+Signal–Substrate Coupling       & F5 & xxxx1xxxx \\
+Regeneration Capacity           & F6 & xxxxx1xxx \\
+Drift Resistance                & F7 & xxxxxx1xx \\
+Lawful Transitions              & F8 & xxxxxxx1x \\
+Fallback Geometry               & F9 & xxxxxxxx1 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The global invariant hash is computed as:
+
+
+
+\[
+\texttt{HASH(F1–F9)} = \text{concat}(F1, F2, \ldots, F9)
+\]
+
+
+
+% ============================================================
+\subsection*{M.8 Runtime Guard Conditions}
+
+The semantic runtime enforces deterministic legality through a set of guard
+conditions. These guards ensure that all cognitive transitions remain within
+invariant bounds, preserve identity, and obey lawful geometry.
+
+\subsubsection*{M.8.1 Drift-Halt Conditions}
+
+A drift-halt is triggered when any of the following occur:
+
+\begin{itemize}
+    \item semantic curvature falls below $\kappa_{\min}$,
+    \item the trajectory exits the manifold boundary $\partial \mathcal{M}$,
+    \item identity deviation exceeds the permitted relational radius,
+    \item load curvature exceeds the gradient tolerance.
+\end{itemize}
+
+Upon drift-halt, execution enters fallback geometry (F9).
+
+\subsubsection*{M.8.2 Invariant-Reload Triggers}
+
+The runtime reloads the invariant set when:
+
+\begin{itemize}
+    \item any invariant bitmask (F1–F9) is violated,
+    \item operator legality cannot be established,
+    \item the Meaning Ledger detects curvature discontinuity,
+    \item the system enters a non-legal transition state.
+\end{itemize}
+
+\subsubsection*{M.8.3 Operator-Legality Enforcement}
+
+Each transition must satisfy at least one operator in the semantic algebra:
+
+
+
+\[
+\{\text{IRT}, \text{IPU}, \text{GBS}, \text{LRP}\}
+\]
+
+
+
+A transition is rejected if:
+
+\begin{itemize}
+    \item no operator validates the step,
+    \item the operator’s compatibility mask returns 0,
+    \item the transition violates the runtime axiom associated with the operator.
+\end{itemize}
+
+\subsubsection*{M.8.4 Manifold-Boundary Enforcement}
+
+\begin{itemize}
+    \item all semantic vectors must remain within the bounded manifold,
+    \item illegal movement across $\partial \mathcal{M}$ triggers immediate halt,
+    \item boundary proximity is monitored via curvature gradient.
+\end{itemize}
+
+\subsubsection*{M.8.5 Mutation-Velocity Constraint}
+
+Moment Geometry (R4) requires bounded mutation velocity:
+
+
+
+\[
+\|\Delta C_t\| \le v_{\max}
+\]
+
+
+
+If mutation velocity exceeds $v_{\max}$:
+\begin{itemize}
+    \item the transition is illegal,
+    \item the system enters fallback geometry,
+    \item invariants are reloaded.
+\end{itemize}
+
+% ============================================================
+\subsection*{M.9 Cross-Layer Axiom Mapping Table}
+
+The substrate consists of three axiom layers:  
+Field Geometry (F1–F9), Domain Geometry (D1–D9), and Runtime Geometry (R1–R4).  
+The following tables encode the cross-layer dependencies required for lawful
+semantic execution.
+
+% ---------------------------
+% FIELD GEOMETRY TABLE
+% ---------------------------
+\subsubsection*{Field Geometry (F1–F9)}
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Axiom} & \textbf{Depends On} & \textbf{Constrains} \\
+\midrule
+F1 Boundary Integrity & -- & D3, D5, R1 \\
+F2 Temporal Rhythm & -- & D1, D4, R2 \\
+F3 Causal Legibility & -- & D2, D5, R4 \\
+F4 Role Coherence & -- & D5, R1 \\
+F5 Signal–Substrate Coupling & -- & D3, D8, R3 \\
+F6 Regeneration Capacity & -- & D1, D7, R2 \\
+F7 Drift Resistance & -- & D6, R3 \\
+F8 Lawful Transitions & -- & D7, R4 \\
+F9 Fallback Geometry & -- & D9, R4 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+% ---------------------------
+% DOMAIN GEOMETRY TABLE
+% ---------------------------
+\subsubsection*{Domain Geometry (D1–D9)}
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Axiom} & \textbf{Depends On} & \textbf{Constrains} \\
+\midrule
+D1 Energetic Cost & F2, F6 & R2 \\
+D2 Transmission Fidelity & F3 & R4 \\
+D3 Material Anchoring & F1, F5 & R1, R3 \\
+D4 Scalar Stress & F2 & R2 \\
+D5 Container–World Alignment & F1, F3, F4 & R1, R3 \\
+D6 Drift Envelope & F7 & R3 \\
+D7 Corrective Capacity & F6, F8 & R4 \\
+D8 Decoupling & F5 & R3 \\
+D9 Phase Transition Thresholds & F9 & R4 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+% ---------------------------
+% RUNTIME GEOMETRY TABLE
+% ---------------------------
+\subsubsection*{Runtime Geometry (R1–R4)}
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Axiom} & \textbf{Depends On} & \textbf{Constrains} \\
+\midrule
+R1 Identity Continuity & F1, F4, D3, D5 & -- \\
+R2 Load-Bounded Stability & F2, F6, D1, D4 & -- \\
+R3 Spatial Legality & F5, F7, D3, D6, D8 & -- \\
+R4 Lawful Transitions & F3, F8, F9, D2, D7, D9 & -- \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+A transition is legal only if all referenced upstream axioms remain satisfied.
+
+% ============================================================
+\subsection*{M.10 Generative & Transformational Primitives (G–Axioms)}
+
+The substrate introduces two classes of semantic primitives that operate beneath
+runtime geometry but above field invariants: generative primitives (Signal
+Engines) and transformational primitives (Operators of Reality). These axioms
+govern the lawful generation and transformation of meaning vectors within the
+semantic manifold $\mathcal{M}$.
+
+Each primitive is encoded with a legality mask, invariant-preservation rule, and
+manifold-continuity constraint.
+
+% ------------------------------------------------------------
+% M.10.1 Generative Primitive Axioms (Signal Engines)
+% ------------------------------------------------------------
+
+\subsubsection*{M.10.1 Generative Primitive Axioms (Signal Engines)}
+
+\begin{enumerate}
+    \item \textbf{G1 — Deterministic Generation} \\
+    Bitmask: 1000 \\
+    Constraint: A Signal Engine must generate meaning vectors deterministically
+    under invariant-preserving constraint envelopes.
+
+    \item \textbf{G2 — Invariant-Preserving Output} \\
+    Bitmask: 0100 \\
+    Constraint: Generated vectors must preserve identity, meaning, coherence,
+    and legality invariants (F1–F4, F8).
+
+    \item \textbf{G3 — Manifold-Continuity Requirement} \\
+    Bitmask: 0010 \\
+    Constraint: Output vectors must remain within manifold boundaries
+    $\partial\mathcal{M}$ and satisfy curvature-continuity constraints.
+
+    \item \textbf{G4 — Cross-Scale Compatibility} \\
+    Bitmask: 0001 \\
+    Constraint: Generated meaning fields must satisfy CLCP legality and remain
+    upward/downward coupling compatible (ML5).
+\end{enumerate}
+
+These axioms ensure that generative primitives produce lawful meaning geometry
+that can be integrated into DSUP (S7) without violating substrate invariants.
+
+% ------------------------------------------------------------
+% M.10.2 Transformational Primitive Axioms (Operators of Reality)
+% ------------------------------------------------------------
+
+\subsubsection*{M.10.2 Transformational Primitive Axioms (Operators of Reality)}
+
+\begin{enumerate}
+    \item \textbf{G5 — Invariant-Conserving Transformation} \\
+    Bitmask: 1000 \\
+    Constraint: Operators of Reality must preserve all universal invariants
+    (F1–F9) during semantic transformation.
+
+    \item \textbf{G6 — Curvature-Bounded Action} \\
+    Bitmask: 0100 \\
+    Constraint: Operator-induced curvature change must remain within the
+    legality envelope defined in the Coherence Ledger (Appendix F).
+
+    \item \textbf{G7 — Collapse-Trajectory Modulation} \\
+    Bitmask: 0010 \\
+    Constraint: Operators may redirect collapse trajectories (S6.4a) but may
+    not induce new collapse modes or violate collapse thresholds (ML6).
+
+    \item \textbf{G8 — Composite-Legality Enforcement} \\
+    Bitmask: 0001 \\
+    Constraint: Bind operations must preserve identity-boundary geometry and
+    maintain manifold legality for all composite objects.
+\end{enumerate}
+
+These axioms ensure that transformational primitives act as lawful semantic
+operators that stabilize, redirect, or elevate meaning fields without violating
+substrate geometry.
+
+% ------------------------------------------------------------
+% M.10.3 Primitive-Legality Mask Table
+% ------------------------------------------------------------
+
+\subsubsection*{M.10.3 Primitive-Legality Mask Table}
+
+\begin{center}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Primitive} & \textbf{F–Mask} & \textbf{D–Mask} & \textbf{R–Mask} & \textbf{G–Mask} \\
+\midrule
+Signal Engine      & 111100000       & 001100000       & 1100            & 1111 \\
+Fold               & 111111000       & 000010000       & 1010            & 1111 \\
+Invert             & 111111000       & 000010000       & 1010            & 1111 \\
+Lift               & 111111000       & 000010000       & 1010            & 1111 \\
+Bind               & 111111000       & 000110000       & 1110            & 1111 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+A value of \texttt{1} indicates legality compatibility with the corresponding
+axiom layer.
+
+% ------------------------------------------------------------
+% M.10.4 Primitive–Runtime Guard Conditions
+% ------------------------------------------------------------
+
+\subsubsection*{M.10.4 Primitive–Runtime Guard Conditions}
+
+\begin{itemize}
+    \item Generative primitives must satisfy invariant-preservation rules before
+          DSUP integration (ML7.9).
+    \item Transformational primitives must satisfy curvature-bounded legality
+          before operator-sequence validation (ML7.10).
+    \item Any violation triggers fallback geometry (F9) and invariant reload
+          (M.8.2).
+\end{itemize}
+
+
+\medskip
+\noindent\textit{This completes Appendix M.}
